@@ -20,7 +20,7 @@ repository               : # "academicpages/academicpages.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  avatar           : "images/personal_picture_1.png"
+  avatar           : "images/profile.png" 
   name             : "Nasser-Eddine Monir"
   bio              : "PhD fellow working on AI and Speech Enhancement for Hearing Loss"
   location         : "Nancy"
@@ -47,7 +47,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -56,7 +56,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/nasser-eddine-monir-20916a174/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
