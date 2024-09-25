@@ -11,7 +11,7 @@ permalink: /teaching/python-practicals/operations-and-variables
   - **Answer**: Variables are storage containers for values...
 
 - **Question 2**: How do you perform basic arithmetic operations?
-  - **Answer**: Basic arithmetic operations in Python include `+`, `-`, `*`, `/`, etc.
+  > **Answer**: Basic arithmetic operations in Python include `+`, `-`, `*`, `/`, etc.
 
 ## Exercises
 - **Exercise 1**: Write a Python script to swap two variables.
