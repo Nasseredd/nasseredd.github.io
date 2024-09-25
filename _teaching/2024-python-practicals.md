@@ -14,7 +14,7 @@ These Python practicals follow the lectures of [Karën Fort](https://members.lor
 ======
 Focuses on reinforcing key concepts such as operations, variables, and control flow with targeted exercises and reviews.
 
-### Operations and Variables
+### [Operations and Variables](./python-practicals/operations-and-variables)
 ======
 This chapter introduces the foundational concepts of Python programming, covering arithmetic operations, logical comparisons, and variable assignment. You’ll learn how to manipulate data using basic operators and store results in variables for later use.
 
