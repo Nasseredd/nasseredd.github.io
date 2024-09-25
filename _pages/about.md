@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "👋 I am Nasser"
+title: "👋 Hi, I am Nasser!"
 author_profile: true
 redirect_from: 
   - /about/
