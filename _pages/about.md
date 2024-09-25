@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "👋 Nasser-Eddine Monir"
+title: "👋 I am Nasser"
 author_profile: true
 redirect_from: 
   - /about/
