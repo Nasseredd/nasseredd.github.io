@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Python (Practicals)"
 collection: teaching
-type: "Graduate course"
+type: "1st Year Master Of Science"
 permalink: /teaching/2024-python-practicals
 venue: "Université de Lorraine, IDMC"
 date: 2024-09-01
