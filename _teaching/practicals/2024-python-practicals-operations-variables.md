@@ -12,11 +12,12 @@ permalink: /teaching/python-practicals/operations-and-variables
 
 - **Question 2**: How do you perform basic arithmetic operations?
     <details>
-     **Answer**: Basic arithmetic operations in Python include `+`, `-`, `*`, `/`, etc.
-     ```python
-        # This is a Python code snippet
-        def greet(name):
-            print(f"Hello, {name}!")
+        **Answer**: Basic arithmetic operations in Python include `+`, `-`, `*`, `/`, etc.
+        ```python
+            # This is a Python code snippet
+            def greet(name):
+                print(f"Hello, {name}!")
+        ```
     </details>
 
 ## Exercises
