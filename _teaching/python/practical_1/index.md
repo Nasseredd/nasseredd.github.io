@@ -4,7 +4,7 @@ permalink: /teaching/python/practical_1/
 author_profile: true
 ---
 
-### Exercise 1
+### Exercise 1 ⭐
 
 Write a program that prints the sentence  'Hello, World!'.
 
