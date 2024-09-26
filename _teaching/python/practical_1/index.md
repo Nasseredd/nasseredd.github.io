@@ -14,7 +14,7 @@ Write a program that prints the sentence `'Hello, World!'`.
   <summary>Solution</summary>
 
   <pre><code>
-print("Hello, World!")
+    print("Hello, World!")
   </code></pre>
 </details>
 
@@ -26,7 +26,7 @@ Write a program that prints the number `42`.
   <summary>Solution</summary>
 
   <pre><code>
-print(42)
+    print(42)
   </code></pre>
 </details>
 
@@ -38,7 +38,7 @@ Write a program that prints the string `'42'`.
   <summary>Solution</summary>
 
   <pre><code>
-print("42")
+    print("42")
   </code></pre>
 </details>
 
