@@ -9,8 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
+## Education
+
 * Ph.D in Computer Science (AI and Language Processing), Université de Lorraine, 2025 (expected)
 * M.Sc. in Natural Language Processing, Université de Lorraine, 2022
 * B.S. in Maths and Computer Science, Université de Grenoble Alpes, 2020
