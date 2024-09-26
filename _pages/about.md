@@ -9,7 +9,7 @@ redirect_from:
 
 📝 Bio
 ---
-I am a PhD fellow at the [Multispeech team](https://team.inria.fr/multispeech/), affiliated with the [Université de Lorraine](https://www.univ-lorraine.fr), [CNRS](https://www.centre-est.cnrs.fr/fr), and [Inria](https://www.inria.fr/fr/centre-inria-universite-lorraine) ([Loria](https://www.loria.fr/fr/)). My research focuses on developing an objective function to enhance deep neural network (DNN) models for speech enhancement, specifically targeting sensorineural hearing loss. I collaborate closely with the Pasteur Institute (Paris), which contributes to the medical aspects of the project, and CEA (Paris) which focuses on optimizing these models for embedded systems. 
+I am a PhD fellow at the [Multispeech team](https://team.inria.fr/multispeech/), affiliated with the [Université de Lorraine](https://www.univ-lorraine.fr), [CNRS](https://www.centre-est.cnrs.fr/fr), and [Inria](https://www.inria.fr/fr/centre-inria-universite-lorraine) ([Loria](https://www.loria.fr/fr/)). My research focuses on developing an objective function to enhance deep neural network (DNN) models for speech enhancement, specifically targeting sensorineural hearing loss. I collaborate closely with the [Pasteur Institute](https://www.institut-audition.fr/ceriah) (Paris), which contributes to the medical aspects of the project, and [CEA](https://www.cea.fr/paris-saclay/Pages/Accueil.aspx) (Paris) which focuses on optimizing these models for embedded systems. 
 
 💡 Research Interests
 ---
