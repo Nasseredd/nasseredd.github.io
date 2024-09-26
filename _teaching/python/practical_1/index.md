@@ -293,6 +293,7 @@ author_profile: true
 ### Exercise 3 <span style="color:#F0B815;">★</span>
 
 > Copy the following code and write a program that prints the type of each variable. 
+
 💡 Hint: Use the `type()` function!
 
 <pre><code> age = 25
@@ -316,6 +317,7 @@ author_profile: true
 ### Exercise 4 <span style="color:#F0B815;">★</span>
 
 > Write a program that checks if 7 is greater than 5, assigns the result to a variable named result, and prints the result as a boolean. What is the result? 
+
 💡 Hint: you don’t need to use conditions (if/elif/else)!
 
 <details> 
@@ -330,6 +332,7 @@ author_profile: true
 ### Exercise 5 <span style="color:#F0B815;">★</span>
 
 > Write a program that checks if 11 is lower than 7, assigns the result to a variable named result, and prints the result as a boolean. What is the result? 
+
 💡 Hint: you don’t need to use conditions (if/elif/else)!
 
 <details> 
@@ -345,6 +348,7 @@ author_profile: true
 ### Exercise 6 <span style="color:#F0B815;">★</span>
 
 > Declare a variable num equal to 10, convert it to a float (assign it to a new variable), and then print the result. 
+
 💡 Hint: Read about "casting" (or "conversion").
 
 <details> 
@@ -381,6 +385,7 @@ author_profile: true
 > - Declare three variables principal, rate, and time equal respectively to 1000, 5.0, and 3.
 > - Compute the simple interest and assign the result to a variable named interest.
 > - Print the simple interest.
+
 💡 Use this formula: $$Interest = \frac{P \times R \times T}{100}$$
 
 <details> 
@@ -419,6 +424,7 @@ author_profile: true
 > ```rate``` is equal to 4.3
 > ```time``` is equal to 6
 > ```n``` is equal to 4 (compounds per year)
+
 💡 Hint: Use the formula $$A = P \left( 1 + \frac{R}{100n} \right)^{nt}$$
 
 <details> 
@@ -438,6 +444,7 @@ author_profile: true
 ### Exercise 11 <span style="color:#F0B815;">★★</span>
 
 > Write a program that declares an integer x equal to 10 and prints True if x is equal to 5 * 2, False if it’s not. 
+
 💡 Hint: You don’t need conditions (if/elif/else).
 
 <details> 
@@ -452,6 +459,7 @@ author_profile: true
 ### Exercise 12 <span style="color:#F0B815;">★★★</span>
 
 > Write a program that declares an integer n equal to 15 and prints True if it's even, False if it's odd. 
+
 💡 Hint: You don’t need conditions (if/elif/else).
 
 <details> 
