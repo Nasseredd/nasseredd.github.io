@@ -16,7 +16,7 @@ Write a program that prints the sentence  'Hello, World!'.
   </code></pre>
 </details>
 
-***
+______
 ### Exercise 2 ★★
 
 Write a program that prints the sentence  'Hello, World!'.
