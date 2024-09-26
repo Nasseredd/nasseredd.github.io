@@ -4,6 +4,7 @@ permalink: /teaching/python/practical_1/
 author_profile: true
 ---
 
+
 ### Exercise 1 ⭐
 
 Write a program that prints the sentence  'Hello, World!'.
@@ -15,7 +16,7 @@ Write a program that prints the sentence  'Hello, World!'.
   </code></pre>
 </details>
 
-
+***
 ### Exercise 2 ⭐
 
 Write a program that prints the sentence  'Hello, World!'.
@@ -27,3 +28,5 @@ Write a program that prints the sentence  'Hello, World!'.
     print('Hello, World!')
   </code></pre>
 </details>
+
+***
