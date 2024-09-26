@@ -4,7 +4,7 @@ permalink: /teaching/python/practical_1/
 author_profile: true
 ---
 
-Welcome to this practical guide for extreme beginners in Python ![emoji](/images/python-logo.jpeg){:height="35px" width="35px"}, focusing on operations and variables. The exercises here aim to provide a strong foundation for newcomers to programming. Please feel free to reach out if you find any errors, typos, or have any questions—your feedback is invaluable! Don't hesitate to email me with any inquiries, and enjoy your learning journey! 🚀📚
+Welcome to this practical guide for extreme beginners in Python![emoji](/images/python-logo.jpeg){:height="35px" width="35px"}, focusing on operations and variables. The exercises here aim to provide a strong foundation for newcomers to programming. Please feel free to reach out if you find any errors, typos, or have any questions—your feedback is invaluable! Don't hesitate to email me with any inquiries, and enjoy your learning journey! 🚀📚
 
 [Nasser-eddine Monir](https://nasseredd.github.io/teaching/) (CC BY-NC-SA) ― 2024
 
