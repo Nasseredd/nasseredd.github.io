@@ -1,7 +1,12 @@
 ---
 title: "Operations and Variables"
 collection: teaching
+type: "Tutorial"
 permalink: /teaching/python-practicals/operations-and-variables
+venue: "Université de Lorraine, IDMC"
+date: 2024-09-01
+location: "Nancy, France"
+published: false
 ---
 
 # Operations and Variables
