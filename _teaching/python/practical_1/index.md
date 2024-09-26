@@ -261,12 +261,12 @@ print(a * b)
 
 Copy the following code and write a program that prints the type of each variable. 💡 Use the `type()` function!
 
-```python
+<pre><code>
 age = 25
 price = 19.99
 name = "Alice"  # or 'Alice'
 is_raining = False
-```
+</code></pre>
 
 <details> <summary>Solution</summary> <pre><code> print(type(age)) # Output: <class 'int'> print(type(price)) # Output: <class 'float'> print(type(name)) # Output: <class 'str'> print(type(is_raining)) # Output: <class 'bool'> </code></pre> </details>
 
