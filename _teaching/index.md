@@ -2,7 +2,7 @@
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
-layout: splash
+layout: archive
 ---
 
 # Courses
