@@ -5,7 +5,25 @@ author_profile: true
 ---
 
 
-# Practicals
-- [Practical 1](./python/practical_1.md)  
-- [Practical 2](./python/practical_2.md)  
-- [Practical 3](./python/practical_3.md)  
+# Recap/Reinforcement in Python
+
+### Basics (Operations and Variables)
+[Practical 1](./python/practical_1.md) 
+
+
+### Strings
+
+
+### Control flow
+
+
+### Loops
+
+
+### Lists, Sets and Tuples
+
+
+### Dictionaries
+
+
+### Functions
