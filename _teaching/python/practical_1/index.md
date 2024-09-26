@@ -259,7 +259,8 @@ print(a * b)
 
 ### Exercise 3 ★
 
-Copy the following code and write a program that prints the type of each variable. 💡 Use the `type()` function!
+Copy the following code and write a program that prints the type of each variable. 
+💡 Use the `type()` function!
 
 <pre><code>age = 25
 price = 19.99
