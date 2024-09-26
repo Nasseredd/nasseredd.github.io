@@ -216,3 +216,127 @@ Bonus: Write a program that calculates the sum of the digits in the number `357`
 (357//100) + ((357%100)//10) + (357%10)
   </code></pre>
 </details>
+
+# Variables and Types (Int, Float, String, Bool)
+
+---
+
+### Exercise 1 ★
+
+Write a program to declare the following variables:
+- `age` with the value `25`
+- `price` with the value `19.99`
+- `name` with the value `Alice`
+- `is_raining` with the value `False`
+
+Each variable on a separate line.
+
+<details>
+  <summary>Solution</summary>
+
+  <pre><code>
+age = 25
+price = 19.99
+name = "Alice"  # or 'Alice'
+is_raining = False
+  </code></pre>
+</details>
+
+### Exercise 2 ★
+
+Declare two integers `a` equal to 10 and `b` equal to 20. Then, print their sum and their product. Each operation on a separate line.
+
+<details>
+  <summary>Solution</summary>
+
+  <pre><code>
+a = 10
+b = 20
+print(a + b)
+print(a * b)
+  </code></pre>
+</details>
+
+### Exercise 3 ★
+
+Copy the following code and write a program that prints the type of each variable. 💡 Use the `type()` function!
+
+```python
+age = 25
+price = 19.99
+name = "Alice"  # or 'Alice'
+is_raining = False
+```
+
+<details> <summary>Solution</summary> <pre><code> print(type(age)) # Output: <class 'int'> print(type(price)) # Output: <class 'float'> print(type(name)) # Output: <class 'str'> print(type(is_raining)) # Output: <class 'bool'> </code></pre> </details>
+
+### Exercise 4 ★
+
+Write a program that checks if 7 is greater than 5, assigns the result to a variable named result, and prints the result as a boolean. What is the result? 💡 Hint: you don’t need to use conditions (if/elif/else)!
+
+<details> <summary>Solution</summary> <pre><code> result = 7 > 5 print(result) </code></pre> </details>
+
+### Exercise 5 ★
+
+Write a program that checks if 11 is lower than 7, assigns the result to a variable named result, and prints the result as a boolean. What is the result? 💡 Hint: you don’t need to use conditions (if/elif/else)!
+
+<details> <summary>Solution</summary> <pre><code> result = 11 < 7 print(result) </code></pre> </details>
+
+### Exercise 6 ★
+
+Declare a variable num equal to 10, convert it to a float (assign it to a new variable), and then print the result. 💡 Read about "casting" (or "conversion").
+
+<details> <summary>Solution</summary> <pre><code> num = 10 num_float = float(num) print(num_float) </code></pre> </details>
+
+### Exercise 7 ★
+
+Write a program that:
+
+Declares three variables x, y, and z equal respectively to 10, 11, and 12.
+Computes the average and assigns the result to a variable named average.
+Prints the average of the three variables.
+<details> <summary>Solution</summary> <pre><code> x = 10 y = 11 z = 12 average = (x + y + z) / 3 print(average) </code></pre> </details>
+
+### Exercise 8 ★
+
+Write a program that computes the simple interest as follows:
+
+Declare three variables principal, rate, and time equal respectively to 1000, 5.0, and 3.
+Compute the simple interest and assign the result to a variable named interest.
+Print the simple interest.
+💡 Use this formula: $Interest = \frac{P \times R \times T}{100}$
+
+<details> <summary>Solution</summary> <pre><code> principal = 1000 rate = 5.0 time = 3 interest = (principal * rate * time) / 100 print(interest) </code></pre> </details>
+
+### Exercise 9 ★★
+
+Declare a float variable radius equal to 5.0 and a float variable pi equal to 3.14. Then, compute the area of a circle using the formula $\pi r^2$. Finally, print the area.
+
+<details> <summary>Solution</summary> <pre><code> radius = 5.0 pi = 3.14 area = pi * (radius ** 2) print(area) </code></pre> </details>
+
+### Exercise 10 ★★
+
+Write a program to calculate the compound interest. Declare variables:
+
+principal = 1500
+rate = 4.3
+time = 6
+n = 4 (compounds per year)
+Use the formula: $A = P \left( 1 + \frac{R}{100n} \right)^{nt}$
+
+Assign the result to the variable amount and print it.
+
+<details> <summary>Solution</summary> <pre><code> principal = 1500 rate = 4.3 time = 6 n = 4 amount = principal * (1 + (rate / (100 * n))) ** (n * time) print(amount) </code></pre> </details>
+
+### Exercise 11 ★★
+
+Write a program that declares an integer x equal to 10 and prints True if x is equal to 5 * 2, False if it’s not. 💡 You don’t need conditions (if/elif/else).
+
+<details> <summary>Solution</summary> <pre><code> x = 10 print(x == 5 * 2) </code></pre> </details>
+
+### Exercise 12 ★★★
+
+Bonus: Write a program that declares an integer n equal to 15 and prints True if it's even, False if it's odd. 💡 You don’t need conditions (if/elif/else).
+
+<details> <summary>Solution</summary> <pre><code> n = 15 print(n % 2 == 0) </code></pre> </details> ```
+This format includes the stars and collapsible solution sections for each exercise as requested!
