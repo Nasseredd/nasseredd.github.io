@@ -7,7 +7,6 @@ author_profile: true
 ### Exercise 1 ⭐
 
 Write a program that prints the sentence  'Hello, World!'.
-
 <details>
   <summary>Solution</summary>
 
