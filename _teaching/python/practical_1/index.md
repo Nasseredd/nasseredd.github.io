@@ -12,12 +12,19 @@ Write a program that prints the sentence  'Hello, World!'.
   <summary>Solution</summary>
 
   <pre><code>
-print('Hello, World!')
+    print('Hello, World!')
   </code></pre>
 </details>
 
-Exercise 2
-==========
 
-Exercise 3
-==========
+### Exercise 2 ⭐
+
+Write a program that prints the sentence  'Hello, World!'.
+
+<details>
+  <summary>Solution</summary>
+
+  <pre><code>
+    print('Hello, World!')
+  </code></pre>
+</details>
