@@ -42,9 +42,10 @@ print("42")
   </code></pre>
 </details>
 
-# Basic Operations
 
 ---
+
+# Basic Operations
 
 ### Exercise 4 ★
 
@@ -217,9 +218,10 @@ Bonus: Write a program that calculates the sum of the digits in the number `357`
   </code></pre>
 </details>
 
-# Variables and Types (Int, Float, String, Bool)
 
 ---
+
+# Variables and Types (Int, Float, String, Bool)
 
 ### Exercise 1 ★
 
