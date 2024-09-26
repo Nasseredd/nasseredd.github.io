@@ -472,6 +472,3 @@ Welcome to this practical guide for extreme beginners in Python ![emoji](/images
  print(n % 2 == 0)
 </code></pre> 
 </details> 
-
-
-Don't hesitate to email me with any inquiries, and enjoy your learning journey!
