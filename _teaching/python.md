@@ -1,5 +1,4 @@
----
-layout: archive
+<!-- ---
 title: "Introduction to Python (Practicals)"
 collection: teaching
 collection_type: course
@@ -18,4 +17,4 @@ description: "These Python practicals follow the lectures of [Karën Fort](https
 {% for practical in practicals %}
   <li><a href="{{ practical.url | relative_url }}">{{ practical.title }}</a></li>
 {% endfor %}
-</ul>
+</ul> -->
