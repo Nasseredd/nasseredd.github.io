@@ -261,8 +261,7 @@ print(a * b)
 
 Copy the following code and write a program that prints the type of each variable. 💡 Use the `type()` function!
 
-<pre><code>
-age = 25
+<pre><code>age = 25
 price = 19.99
 name = "Alice"  # or 'Alice'
 is_raining = False
