@@ -25,7 +25,7 @@ author:
   bio              : "PhD fellow working on AI and Speech Enhancement for Hearing Loss"
   location         : "Nancy"
   employer         : "Loria/University of Lorraine"
-  uri              : "nasseredd.github.io"  # <-- Closing quote added
+  uri              : #"nasseredd.github.io"  # <-- Closing quote added
   email            : "nasser-eddine.monir@inria.fr"
 
 
