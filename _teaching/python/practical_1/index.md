@@ -1,6 +1,6 @@
 ---
 title: "Practical 1"
-permalink: /teaching/python/
+permalink: /teaching/python/practical_1/
 author_profile: true
 ---
 
