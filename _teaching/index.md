@@ -16,7 +16,7 @@ These Python practicals follow [Karën Fort's lectures](https://members.loria.fr
 
 ##### Bachelor in Computer Science, IUT Nancy Charlemagne - Université de Lorraine, 2023-2024.
 
-This course offers a comprehensive introduction to virtualization, with both lectures and practicals. The materials, including the slides, are built upon the work of Philippe Dosch. The course covers key virtualization concepts such as containers, hypervisors, and virtual machines, along with practical applications of Docker and KVM. The student will engage in hands-on exercises to solidify his/her understanding of these topics, gaining experience in both system administration and deployment in virtualized environments. The course balances theoretical foundations with practical implementations. 
+This course offers a comprehensive introduction to virtualization, with both lectures and practicals. The materials, including the slides, are built upon the work of the Associate Professor [Philippe Dosch](https://scholar.google.fr/citations?hl=fr&user=fYCvan0AAAAJ&view_op=list_works&sortby=pubdate). The course covers key virtualization concepts such as containers, hypervisors, and virtual machines, along with practical applications of Docker and KVM. The student will engage in hands-on exercises to solidify his/her understanding of these topics, gaining experience in both system administration and deployment in virtualized environments. The course balances theoretical foundations with practical implementations. 
 
 
 
