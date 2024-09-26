@@ -2,7 +2,6 @@
 title: "Python Practicals"
 permalink: /teaching/python/
 author_profile: true
-date: false
 ---
 
 
