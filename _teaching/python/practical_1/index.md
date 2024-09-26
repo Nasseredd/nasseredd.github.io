@@ -18,7 +18,7 @@ Write a program that prints the sentence `'Hello, World!'`.
     </pre>
 </details>
 
-<hr>
+<hr style="border: 1px solid #afada8;">
 
 ### Exercise 2 <span style="color:#F0B815;">★</span>
 
