@@ -4,7 +4,7 @@ permalink: /teaching/
 author_profile: true
 ---
 
-- [Python](python/index.md)  
+- [Python](python/)  
   A beginner-friendly introduction to Python programming, including 5 practicals covering the fundamentals.
 
 - [Docker](/teaching/docker/index.md)  
