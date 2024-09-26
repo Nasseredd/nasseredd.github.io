@@ -13,3 +13,5 @@ These Python practicals follow [Karën Fort's lectures](https://members.loria.fr
 ## Introduction to Docker ![emoji](/images/docker-logo.png){:height="35px" width="35px"}
 
 ## Introduction to Shell ![emoji](/images/shell-logo.png){:height="30px" width="30px"}
+
+## Introduction to LaTeX ![emoji](/images/latex-logo.png){:height="30px" width="30px"}
