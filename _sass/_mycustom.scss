@@ -1,3 +1,4 @@
+/* General styling for code blocks */
 pre {
   background-color: #2d2d2d;
   color: #f8f8f2;
@@ -5,58 +6,60 @@ pre {
   padding: 10px;
   font-size: 14px;
   line-height: 1.5;
-  overflow-x: auto; /* Allows horizontal scroll if the code is too wide */
+  overflow-x: auto;
 }
 
-/* Target code blocks specifically */
+/* Make sure the `code` element inherits the color */
 pre code {
-  color: #f8f8f2;
+  color: inherit;
 }
 
-/* Keywords like def, class, return, etc. */
-code .keyword {
+/* Styling specific to Rouge output for Python */
+
+/* Keywords: def, class, return, etc. */
+.code .k, .code .kd, .code .kn, .code .kp {
   color: #ff79c6; /* Pink */
   font-weight: bold;
 }
 
-/* Function names */
-code .function {
+/* Functions */
+.code .nf {
   color: #50fa7b; /* Green */
 }
 
-/* Variable names */
-code .variable {
+/* Variables */
+.code .nv {
   color: #8be9fd; /* Light blue */
 }
 
 /* Numbers */
-code .number {
+.code .m {
   color: #bd93f9; /* Purple */
 }
 
 /* Strings */
-code .string {
+.code .s {
   color: #f1fa8c; /* Yellow */
 }
 
 /* Comments */
-code .comment {
+.code .c, .code .cm, .code .c1 {
   color: #6272a4; /* Dimmed blue */
   font-style: italic;
 }
 
 /* Operators like =, +, -, etc. */
-code .operator {
+.code .o {
   color: #ff79c6; /* Pink */
 }
 
-/* Decorators like @staticmethod */
-code .decorator {
+/* Decorators (e.g., @staticmethod) */
+.code .nd {
   color: #ffb86c; /* Orange */
   font-style: italic;
 }
 
-/* Highlighting brackets, parentheses */
-code .punctuation {
-  color: #f8f8f2; /* Same as default */
+/* Parentheses, brackets, braces */
+.code .p {
+  color: #f8f8f2;
 }
