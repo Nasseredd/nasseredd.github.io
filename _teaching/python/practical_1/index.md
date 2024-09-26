@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 
-### Exercise 1 ⭐
+### Exercise 1 ★
 
 Write a program that prints the sentence  'Hello, World!'.
 <details>
@@ -17,7 +17,7 @@ Write a program that prints the sentence  'Hello, World!'.
 </details>
 
 ***
-### Exercise 2 ⭐
+### Exercise 2 ★★
 
 Write a program that prints the sentence  'Hello, World!'.
 
