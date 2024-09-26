@@ -149,7 +149,7 @@ You are planting a garden, and each plant needs 3 feet of space in every directi
 
 Write a program that performs floor division between 15 and 4.
 
-💡Hint: The **floor division** is the integer part of the quotient. For instance, let 7/2 = 3.5. The quotient is 3.5, and the integer part of the quotient is 3.
+💡 Hint: The **floor division** is the integer part of the quotient. For instance, let 7/2 = 3.5. The quotient is 3.5, and the integer part of the quotient is 3.
 
 <details>
 <summary>Solution</summary>
@@ -166,7 +166,7 @@ Write a program that performs floor division between 15 and 4.
 
 Write a program that computes the remainder of the division between 15 and 4.
 
-💡Hint: The **remainder** is the part left over after dividing one number by another when the division does not result in an integer.
+💡 Hint: The **remainder** is the part left over after dividing one number by another when the division does not result in an integer.
 
 <details>
 <summary>Solution</summary>
@@ -313,7 +313,7 @@ print(a * b)
 ### Exercise 3 <span style="color:#F0B815;">★</span>
 
 Copy the following code and write a program that prints the type of each variable. 
-💡 Use the `type()` function!
+💡 Hint: Use the `type()` function!
 
 <pre><code>age = 25
 price = 19.99
@@ -328,7 +328,8 @@ is_raining = False
 
 ### Exercise 4 <span style="color:#F0B815;">★</span>
 
-Write a program that checks if 7 is greater than 5, assigns the result to a variable named result, and prints the result as a boolean. What is the result? 💡 Hint: you don’t need to use conditions (if/elif/else)!
+Write a program that checks if 7 is greater than 5, assigns the result to a variable named result, and prints the result as a boolean. What is the result? 
+💡 Hint: you don’t need to use conditions (if/elif/else)!
 
 <details> <summary>Solution</summary> <pre><code> result = 7 > 5 print(result) </code></pre> </details>
 
@@ -337,7 +338,8 @@ Write a program that checks if 7 is greater than 5, assigns the result to a vari
 
 ### Exercise 5 <span style="color:#F0B815;">★</span>
 
-Write a program that checks if 11 is lower than 7, assigns the result to a variable named result, and prints the result as a boolean. What is the result? 💡 Hint: you don’t need to use conditions (if/elif/else)!
+Write a program that checks if 11 is lower than 7, assigns the result to a variable named result, and prints the result as a boolean. What is the result? 
+💡 Hint: you don’t need to use conditions (if/elif/else)!
 
 <details> <summary>Solution</summary> <pre><code> result = 11 < 7 print(result) </code></pre> </details>
 
@@ -346,7 +348,8 @@ Write a program that checks if 11 is lower than 7, assigns the result to a varia
 
 ### Exercise 6 <span style="color:#F0B815;">★</span>
 
-Declare a variable num equal to 10, convert it to a float (assign it to a new variable), and then print the result. 💡 Read about "casting" (or "conversion").
+Declare a variable num equal to 10, convert it to a float (assign it to a new variable), and then print the result. 
+💡 Read about "casting" (or "conversion").
 
 <details> <summary>Solution</summary> <pre><code> num = 10 num_float = float(num) print(num_float) </code></pre> </details>
 
@@ -407,7 +410,8 @@ Assign the result to the variable amount and print it.
 
 ### Exercise 11 <span style="color:#F0B815;">★★</span>
 
-Write a program that declares an integer x equal to 10 and prints True if x is equal to 5 * 2, False if it’s not. 💡 You don’t need conditions (if/elif/else).
+Write a program that declares an integer x equal to 10 and prints True if x is equal to 5 * 2, False if it’s not. 
+💡 You don’t need conditions (if/elif/else).
 
 <details> <summary>Solution</summary> <pre><code> x = 10 print(x == 5 * 2) </code></pre> </details>
 
