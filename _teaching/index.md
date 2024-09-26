@@ -8,7 +8,7 @@ author_profile: true
 
 ##### MSc NLP and Master in Cognitive Science, IDMC - Université de Lorraine, 2023-2025.
 
-These Python practicals follow Pr. [Karën Fort's lectures](https://members.loria.fr/KFort/idmc-nancy-from-2024/). You'll learn Python fundamentals—strings, control flow, loops, lists, tuples, sets, and file handling. Exercises include working with the "80jours50l" and "MyBiblio" files. We'll cover dictionaries, functions, modules, and key libraries like NumPy and Pandas. The course ends with a brief session on objects. Each topic includes interactive notebooks. I'll be supervising a group and guiding you through the exercises.
+I am supervising Python practicals that follow Pr. [Karën Fort's lectures](https://members.loria.fr/KFort/idmc-nancy-from-2024/), covering essential Python fundamentals such as strings, control flow, loops, lists, tuples, sets, and file handling. The practicals involve working with real-world examples like the “80jours50l” and “MyBiblio” files. Additionally, topics such as dictionaries, functions, modules, and key libraries like NumPy and Pandas are explored, concluding with a session on objects. Each topic is accompanied by interactive notebooks, and guidance is provided throughout all the exercises.
 
 🚀 [Recap/Reinforcement in python](python/) 💪
 
