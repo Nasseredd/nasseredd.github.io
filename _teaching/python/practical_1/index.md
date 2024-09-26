@@ -9,9 +9,11 @@ author_profile: true
 Write a program that prints the sentence  'Hello, World!'.
 
 <details>
-    ```python
-    print('Hello, World!')
-    ```
+  <summary>Solution</summary>
+
+  <pre><code>
+print('Hello, World!')
+  </code></pre>
 </details>
 
 Exercise 2
