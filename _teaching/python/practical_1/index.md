@@ -337,7 +337,11 @@ print(a * b)
 > Write a program that checks if 7 is greater than 5, assigns the result to a variable named result, and prints the result as a boolean. What is the result? 
 💡 Hint: you don’t need to use conditions (if/elif/else)!
 
-<details> <summary>Solution</summary> <pre><code> result = 7 > 5 print(result) </code></pre> </details>
+<details> 
+<summary>Solution</summary> 
+<pre><code> result = 7 > 5 
+ print(result) </code></pre> 
+</details>
 
 
 <hr style="border: 1px solid #afada8;">
@@ -465,8 +469,7 @@ print(a * b)
 
 <details> 
 <summary>Solution</summary> 
-<pre><code> 
-    n = 15 
-    print(n % 2 == 0) 
+<pre><code> n = 15 
+ print(n % 2 == 0)
 </code></pre> 
 </details> 
