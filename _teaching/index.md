@@ -6,13 +6,13 @@ author_profile: true
 
 # Courses
 
-- [Python](./python/index.md)  
+- [Python](/teaching/python/index.md)  
   A beginner-friendly introduction to Python programming, including 5 practicals covering the fundamentals.
 
-- [Docker](./docker/index.md)  
+- [Docker](/teaching/docker/index.md)  
   Learn the basics of containerization and Docker with hands-on practicals.
 
-- [Shell](./shell/index.md)  
+- [Shell](/teaching/shell/index.md)  
   Master shell scripting and command-line operations through a series of practical exercises.
 
 
