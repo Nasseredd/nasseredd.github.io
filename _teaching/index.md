@@ -2,7 +2,6 @@
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
-date: 26 September 2024
 ---
 
 - [Python](/teaching/python/index.md)  
