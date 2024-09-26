@@ -4,26 +4,23 @@ permalink: /teaching/python/
 author_profile: true
 ---
 
-
-# Recap/Reinforcement in Python
-
-### Basics (Operations and Variables)
+## Basics (Operations and Variables)
 [Practical 1](./python/practical_1.md) 
 
 
-### Strings
+## Strings
 
 
-### Control flow
+## Control flow
 
 
-### Loops
+## Loops
 
 
-### Lists, Sets and Tuples
+## Lists, Sets and Tuples
 
 
-### Dictionaries
+## Dictionaries
 
 
-### Functions
+## Functions
