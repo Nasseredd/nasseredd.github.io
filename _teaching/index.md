@@ -26,5 +26,5 @@ This course offers a comprehensive introduction to virtualization, with both lec
 ## Introduction to Shell ![emoji](/images/shell-logo.png){:height="30px" width="30px"}
 ##### MSc NLP, IDMC - Université de Lorraine, 2023-2025.
 
-## Algorithm Quality and Complexity ![emoji](/images/latex-logo.png){:height="30px" width="30px"}
+## Algorithm Quality and Complexity ![emoji](/images/automaton.png){:height="30px" width="30px"}
 ##### Bachelor in Computer Science, IUT Nancy Charlemagne - Université de Lorraine, 2023-2024.
