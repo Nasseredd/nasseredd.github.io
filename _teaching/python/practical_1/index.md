@@ -9,14 +9,12 @@ author_profile: true
 ### Exercise 1 <span style="color:#F0B815;">★</span>
 
 Write a program that prints the sentence `'Hello, World!'`.
-
-<details>
-  <summary>Solution</summary>
-
-  <pre><code>
-    print("Hello, World!")
-  </code></pre>
-</details>
+    <details>
+    <summary>Solution</summary>
+    <pre><code>
+        print("Hello, World!")
+    </code></pre>
+    </details>
 
 <hr>
 
