@@ -2,9 +2,8 @@
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
+date: 26 September 2024
 ---
-
-# Courses
 
 - [Python](/teaching/python/index.md)  
   A beginner-friendly introduction to Python programming, including 5 practicals covering the fundamentals.
