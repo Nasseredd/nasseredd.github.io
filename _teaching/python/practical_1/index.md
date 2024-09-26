@@ -6,7 +6,7 @@ author_profile: true
 
 ## First steps
 
-### Exercise 1 <span style="color:yellow;">★</span>
+### Exercise 1 <span style="color:#F0B815;">★</span>
 
 Write a program that prints the sentence `'Hello, World!'`.
 
@@ -20,7 +20,7 @@ Write a program that prints the sentence `'Hello, World!'`.
 
 <hr>
 
-### Exercise 2 <span style="color:yellow;">★</span>
+### Exercise 2 <span style="color:#F0B815;">★</span>
 
 Write a program that prints the number `42`.
 
@@ -32,7 +32,7 @@ Write a program that prints the number `42`.
   </code></pre>
 </details>
 
-### Exercise 3 <span style="color:yellow;">★</span>
+### Exercise 3 <span style="color:#F0B815;">★</span>
 
 Write a program that prints the string `'42'`.
 
@@ -49,7 +49,7 @@ Write a program that prints the string `'42'`.
 
 ## Basic Operations
 
-### Exercise 4 <span style="color:yellow;">★</span>
+### Exercise 4 <span style="color:#F0B815;">★</span>
 
 Write a Python program that adds two numbers.
 
@@ -61,7 +61,7 @@ Write a Python program that adds two numbers.
   </code></pre>
 </details>
 
-### Exercise 5 <span style="color:yellow;">★</span>
+### Exercise 5 <span style="color:#F0B815;">★</span>
 
 Write a Python program that subtracts one number from another.
 
@@ -73,7 +73,7 @@ Write a Python program that subtracts one number from another.
   </code></pre>
 </details>
 
-### Exercise 6 <span style="color:yellow;">★</span>
+### Exercise 6 <span style="color:#F0B815;">★</span>
 
 Write a Python program that multiplies two numbers.
 
@@ -85,7 +85,7 @@ Write a Python program that multiplies two numbers.
   </code></pre>
 </details>
 
-### Exercise 7 <span style="color:yellow;">★</span>
+### Exercise 7 <span style="color:#F0B815;">★</span>
 
 Write a Python program that divides one number by another (floating-point division).
 
@@ -97,7 +97,7 @@ Write a Python program that divides one number by another (floating-point divisi
   </code></pre>
 </details>
 
-### Exercise 8 <span style="color:yellow;">★</span>
+### Exercise 8 <span style="color:#F0B815;">★</span>
 
 Write a program that calculates the cube of the number 7.
 
@@ -109,7 +109,7 @@ Write a program that calculates the cube of the number 7.
   </code></pre>
 </details>
 
-### Exercise 9 <span style="color:yellow;">★</span>
+### Exercise 9 <span style="color:#F0B815;">★</span>
 
 You are planting a garden, and each plant needs 3 feet of space in every direction. If you have a square garden with sides of length 8 feet, how many square feet of space do you have for planting? Write a program to calculate the area of the square garden using an exponent.
 
@@ -123,7 +123,7 @@ You are planting a garden, and each plant needs 3 feet of space in every directi
   </code></pre>
 </details>
 
-### Exercise 10 <span style="color:yellow;">★</span>
+### Exercise 10 <span style="color:#F0B815;">★</span>
 
 Write a program that performs floor division between 15 and 4.
 
@@ -137,7 +137,7 @@ Write a program that performs floor division between 15 and 4.
   </code></pre>
 </details>
 
-### Exercise 11 <span style="color:yellow;">★</span>
+### Exercise 11 <span style="color:#F0B815;">★</span>
 
 Write a program that computes the remainder of the division between 15 and 4.
 
@@ -151,7 +151,7 @@ Write a program that computes the remainder of the division between 15 and 4.
   </code></pre>
 </details>
 
-### Exercise 12 <span style="color:yellow;">★★</span>
+### Exercise 12 <span style="color:#F0B815;">★★</span>
 
 You have 98 eggs. Write a program that calculates how many dozens (12 eggs) you have and how many eggs remain. Print each result of each operation on a separate line.
 
@@ -164,7 +164,7 @@ print(98%12)
   </code></pre>
 </details>
 
-### Exercise 13 <span style="color:yellow;">★★</span>
+### Exercise 13 <span style="color:#F0B815;">★★</span>
 
 You have 145 candies to distribute equally among 8 children. Write a program that calculates and prints how many candies each child gets and how many are left over. Print the result of each operation on a separate line.
 
@@ -177,7 +177,7 @@ print(145%8)
   </code></pre>
 </details>
 
-### Exercise 14 <span style="color:yellow;">★★</span>
+### Exercise 14 <span style="color:#F0B815;">★★</span>
 
 Write a program that computes and prints the tens place and ones place of the number `57` using `//` and `%`.
 
@@ -192,7 +192,7 @@ print(57%10)
   </code></pre>
 </details>
 
-### Exercise 15 <span style="color:yellow;">★★★</span>
+### Exercise 15 <span style="color:#F0B815;">★★★</span>
 
 Write a program that computes the tens place of the number `657` using `//` and `%`.
 
@@ -206,7 +206,7 @@ Write a program that computes the tens place of the number `657` using `//` and 
   </code></pre>
 </details>
 
-### Exercise 16 <span style="color:yellow;">★★★</span>
+### Exercise 16 <span style="color:#F0B815;">★★★</span>
 
 Bonus: Write a program that calculates the sum of the digits in the number `357` using `//` and `%`.
 
@@ -225,7 +225,7 @@ Bonus: Write a program that calculates the sum of the digits in the number `357`
 
 ## Variables and Types (Int, Float, String, Bool)
 
-### Exercise 1 <span style="color:yellow;">★</span>
+### Exercise 1 <span style="color:#F0B815;">★</span>
 
 Write a program to declare the following variables:
 - `age` with the value `25`
@@ -246,7 +246,7 @@ is_raining = False
   </code></pre>
 </details>
 
-### Exercise 2 <span style="color:yellow;">★</span>
+### Exercise 2 <span style="color:#F0B815;">★</span>
 
 Declare two integers `a` equal to 10 and `b` equal to 20. Then, print their sum and their product. Each operation on a separate line.
 
@@ -261,7 +261,7 @@ print(a * b)
   </code></pre>
 </details>
 
-### Exercise 3 <span style="color:yellow;">★</span>
+### Exercise 3 <span style="color:#F0B815;">★</span>
 
 Copy the following code and write a program that prints the type of each variable. 
 💡 Use the `type()` function!
@@ -274,25 +274,25 @@ is_raining = False
 
 <details> <summary>Solution</summary> <pre><code> print(type(age)) # Output: <class 'int'> print(type(price)) # Output: <class 'float'> print(type(name)) # Output: <class 'str'> print(type(is_raining)) # Output: <class 'bool'> </code></pre> </details>
 
-### Exercise 4 <span style="color:yellow;">★</span>
+### Exercise 4 <span style="color:#F0B815;">★</span>
 
 Write a program that checks if 7 is greater than 5, assigns the result to a variable named result, and prints the result as a boolean. What is the result? 💡 Hint: you don’t need to use conditions (if/elif/else)!
 
 <details> <summary>Solution</summary> <pre><code> result = 7 > 5 print(result) </code></pre> </details>
 
-### Exercise 5 <span style="color:yellow;">★</span>
+### Exercise 5 <span style="color:#F0B815;">★</span>
 
 Write a program that checks if 11 is lower than 7, assigns the result to a variable named result, and prints the result as a boolean. What is the result? 💡 Hint: you don’t need to use conditions (if/elif/else)!
 
 <details> <summary>Solution</summary> <pre><code> result = 11 < 7 print(result) </code></pre> </details>
 
-### Exercise 6 <span style="color:yellow;">★</span>
+### Exercise 6 <span style="color:#F0B815;">★</span>
 
 Declare a variable num equal to 10, convert it to a float (assign it to a new variable), and then print the result. 💡 Read about "casting" (or "conversion").
 
 <details> <summary>Solution</summary> <pre><code> num = 10 num_float = float(num) print(num_float) </code></pre> </details>
 
-### Exercise 7 <span style="color:yellow;">★</span>
+### Exercise 7 <span style="color:#F0B815;">★</span>
 
 Write a program that:
 
@@ -301,7 +301,7 @@ Computes the average and assigns the result to a variable named average.
 Prints the average of the three variables.
 <details> <summary>Solution</summary> <pre><code> x = 10 y = 11 z = 12 average = (x + y + z) / 3 print(average) </code></pre> </details>
 
-### Exercise 8 <span style="color:yellow;">★</span>
+### Exercise 8 <span style="color:#F0B815;">★</span>
 
 Write a program that computes the simple interest as follows:
 
@@ -312,13 +312,13 @@ Print the simple interest.
 
 <details> <summary>Solution</summary> <pre><code> principal = 1000 rate = 5.0 time = 3 interest = (principal * rate * time) / 100 print(interest) </code></pre> </details>
 
-### Exercise 9 <span style="color:yellow;">★★</span>
+### Exercise 9 <span style="color:#F0B815;">★★</span>
 
 Declare a float variable radius equal to 5.0 and a float variable pi equal to 3.14. Then, compute the area of a circle using the formula $\pi r^2$. Finally, print the area.
 
 <details> <summary>Solution</summary> <pre><code> radius = 5.0 pi = 3.14 area = pi * (radius ** 2) print(area) </code></pre> </details>
 
-### Exercise 10 <span style="color:yellow;">★★</span>
+### Exercise 10 <span style="color:#F0B815;">★★</span>
 
 Write a program to calculate the compound interest. Declare variables:
 
@@ -332,13 +332,13 @@ Assign the result to the variable amount and print it.
 
 <details> <summary>Solution</summary> <pre><code> principal = 1500 rate = 4.3 time = 6 n = 4 amount = principal * (1 + (rate / (100 * n))) ** (n * time) print(amount) </code></pre> </details>
 
-### Exercise 11 <span style="color:yellow;">★★</span>
+### Exercise 11 <span style="color:#F0B815;">★★</span>
 
 Write a program that declares an integer x equal to 10 and prints True if x is equal to 5 * 2, False if it’s not. 💡 You don’t need conditions (if/elif/else).
 
 <details> <summary>Solution</summary> <pre><code> x = 10 print(x == 5 * 2) </code></pre> </details>
 
-### Exercise 12 <span style="color:yellow;">★★★</span>
+### Exercise 12 <span style="color:#F0B815;">★★★</span>
 
 Bonus: Write a program that declares an integer n equal to 15 and prints True if it's even, False if it's odd. 💡 You don’t need conditions (if/elif/else).
 
