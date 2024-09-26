@@ -13,8 +13,7 @@ author_profile: true
 > Write a program that prints the sentence `'Hello, World!'`.
 <details>
 <summary>Solution</summary>
-<pre><code>
-    print("Hello, World!")
+<pre><code> print("Hello, World!")
 </code></pre>
 </details>
 
@@ -26,8 +25,7 @@ author_profile: true
 
 <details>
 <summary>Solution</summary>
-<pre><code>
-    print(42)
+<pre><code> print(42)
 </code></pre>
 </details>
 
@@ -40,8 +38,7 @@ author_profile: true
 <details>
 <summary>Solution</summary>
 
-<pre><code>
-    print("42")
+<pre><code> print("42")
 </code></pre>
 </details>
 
@@ -60,8 +57,7 @@ author_profile: true
 <details>
 <summary>Solution</summary>
 
-<pre><code>
-    5 + 3
+<pre><code> 5 + 3
 </code></pre>
 </details>
 
@@ -75,8 +71,7 @@ author_profile: true
 <details>
 <summary>Solution</summary>
 
-<pre><code>
-        10 - 2
+<pre><code> 10 - 2
 </code></pre>
 </details>
 
@@ -90,8 +85,7 @@ author_profile: true
 <details>
 <summary>Solution</summary>
 
-<pre><code>
-    5 * 7
+<pre><code> 5 * 7
 </code></pre>
 </details>
 
@@ -105,8 +99,7 @@ author_profile: true
 <details>
 <summary>Solution</summary>
 
-<pre><code>
-    8/4
+<pre><code> 8/4
 </code></pre>
 </details>
 
@@ -120,8 +113,7 @@ author_profile: true
 <details>
 <summary>Solution</summary>
 
-<pre><code>
-    7**3
+<pre><code> 7**3
 </code></pre>
 </details>
 
@@ -137,8 +129,7 @@ author_profile: true
 <details>
 <summary>Solution</summary>
 
-<pre><code>
-    8**2
+<pre><code> 8**2
 </code></pre>
 </details>
 
@@ -154,8 +145,7 @@ author_profile: true
 <details>
 <summary>Solution</summary>
 
-<pre><code>
-    15//4
+<pre><code> 15//4
 </code></pre>
 </details>
 
@@ -171,8 +161,7 @@ author_profile: true
 <details>
 <summary>Solution</summary>
 
-<pre><code>
-    15%4
+<pre><code> 15%4
 </code></pre>
 </details>
 
@@ -186,9 +175,8 @@ author_profile: true
 <details>
 <summary>Solution</summary>
 
-<pre><code>
-    print(98//12)
-print(98%12)
+<pre><code> print(98//12)
+ print(98%12)
 </code></pre>
 </details>
 
@@ -202,9 +190,8 @@ print(98%12)
 <details>
 <summary>Solution</summary>
 
-<pre><code>
-    print(145//8)
-print(145%8)
+<pre><code> print(145//8)
+ print(145%8)
 </code></pre>
 </details>
 
@@ -220,9 +207,8 @@ print(145%8)
 <details>
 <summary>Solution</summary>
 
-<pre><code>
-    print(57//10)
-print(57%10)
+<pre><code> print(57//10)
+ print(57%10)
 </code></pre>
 </details>
 
@@ -238,8 +224,7 @@ print(57%10)
 <details>
 <summary>Solution</summary>
 
-<pre><code>
-    (657%100)//10
+<pre><code> (657%100)//10
 </code></pre>
 </details>
 
@@ -255,8 +240,7 @@ print(57%10)
 <details>
 <summary>Solution</summary>
 
-<pre><code>
-    (357//100) + ((357%100)//10) + (357%10)
+<pre><code> (357//100) + ((357%100)//10) + (357%10)
 </code></pre>
 </details>
 
@@ -279,11 +263,10 @@ print(57%10)
 <details>
 <summary>Solution</summary>
 
-<pre><code>
-    age = 25
-price = 19.99
-name = "Alice"  # or 'Alice'
-is_raining = False
+<pre><code> age = 25
+ price = 19.99
+ name = "Alice"  # or 'Alice'
+ is_raining = False
 </code></pre>
 </details>
 
@@ -297,11 +280,10 @@ is_raining = False
 <details>
 <summary>Solution</summary>
 
-<pre><code>
-    a = 10
-b = 20
-print(a + b)
-print(a * b)
+<pre><code> a = 10
+ b = 20
+ print(a + b)
+ print(a * b)
 </code></pre>
 </details>
 
@@ -313,19 +295,18 @@ print(a * b)
 > Copy the following code and write a program that prints the type of each variable. 
 💡 Hint: Use the `type()` function!
 
-<pre><code>age = 25
-    price = 19.99
-    name = "Alice"  # or 'Alice'
-    is_raining = False
+<pre><code> age = 25
+ price = 19.99
+ name = "Alice"  # or 'Alice'
+ is_raining = False
 </code></pre>
 
 <details> 
 <summary>Solution</summary> 
-<pre><code> 
-    print(type(age)) # Output: <class 'int'> 
-    print(type(price)) # Output: <class 'float'> 
-    print(type(name)) # Output: <class 'str'> 
-    print(type(is_raining)) # Output: <class 'bool'> 
+<pre><code> print(type(age)) # Output: <class 'int'> 
+ print(type(price)) # Output: <class 'float'> 
+ print(type(name)) # Output: <class 'str'> 
+ print(type(is_raining)) # Output: <class 'bool'> 
 </code></pre> 
 </details>
 
@@ -351,7 +332,12 @@ print(a * b)
 > Write a program that checks if 11 is lower than 7, assigns the result to a variable named result, and prints the result as a boolean. What is the result? 
 💡 Hint: you don’t need to use conditions (if/elif/else)!
 
-<details> <summary>Solution</summary> <pre><code> result = 11 < 7 print(result) </code></pre> </details>
+<details> 
+<summary>Solution</summary> 
+<pre><code> result = 11 < 7 
+ print(result)
+</code></pre> 
+</details>
 
 
 <hr style="border: 1px solid #afada8;">
@@ -361,7 +347,13 @@ print(a * b)
 > Declare a variable num equal to 10, convert it to a float (assign it to a new variable), and then print the result. 
 💡 Hint: Read about "casting" (or "conversion").
 
-<details> <summary>Solution</summary> <pre><code> num = 10 num_float = float(num) print(num_float) </code></pre> </details>
+<details> 
+<summary>Solution</summary> 
+<pre><code> num = 10 
+ num_float = float(num) 
+ print(num_float)
+</code></pre>
+</details>
 
 
 <hr style="border: 1px solid #afada8;">
@@ -374,10 +366,9 @@ print(a * b)
 > - Prints the average of the three variables.
 <details> 
 <summary>Solution</summary> 
-<pre><code> 
-    x = 10 y = 11 z = 12 
-    average = (x + y + z) / 3 
-    print(average) 
+<pre><code> x = 10 y = 11 z = 12 
+ average = (x + y + z) / 3 
+ print(average) 
 </code></pre> 
 </details>
 
@@ -394,12 +385,11 @@ print(a * b)
 
 <details> 
 <summary>Solution</summary> 
-<pre><code> 
-    principal = 1000 
-    rate = 5.0 
-    time = 3 
-    interest = (principal * rate * time) / 100 
-    print(interest) 
+<pre><code> principal = 1000 
+ rate = 5.0 
+ time = 3 
+ interest = (principal * rate * time) / 100 
+ print(interest) 
 </code></pre> 
 </details>
 
@@ -412,11 +402,10 @@ print(a * b)
 
 <details> 
 <summary>Solution</summary> 
-<pre><code> 
-    radius = 5.0 
-    pi = 3.14 
-    area = pi * (radius ** 2) 
-    print(area) 
+<pre><code> radius = 5.0 
+ pi = 3.14 
+ area = pi * (radius ** 2) 
+ print(area) 
 </code></pre> 
 </details>
 
@@ -434,13 +423,12 @@ print(a * b)
 
 <details> 
 <summary>Solution</summary> 
-<pre><code> 
-    principal = 1500 
-    rate = 4.3 
-    time = 6 
-    n = 4 
-    amount = principal * (1 + (rate / (100 * n))) ** (n * time) 
-    print(amount) 
+<pre><code> principal = 1500 
+ rate = 4.3 
+ time = 6 
+ n = 4 
+ amount = principal * (1 + (rate / (100 * n))) ** (n * time) 
+ print(amount) 
 </code></pre> 
 </details>
 
@@ -454,9 +442,8 @@ print(a * b)
 
 <details> 
 <summary>Solution</summary> 
-<pre><code> 
-    x = 10 
-    print(x == 5 * 2) 
+<pre><code> x = 10 
+ print(x == 5 * 2) 
 </code></pre> 
 </details>
 
