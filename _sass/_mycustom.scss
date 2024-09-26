@@ -1,9 +1,62 @@
 pre {
-    background-color: #2d2d2d;
-    color: #f8f8f2;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 14px;
-    line-height: 1.5;
-  }
-  
+  background-color: #2d2d2d;
+  color: #f8f8f2;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow-x: auto; /* Allows horizontal scroll if the code is too wide */
+}
+
+/* Target code blocks specifically */
+pre code {
+  color: #f8f8f2;
+}
+
+/* Keywords like def, class, return, etc. */
+code .keyword {
+  color: #ff79c6; /* Pink */
+  font-weight: bold;
+}
+
+/* Function names */
+code .function {
+  color: #50fa7b; /* Green */
+}
+
+/* Variable names */
+code .variable {
+  color: #8be9fd; /* Light blue */
+}
+
+/* Numbers */
+code .number {
+  color: #bd93f9; /* Purple */
+}
+
+/* Strings */
+code .string {
+  color: #f1fa8c; /* Yellow */
+}
+
+/* Comments */
+code .comment {
+  color: #6272a4; /* Dimmed blue */
+  font-style: italic;
+}
+
+/* Operators like =, +, -, etc. */
+code .operator {
+  color: #ff79c6; /* Pink */
+}
+
+/* Decorators like @staticmethod */
+code .decorator {
+  color: #ffb86c; /* Orange */
+  font-style: italic;
+}
+
+/* Highlighting brackets, parentheses */
+code .punctuation {
+  color: #f8f8f2; /* Same as default */
+}
