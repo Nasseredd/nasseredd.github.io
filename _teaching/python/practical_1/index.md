@@ -10,10 +10,12 @@ author_profile: true
 
 Write a program that prints the sentence `'Hello, World!'`.
     <details>
-    <summary>Solution</summary>
-    <pre><code>
-        print("Hello, World!")
-    </code></pre>
+        <summary>Solution</summary>
+        <pre>
+            <code>
+                print("Hello, World!")
+            </code>
+        </pre>
     </details>
 
 <hr>
@@ -340,5 +342,6 @@ Write a program that declares an integer x equal to 10 and prints True if x is e
 
 Bonus: Write a program that declares an integer n equal to 15 and prints True if it's even, False if it's odd. 💡 You don’t need conditions (if/elif/else).
 
-<details> <summary>Solution</summary> <pre><code> n = 15 print(n % 2 == 0) </code></pre> </details> ```
+<details> 
+    <summary>Solution</summary> <pre><code> n = 15 print(n % 2 == 0) </code></pre> </details> ```
 This format includes the stars and collapsible solution sections for each exercise as requested!
