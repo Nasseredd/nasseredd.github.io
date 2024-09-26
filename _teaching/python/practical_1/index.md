@@ -4,7 +4,7 @@ permalink: /teaching/python/practical_1/
 author_profile: true
 ---
 
-# First steps
+## First steps
 
 ### Exercise 1 <span style="color:yellow;">★</span>
 
@@ -17,6 +17,8 @@ Write a program that prints the sentence `'Hello, World!'`.
     print("Hello, World!")
   </code></pre>
 </details>
+
+<hr>
 
 ### Exercise 2 <span style="color:yellow;">★</span>
 
@@ -45,7 +47,7 @@ Write a program that prints the string `'42'`.
 
 ---
 
-# Basic Operations
+## Basic Operations
 
 ### Exercise 4 <span style="color:yellow;">★</span>
 
@@ -221,7 +223,7 @@ Bonus: Write a program that calculates the sum of the digits in the number `357`
 
 ---
 
-# Variables and Types (Int, Float, String, Bool)
+## Variables and Types (Int, Float, String, Bool)
 
 ### Exercise 1 <span style="color:yellow;">★</span>
 
