@@ -9,57 +9,57 @@ pre {
   overflow-x: auto;
 }
 
-// /* Make sure the `code` element inherits the color */
-// pre code {
-//   color: inherit;
-// }
+/* Make sure the `code` element inherits the color */
+pre code {
+  color: inherit;
+}
 
-// /* Styling specific to Rouge output for Python */
+/* Styling specific to Rouge output for Python */
 
-// /* Keywords: def, class, return, etc. */
-// .code .k, .code .kd, .code .kn, .code .kp {
-//   color: #ff79c6; /* Pink */
-//   font-weight: bold;
-// }
+/* Keywords: def, class, return, etc. */
+.code .k, .code .kd, .code .kn, .code .kp {
+  color: #ff79c6; /* Pink */
+  font-weight: bold;
+}
 
-// /* Functions */
-// .code .nf {
-//   color: #50fa7b; /* Green */
-// }
+/* Functions */
+.code .nf {
+  color: #50fa7b; /* Green */
+}
 
-// /* Variables */
-// .code .nv {
-//   color: #8be9fd; /* Light blue */
-// }
+/* Variables */
+.code .nv {
+  color: #8be9fd; /* Light blue */
+}
 
-// /* Numbers */
-// .code .m {
-//   color: #bd93f9; /* Purple */
-// }
+/* Numbers */
+.code .m {
+  color: #bd93f9; /* Purple */
+}
 
-// /* Strings */
-// .code .s {
-//   color: #f1fa8c; /* Yellow */
-// }
+/* Strings */
+.code .s {
+  color: #f1fa8c; /* Yellow */
+}
 
-// /* Comments */
-// .code .c, .code .cm, .code .c1 {
-//   color: #6272a4; /* Dimmed blue */
-//   font-style: italic;
-// }
+/* Comments */
+.code .c, .code .cm, .code .c1 {
+  color: #6272a4; /* Dimmed blue */
+  font-style: italic;
+}
 
-// /* Operators like =, +, -, etc. */
-// .code .o {
-//   color: #ff79c6; /* Pink */
-// }
+/* Operators like =, +, -, etc. */
+.code .o {
+  color: #ff79c6; /* Pink */
+}
 
-// /* Decorators (e.g., @staticmethod) */
-// .code .nd {
-//   color: #ffb86c; /* Orange */
-//   font-style: italic;
-// }
+/* Decorators (e.g., @staticmethod) */
+.code .nd {
+  color: #ffb86c; /* Orange */
+  font-style: italic;
+}
 
-// /* Parentheses, brackets, braces */
-// .code .p {
-//   color: #f8f8f2;
-// }
+/* Parentheses, brackets, braces */
+.code .p {
+  color: #f8f8f2;
+}
