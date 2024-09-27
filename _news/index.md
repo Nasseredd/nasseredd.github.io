@@ -1,5 +1,5 @@
 ---
-title: "Latest News"
+title: "🗣️ Latest News 🗓️"
 permalink: /news/
 author_profile: true
 layout: single
