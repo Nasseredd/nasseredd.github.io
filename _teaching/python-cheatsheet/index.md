@@ -172,3 +172,90 @@ Here's the cheat sheet formatted in Markdown code snippets:
 
 - **readlines()**: Reads all lines into a list.
     <pre><code>  lines = file.readlines()</code></pre>
+
+## Dictionaries
+- **Create a Dictionary**:
+    <pre><code>  my_dict = {
+        "name": "Alice",
+        "age": 30,
+        "city": "New York"
+    }</code></pre>
+
+- **Access a Value in a Dictionary**:
+    <pre><code>  age = my_dict["age"]  # 30</code></pre>
+
+- **pop(key)**: Removes the specified key and returns its value.
+    <pre><code>  city = my_dict.pop("city")  # 'New York'</code></pre>
+
+- **items()**: Returns a view object containing the key-value pairs.
+    <pre><code>  items = my_dict.items()  # dict_items([('name', 'Alice'), ('age', 30)])</code></pre>
+
+- **keys()**: Returns a view object containing the dictionary's keys.
+    <pre><code>  keys = my_dict.keys()  # dict_keys(['name', 'age'])</code></pre>
+
+- **values()**: Returns a view object containing the dictionary's values.
+    <pre><code>  values = my_dict.values()  # dict_values(['Alice', 30])</code></pre>
+
+- **update()**: Updates the dictionary with elements from another dictionary or from an iterable of key-value pairs.
+    <pre><code>  my_dict.update({"age": 31, "country": "USA"})</code></pre>
+
+
+## Functions
+- **Create a Function**:
+    <pre><code>  def greet(name):
+        return f"Hello, {name}!"</code></pre>
+
+- **Call the Function**:
+    <pre><code>  message = greet("Alice")  # 'Hello, Alice!'</code></pre>
+
+- **Function with No Arguments**:
+    <pre><code>  def say_hello():
+        print("Hello, World!")
+  
+  say_hello()  # Outputs: Hello, World!</code></pre>
+
+- **Function with a Flexible Number of Arguments (`*args`)**:
+    <pre><code>  def add_numbers(*args):
+        return sum(args)
+
+  result = add_numbers(1, 2, 3, 4)  # 10</code></pre>
+
+- **Function with Keyword Arguments (`**kwargs`)**:
+    <pre><code>  def print_info(**kwargs):
+        for key, value in kwargs.items():
+            print(f"{key}: {value}")
+
+  print_info(name="Alice", age=30)  
+  # Outputs:
+  # name: Alice
+  # age: 30</code></pre>
+
+- **Function with Default Arguments**:
+    <pre><code>  def greet(name="Guest"):
+        return f"Hello, {name}!"
+
+  message1 = greet("Alice")  # 'Hello, Alice!'
+  message2 = greet()          # 'Hello, Guest!'</code></pre>
+
+- **Function Returning Multiple Values**:
+    <pre><code>  def get_user_info():
+        return "Alice", 30
+
+    name, age = get_user_info()  # name = 'Alice', age = 30</code></pre>
+
+- **Lambda Function**: A small anonymous function.
+    <pre><code>  square = lambda x: x ** 2
+    result = square(5)  # 25</code></pre>
+
+- **Function Documentation**: Use docstrings to document the function.
+    <pre><code>  def multiply(x, y):
+        """Multiply two numbers and return the result."""
+        return x * y
+
+    print(multiply.__doc__)  # 'Multiply two numbers and return the result.'</code></pre>
+
+- **Higher-Order Functions**: Functions that take other functions as arguments.
+    <pre><code>  def apply_function(func, value):
+        return func(value)
+
+    result = apply_function(square, 10)  # 100</code></pre>
