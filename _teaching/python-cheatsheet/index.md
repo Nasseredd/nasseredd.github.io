@@ -8,9 +8,9 @@ Here's the cheat sheet formatted in Markdown code snippets:
 
 ## First Start
 - **print()**: Outputs text to the console.
-  ```python
-  print("Hello, World!")
-  ```
+```python
+print("Hi Nasser!")
+```
 
 ## Operations and Variables
 - **Operations**: 
@@ -26,7 +26,7 @@ Here's the cheat sheet formatted in Markdown code snippets:
   ```python
   x = 10
   ```
-
+<!-- 
 - **Variable Types**: 
   - `int`: `x = 5`
   - `float`: `y = 5.0`
@@ -255,4 +255,4 @@ Here's the cheat sheet formatted in Markdown code snippets:
   ```
 ```
 
-You can copy and paste this Markdown code into any Markdown-compatible editor or viewer to see the formatted output. Let me know if you need any more assistance!
+You can copy and paste this Markdown code into any Markdown-compatible editor or viewer to see the formatted output. Let me know if you need any more assistance! -->
