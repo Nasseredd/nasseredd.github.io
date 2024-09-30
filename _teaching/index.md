@@ -23,6 +23,8 @@ I am teaching a comprehensive introduction to virtualization, incorporating both
 ## Introduction to LaTeX ![emoji](/images/latex-logo.png){:height="30px" width="30px"}
 ##### MSc NLP, IDMC - Université de Lorraine, 2023-2025.
 
+I am teaching a thorough introduction to LaTeX, a powerful typesetting system used to create documents with complex formatting, such as academic papers, theses, and reports. Throughout the course, students will learn essential LaTeX concepts, including document structure, text formatting, lists, mathematical formulas, tables, images, and citations. In two practical sessions, students will produce a report that can serve as a valuable starting point for their future master projects, equipping them with the skills to create professional-grade documents for academic and research purposes.
+
 ## Introduction to Shell ![emoji](/images/shell-logo.png){:height="30px" width="30px"}
 ##### MSc NLP, IDMC - Université de Lorraine, 2023-2025.
 
