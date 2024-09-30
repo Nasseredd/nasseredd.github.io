@@ -15,7 +15,7 @@ I am supervising Python practicals that follow Pr. <a href="https://members.lori
 
 <!-- 🚀 [Recap/Reinforcement in python](python/) 💪 -->
 
-🧑‍💻 [Download Recap Practical (TD4)](files/practical-4.zip)
+🧑‍💻 [Download Recap Practical (TD4)](/files/practical-4.zip)
 
 🚀 [Python CheatSheet](python-cheatsheet/) ![emoji](/images/python-logo.jpeg){:height="40px" width="40px"}
 
