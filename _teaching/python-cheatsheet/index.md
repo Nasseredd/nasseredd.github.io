@@ -173,5 +173,3 @@ Here's the cheat sheet formatted in Markdown code snippets:
 
 - **readlines()**: Reads all lines into a list.
     <pre><code>  lines = file.readlines()</code></pre>
-
-You can copy and paste this Markdown code into any Markdown-compatible editor or viewer to see the formatted output. Let me know if you need any more assistance!
