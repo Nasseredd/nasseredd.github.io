@@ -96,6 +96,7 @@ Here's the cheat sheet formatted in Markdown code snippets:
     f"Hello, {name}!"  # 'Hello, Alice!'</code></pre>
 
 - **String Slicing**:
+    General syntax: ```string[start:end:step]```
     <pre><code>  text = "Hello"
     text[1:4]  # 'ell'</code></pre>
 
