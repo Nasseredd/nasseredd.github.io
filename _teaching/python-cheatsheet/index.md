@@ -47,7 +47,7 @@ Here's the cheat sheet formatted in Markdown code snippets:
 
 - **Casting**: Converts between types.
     <pre><code>  num_str = "10"
-  num_int = int(num_str)  # Converts to int</code></pre>
+    num_int = int(num_str)  # Converts to int</code></pre>
 
 ## Strings
 - **lower()**: Converts to lowercase.
@@ -93,37 +93,37 @@ Here's the cheat sheet formatted in Markdown code snippets:
     <pre><code>  print("Hello", "World")  # 'Hello World'</code></pre>
   - **f-string**: 
     <pre><code>  name = "Alice"
-  f"Hello, {name}!"  # 'Hello, Alice!'</code></pre>
+    f"Hello, {name}!"  # 'Hello, Alice!'</code></pre>
 
 - **String Slicing**:
     <pre><code>  text = "Hello"
-  text[1:4]  # 'ell'</code></pre>
+    text[1:4]  # 'ell'</code></pre>
 
 ## Control Flow
 - **if/else**:
     <pre><code>  if x > 10:
-      print("Greater")
-  else:
-      print("Not greater")</code></pre>
+        print("Greater")
+    else:
+        print("Not greater")</code></pre>
 
 - **if/elif/else**:
     <pre><code>  if x > 10:
-      print("Greater")
-  elif x == 10:
-      print("Equal")
-  else:
-      print("Less")</code></pre>
+        print("Greater")
+    elif x == 10:
+        print("Equal")
+    else:
+        print("Less")</code></pre>
 
 ## Loops
 - **for loop**:
     <pre><code>  for i in range(5):
-      print(i)  # 0 to 4</code></pre>
+        print(i)  # 0 to 4</code></pre>
 
 - **while loop**:
     <pre><code>  count = 0
-  while count < 5:
-      print(count)
-      count += 1  # 0 to 4</code></pre>
+    while count < 5:
+        print(count)
+        count += 1  # 0 to 4</code></pre>
 
 ## Lists
 - **Creation**:
@@ -162,7 +162,7 @@ Here's the cheat sheet formatted in Markdown code snippets:
 
 - **open with 'with'**:
     <pre><code>  with open('file.txt', 'r') as file:
-      content = file.read()</code></pre>
+        content = file.read()</code></pre>
 
 - **read()**: Reads the entire file.
     <pre><code>  content = file.read()</code></pre>
