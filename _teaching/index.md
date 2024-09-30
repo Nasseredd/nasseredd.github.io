@@ -32,3 +32,5 @@ This course offers a practical introduction to shell scripting and file manipula
 
 ## Algorithm Quality and Complexity (FR)![emoji](/images/automaton.png){:height="30px" width="30px"}
 ##### Bachelor in Computer Science, IUT Nancy Charlemagne - Université de Lorraine, 2023-2024.
+
+This course introduces students to the analysis of algorithms, focusing on understanding and evaluating their efficiency using mathematical techniques. Key topics include time complexity, asymptotic notations (O, Ω, Θ), and recurrence relations. Students will explore both theoretical and practical aspects through mathematical demonstrations and problem-solving sessions. The skills developed will enable students to apply these techniques when designing algorithms or evaluating their performance.
