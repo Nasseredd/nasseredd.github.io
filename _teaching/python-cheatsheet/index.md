@@ -8,8 +8,7 @@ Here's the cheat sheet formatted in Markdown code snippets:
 
 ## First Start
 - **print()**: Outputs text to the console.
-      <pre><code>    print("Hi Nasser!")
-      </code></pre>
+    <pre><code>    print("Hi Nasser!")</code></pre>
 
 ## Operations and Variables
 - **Operations**: 
