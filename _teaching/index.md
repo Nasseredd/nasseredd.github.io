@@ -11,6 +11,7 @@ author_profile: true
 I am supervising Python practicals that follow Pr. [Karën Fort's lectures](https://members.loria.fr/KFort/idmc-nancy-from-2024/), covering essential Python fundamentals such as strings, control flow, loops, lists, tuples, sets, and file handling. The practicals involve working with real-world examples like the “80jours50l” and “MyBiblio” files. Additionally, topics such as dictionaries, functions, modules, and key libraries like NumPy and Pandas are explored, concluding with a session on objects. Each topic is accompanied by interactive notebooks, and guidance is provided throughout all the exercises.
 
 <!-- 🚀 [Recap/Reinforcement in python](python/) 💪 -->
+test
 
 ## Introduction to Docker ![emoji](/images/docker-logo.png){:height="35px" width="35px"}
 
