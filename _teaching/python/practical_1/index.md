@@ -44,6 +44,8 @@ Welcome to this practical guide for extreme beginners in Python![emoji](/images/
 
 <pre><code> print("42")
 </code></pre>
+
+❗You notice that the integer ```42``` is different than the string ```"42"```. 
 </details>
 
 
