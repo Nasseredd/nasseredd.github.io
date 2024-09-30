@@ -6,9 +6,6 @@ author_profile: true
 
 Here's the cheat sheet formatted in Markdown code snippets:
 
-```markdown
-# Python Cheat Sheet
-
 ## First Start
 - **print()**: Outputs text to the console.
   ```python
