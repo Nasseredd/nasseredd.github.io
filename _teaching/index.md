@@ -12,7 +12,7 @@ I am supervising Python practicals that follow Pr. [Karën Fort's lectures](http
 
 <!-- 🚀 [Recap/Reinforcement in python](python/) 💪 -->
 
-## Introduction to Docker (FR) ![emoji](/images/docker-logo.png){:height="35px" width="35px"}
+## Virtualization and Docker (FR) ![emoji](/images/docker-logo.png){:height="35px" width="35px"}
 
 ##### Bachelor in Computer Science, IUT Nancy Charlemagne - Université de Lorraine, 2023-2024.
 
