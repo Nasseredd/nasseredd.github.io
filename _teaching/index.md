@@ -4,7 +4,7 @@ permalink: /teaching/
 author_profile: true
 ---
 
-## Introduction to Python ![emoji](/images/python-logo.jpeg){:height="40px" width="40px"}
+## Introduction to Python (EN/FR) ![emoji](/images/python-logo.jpeg){:height="40px" width="40px"}
 
 ##### MSc NLP and Master in Cognitive Science, IDMC - Université de Lorraine, 2023-2025.
 
@@ -12,7 +12,7 @@ I am supervising Python practicals that follow Pr. [Karën Fort's lectures](http
 
 <!-- 🚀 [Recap/Reinforcement in python](python/) 💪 -->
 
-## Introduction to Docker ![emoji](/images/docker-logo.png){:height="35px" width="35px"}
+## Introduction to Docker (FR) ![emoji](/images/docker-logo.png){:height="35px" width="35px"}
 
 ##### Bachelor in Computer Science, IUT Nancy Charlemagne - Université de Lorraine, 2023-2024.
 
@@ -20,13 +20,15 @@ I am teaching a comprehensive introduction to virtualization, incorporating both
 
 
 
-## Introduction to LaTeX ![emoji](/images/latex-logo.png){:height="30px" width="30px"}
+## Introduction to LaTeX (EN) ![emoji](/images/latex-logo.png){:height="30px" width="30px"}
 ##### MSc NLP, IDMC - Université de Lorraine, 2023-2025.
 
 I am teaching a thorough introduction to LaTeX, a powerful typesetting system used to create documents with complex formatting, such as academic papers, theses, and reports. Throughout the course, students will learn essential LaTeX concepts, including document structure, text formatting, lists, mathematical formulas, tables, images, and citations. In two practical sessions, students will produce a report that can serve as a valuable starting point for their future master projects, equipping them with the skills to create professional-grade documents for academic and research purposes.
 
-## Introduction to Shell ![emoji](/images/shell-logo.png){:height="30px" width="30px"}
+## Introduction to Shell (EN)![emoji](/images/shell-logo.png){:height="30px" width="30px"}
 ##### MSc NLP, IDMC - Université de Lorraine, 2023-2025.
 
-## Algorithm Quality and Complexity ![emoji](/images/automaton.png){:height="30px" width="30px"}
+This course offers a practical introduction to shell scripting and file manipulation in Unix-like operating systems. I teach students essential commands for navigating file systems, handling text files, and performing basic scripting tasks. In practical sessions, students will work on exercises to create and manipulate files and directories, building useful shell scripts that can serve as a foundation for their future projects.
+
+## Algorithm Quality and Complexity (FR)![emoji](/images/automaton.png){:height="30px" width="30px"}
 ##### Bachelor in Computer Science, IUT Nancy Charlemagne - Université de Lorraine, 2023-2024.
