@@ -9,8 +9,9 @@ author_profile: true
 ##### MSc NLP and Master in Cognitive Science, IDMC - Université de Lorraine, 2023-2025.
 
 <p style="text-align: justify;">
-I am supervising Python practicals that follow Pr. [Karën Fort's lectures](https://members.loria.fr/KFort/idmc-nancy-from-2024/), covering essential Python fundamentals such as strings, control flow, loops, lists, tuples, sets, and file handling. The practicals involve working with real-world examples like the “80jours50l” and “MyBiblio” files. Additionally, topics such as dictionaries, functions, modules, and key libraries like NumPy and Pandas are explored, concluding with a session on objects. Each topic is accompanied by interactive notebooks, and guidance is provided throughout all the exercises.
+I am supervising Python practicals that follow Pr. <a href="https://members.loria.fr/KFort/idmc-nancy-from-2024/" target="_blank">Karën Fort's lectures</a>, covering essential Python fundamentals such as strings, control flow, loops, lists, tuples, sets, and file handling. The practicals involve working with real-world examples like the “80jours50l” and “MyBiblio” files. Additionally, topics such as dictionaries, functions, modules, and key libraries like NumPy and Pandas are explored, concluding with a session on objects. Each topic is accompanied by interactive notebooks, and guidance is provided throughout all the exercises.
 </p>
+
 
 <!-- 🚀 [Recap/Reinforcement in python](python/) 💪 -->
 
@@ -19,8 +20,9 @@ I am supervising Python practicals that follow Pr. [Karën Fort's lectures](http
 ##### Bachelor in Computer Science, IUT Nancy Charlemagne - Université de Lorraine, 2023-2024.
 
 <p style="text-align: justify;">
-I am teaching a comprehensive introduction to virtualization, incorporating both lectures and practicals. The materials given to students, including the slides, are built upon the courses of the Associate Professor [Philippe Dosch](https://scholar.google.fr/citations?hl=fr&user=fYCvan0AAAAJ&view_op=list_works&sortby=pubdate). The course covers key virtualization concepts such as containers, hypervisors, and virtual machines, along with practical applications of Docker and KVM. The student will engage in hands-on exercises to solidify his/her understanding of these topics, gaining experience in both system administration and deployment in virtualized environments. The course balances theoretical foundations with practical implementations. 
+I am teaching a comprehensive introduction to virtualization, incorporating both lectures and practicals. The materials given to students, including the slides, are built upon the courses of the Associate Professor <a href="https://scholar.google.fr/citations?hl=fr&user=fYCvan0AAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Philippe Dosch</a>. The course covers key virtualization concepts such as containers, hypervisors, and virtual machines, along with practical applications of Docker and KVM. The student will engage in hands-on exercises to solidify his/her understanding of these topics, gaining experience in both system administration and deployment in virtualized environments. The course balances theoretical foundations with practical implementations.
 </p>
+
 
 
 ## Introduction to LaTeX (EN) ![emoji](/images/latex-logo.png){:height="30px" width="30px"}
