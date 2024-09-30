@@ -1,5 +1,5 @@
 ---
-title: "🚀 Python CheatSheet"
+title: "🚀 Python CheatSheet ![emoji](/images/python-logo.jpeg){:height="40px" width="40px"}"
 permalink: /teaching/python-cheatsheet/
 author_profile: true
 ---
