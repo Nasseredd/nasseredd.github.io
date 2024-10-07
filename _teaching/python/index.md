@@ -4,23 +4,22 @@ permalink: /teaching/python/
 author_profile: true
 ---
 
-## Basics (Operations and Variables)
-Learn the fundamental building blocks of Python, including arithmetic and logical operations. This section also introduces variables and how to assign and manipulate data in Python. Start practicing [here](practical_1/).
+## Practicals 0, 1, 2 and 3
+Please refer to [Fanny Ducel](https://fannyducel.github.io/teaching/)'s practicals. 
 
-## Strings
-Explore how to work with text in Python using strings. You'll learn string manipulation techniques such as concatenation, slicing, and common string methods to handle textual data efficiently. Begin practicing [here](practical_2/).
+## Practical 4
+This practical serves as a recap of the first three lectures, covering the essential building blocks of Python. You'll reinforce your understanding of **arithmetic** and **logical operations**, and learn how to work with **variables** for data storage and manipulation in Python. You'll then dive into handling **strings** and **controlling the flow** of your programs using conditional statements (`if`, `else`, `elif`).
 
-## Control Flow
-Understand how to control the flow of your programs with conditional statements like `if`, `else`, and `elif`. This section covers making decisions in your code based on logical conditions. Practice control flow [here](practical_3/).
+Next, you'll explore the use of **loops** (`for` and `while`) to repeat actions efficiently. The practical will also guide you through organizing data using **lists**, and working with **dictionaries** to store data in **key-value** pairs. Finally, you'll practice writing **functions** to create reusable blocks of code.
 
-## Loops
-Learn how to repeat actions using loops in Python. This section covers `for` and `while` loops, allowing you to iterate over data and perform repeated tasks efficiently. Start practicing loops [here](practical_4/).
+Ready to get started? Download the recap practical below:
 
-## Lists, Sets and Tuples
-Discover how to store and organize data using lists, sets, and tuples. You'll learn the differences between these data structures and how to manipulate and access their elements. Practice with lists, sets, and tuples [here](practical_5/).
+🧑‍💻 [Download Recap Practical (TD4)](/files/practical-4.zip)
 
-## Dictionaries
-Understand how to use dictionaries to store data in key-value pairs. This section teaches you how to create, access, modify, and iterate over dictionary items in Python. Begin practicing with dictionaries [here](practical_6/).
+## Practical 5
 
-## Functions
-Learn how to write reusable blocks of code with functions. This section covers function definitions, parameters, return values, and how to use functions to organize and structure your programs. Start practicing functions [here](practical_7/).
+In this practical, you will solidify your understanding of Python by working with **modules**, **packages**, and **functions**. You'll start by creating a **package** with multiple **modules**, defining **functions**, and importing them into your Jupyter notebook. Through hands-on exercises, you will learn how to organize, manipulate, and preprocess data efficiently using Python’s built-in features and packages. This practical also introduces advanced topics like **wrapper functions** and **documentation** using **NumPy-style docstrings**, preparing you for more complex programming tasks.
+
+Ready to get started? Download the practical 5 below:
+
+🧑‍💻 [Download Practical 5 (TD5)](/files/practical-5.zip)
