@@ -3,6 +3,7 @@ title: "🧑‍💻 Python Practicals"
 permalink: /teaching/python/
 author_profile: true
 ---
+##### MSc NLP and Master in Cognitive Science, IDMC - Université de Lorraine, 2023-2025.
 
 ## Practicals 0, 1, 2 and 3
 Please refer to [Fanny Ducel's website](https://fannyducel.github.io/teaching/) for these first practicals.
