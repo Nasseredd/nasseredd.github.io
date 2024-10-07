@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 ## Practicals 0, 1, 2 and 3
-Please refer to [Fanny Ducel](https://fannyducel.github.io/teaching/) for these first practicals.
+Please refer to [Fanny Ducel's website](https://fannyducel.github.io/teaching/) for these first practicals.
 
 ## Practical 4
 <p style="text-align: justify;">
