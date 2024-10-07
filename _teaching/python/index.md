@@ -27,7 +27,7 @@ In this practical, you will solidify your understanding of Python by working wit
 </p>
 
 <p style="text-align: justify;">
-Ready to get started? Download the practical 5 below:
+<!-- Ready to get started? Download the practical 5 below: -->
 </p>
 
-🧑‍💻 [Download Practical 5 (TD5)](/files/practical-5.zip)
+<!-- 🧑‍💻 [Download Practical 5 (TD5)](/files/practical-5.zip) -->
