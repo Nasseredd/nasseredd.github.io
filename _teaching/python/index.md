@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 ## Practicals 0, 1, 2 and 3
-Please refer to [Fanny Ducel](https://fannyducel.github.io/teaching/)'s practicals. 
+Please refer to [Fanny Ducel](https://fannyducel.github.io/teaching/) for these first practicals.
 
 ## Practical 4
 This practical serves as a recap of the first three lectures, covering the essential building blocks of Python. You'll reinforce your understanding of **arithmetic** and **logical operations**, and learn how to work with **variables** for data storage and manipulation in Python. You'll then dive into handling **strings** and **controlling the flow** of your programs using conditional statements (`if`, `else`, `elif`).
