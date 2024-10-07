@@ -1,5 +1,5 @@
 ---
-title: "🚀 Recap/Reinforcement in Python 💪"
+title: "🧑‍💻 Python Practicals"
 permalink: /teaching/python/
 author_profile: true
 ---
