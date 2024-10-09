@@ -43,6 +43,7 @@ I am teaching a thorough introduction to LaTeX, a powerful typesetting system us
 This course offers a practical introduction to shell scripting and file manipulation in Unix-like operating systems. I teach students essential commands for navigating file systems, handling text files, and performing basic scripting tasks. In practical sessions, students will work on exercises to create and manipulate files and directories, building useful shell scripts that can serve as a foundation for their future projects.
 </p>
 
+🧑‍💻 [Lecture 1](/files/Introduction-to-Shell-Lecture-1-2425.pdf)
 🧑‍💻 [Practical 1](/files/Practical-1.zip)
 
 ## Algorithm Quality and Complexity (FR)![emoji](/images/automaton.png){:height="30px" width="30px"}
