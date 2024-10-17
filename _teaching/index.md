@@ -47,9 +47,11 @@ This course offers a practical introduction to shell scripting and file manipula
 
 📖 [Lecture 1](/files/Introduction-to-Shell-Lecture-1-2425.pdf)
 🧑‍💻 [Practical 1](/files/Practical-1.zip)
+✅ [Solutions](/files/Practical-1-Solutions.zip)
 
 📖 [Lecture 2](/files/Introduction-to-Shell-Lecture-2-2425.pdf)
 🧑‍💻 [Practical 2](/files/Practical-2.zip)
+✅ [Solutions](/files/Practical-2-Solutions.zip)
 
 ## Algorithm Quality and Complexity (FR)![emoji](/images/automaton.png){:height="30px" width="30px"}
 ##### Bachelor in Computer Science, IUT Nancy Charlemagne - Université de Lorraine, 2023-2024.
