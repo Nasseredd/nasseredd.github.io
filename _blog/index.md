@@ -8,7 +8,7 @@ author_profile: true
   .timeline-container {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centers items along the line */
+    align-items: center;
     position: relative;
     margin: 20px 0;
   }
@@ -24,23 +24,34 @@ author_profile: true
   .timeline-item {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    justify-content: space-between;
     width: 100%;
-    justify-content: center; /* Centers the circles on the line */
+    max-width: 600px;
+    position: relative;
+    margin: 20px 0;
   }
   .date-circle {
     background-color: #2E4053; /* Circle color */
     border-radius: 50%;
     width: 20px; /* Circle size */
     height: 20px;
-    position: relative;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 1; /* Ensures circles appear above the line */
   }
   .event-text {
     font-size: 14px; /* Text size */
     color: #333;
-    width: 70%; /* Adjusts text width for readability */
-    padding-left: 20px; /* Adds space between circle and text */
+    width: 45%; /* Adjusts text width */
+  }
+  .event-left {
+    text-align: right;
+    padding-right: 10px;
+  }
+  .event-right {
+    text-align: left;
+    padding-left: 10px;
   }
 </style>
 
@@ -50,38 +61,44 @@ author_profile: true
 
   <!-- Timeline item 1 -->
   <div class="timeline-item">
+    <div class="event-text event-left"><strong>1091</strong> New Year's Day celebration with family and friends.</div>
     <div class="date-circle"></div>
-    <div class="event-text"><strong>1091</strong> New Year's Day celebration with family and friends.</div>
+    <div class="event-text event-right"></div>
   </div>
 
   <!-- Timeline item 2 -->
   <div class="timeline-item">
+    <div class="event-text event-left"></div>
     <div class="date-circle"></div>
-    <div class="event-text"><strong>1091</strong> Valentine's Day dinner and gift exchange with loved ones.</div>
+    <div class="event-text event-right"><strong>1091</strong> Valentine's Day dinner and gift exchange with loved ones.</div>
   </div>
 
   <!-- Timeline item 3 -->
   <div class="timeline-item">
+    <div class="event-text event-left"><strong>1091</strong> Spring begins, celebrated with a family picnic.</div>
     <div class="date-circle"></div>
-    <div class="event-text"><strong>1091</strong> Spring begins, celebrated with a family picnic.</div>
+    <div class="event-text event-right"></div>
   </div>
 
   <!-- Timeline item 4 -->
   <div class="timeline-item">
+    <div class="event-text event-left"></div>
     <div class="date-circle"></div>
-    <div class="event-text"><strong>1091</strong> Labor Day events and discussions on workers' rights.</div>
+    <div class="event-text event-right"><strong>1091</strong> Labor Day events and discussions on workers' rights.</div>
   </div>
 
   <!-- Timeline item 5 -->
   <div class="timeline-item">
+    <div class="event-text event-left"><strong>1091</strong> Halloween celebration with costume party and trick-or-treating.</div>
     <div class="date-circle"></div>
-    <div class="event-text"><strong>1091</strong> Halloween celebration with costume party and trick-or-treating.</div>
+    <div class="event-text event-right"></div>
   </div>
 
   <!-- Timeline item 6 -->
   <div class="timeline-item">
+    <div class="event-text event-left"></div>
     <div class="date-circle"></div>
-    <div class="event-text"><strong>1091</strong> Christmas celebration, gift exchange, and holiday dinner.</div>
+    <div class="event-text event-right"><strong>1091</strong> Christmas celebration, gift exchange, and holiday dinner.</div>
   </div>
 </div>
 
