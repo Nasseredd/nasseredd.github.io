@@ -13,23 +13,17 @@ author_profile: true
   .timeline-item {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
   .date-circle {
-    background-color: #3498db; /* Circle color */
-    color: #fff;
-    font-weight: bold;
+    background-color: #2E4053; /* Updated circle color */
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
-    font-size: 18px;
+    width: 20px; /* Reduced size */
+    height: 20px;
+    margin-right: 15px;
   }
   .event-text {
-    font-size: 16px;
+    font-size: 14px; /* Reduced font size */
     color: #333;
   }
 </style>
@@ -37,40 +31,41 @@ author_profile: true
 <div class="timeline-container">
   <!-- Timeline item 1 -->
   <div class="timeline-item">
-    <div class="date-circle">01 Jan</div>
+    <div class="date-circle"></div>
     <div class="event-text">New Year's Day celebration with family and friends.</div>
   </div>
 
   <!-- Timeline item 2 -->
   <div class="timeline-item">
-    <div class="date-circle">14 Feb</div>
+    <div class="date-circle"></div>
     <div class="event-text">Valentine's Day dinner and gift exchange with loved ones.</div>
   </div>
 
   <!-- Timeline item 3 -->
   <div class="timeline-item">
-    <div class="date-circle">21 Mar</div>
+    <div class="date-circle"></div>
     <div class="event-text">Spring begins, celebrated with a family picnic.</div>
   </div>
 
   <!-- Timeline item 4 -->
   <div class="timeline-item">
-    <div class="date-circle">01 May</div>
+    <div class="date-circle"></div>
     <div class="event-text">Labor Day events and discussions on workers' rights.</div>
   </div>
 
   <!-- Timeline item 5 -->
   <div class="timeline-item">
-    <div class="date-circle">31 Oct</div>
+    <div class="date-circle"></div>
     <div class="event-text">Halloween celebration with costume party and trick-or-treating.</div>
   </div>
 
   <!-- Timeline item 6 -->
   <div class="timeline-item">
-    <div class="date-circle">25 Dec</div>
+    <div class="date-circle"></div>
     <div class="event-text">Christmas celebration, gift exchange, and holiday dinner.</div>
   </div>
 </div>
+
 
 
 ## Coming soon 🚧
