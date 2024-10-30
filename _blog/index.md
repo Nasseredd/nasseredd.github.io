@@ -23,7 +23,7 @@ author_profile: true
   }
   .timeline-item {
     display: flex;
-    align-items: flex-start; /* Aligns items to the top */
+    align-items: center; /* Center-aligns items vertically */
     justify-content: space-between;
     width: 100%;
     max-width: 800px;
@@ -44,7 +44,7 @@ author_profile: true
     font-size: 14px;
     color: #333;
     width: 45%;
-    margin-top: 4px; /* Aligns first line with the circle */
+    line-height: 1.2; /* Fine-tunes line height */
   }
   .event-left {
     text-align: right;
@@ -109,7 +109,11 @@ author_profile: true
   </div>
 
   <div class="timeline-item">
-    <div class="event-text event-left"><strong>10 February 2023</strong> [Paris, France🇫🇷] First in-person meeting with the REFINED project team at CERIAH (Pasteur Institute) to discuss the setup of patient tests.</div>
+    <div class="event-text event-left">
+        <strong>10 February 2023</strong> 
+        <br>First in-person meeting with the REFINED project team at CERIAH (Pasteur Institute) to discuss the setup of patient tests.
+        <br>Paris, France🇫🇷
+    </div>
     <div class="date-circle"></div>
     <div class="event-text event-right"></div>
   </div>
@@ -117,7 +121,11 @@ author_profile: true
   <div class="timeline-item">
     <div class="event-text event-left"></div>
     <div class="date-circle"></div>
-    <div class="event-text event-right"><strong>12 December 2022</strong> [Nancy, France🇫🇷] Started a PhD at the Multispeech team (Loria-Inria) and Université de Lorraine.</div>
+    <div class="event-text event-right">
+        <strong>12 December 2022</strong> 
+        <br>Started a PhD at the Multispeech team (Loria-Inria) and Université de Lorraine.
+        <br>Nancy, France🇫🇷 
+    </div>
   </div>
 </div>
 
