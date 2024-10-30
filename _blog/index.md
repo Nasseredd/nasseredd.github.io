@@ -32,37 +32,37 @@ author_profile: true
   <!-- Timeline item 1 -->
   <div class="timeline-item">
     <div class="date-circle"></div>
-    <div class="event-text">New Year's Day celebration with family and friends.</div>
+    <div class="event-text"><strong>1091</strong> New Year's Day celebration with family and friends.</div>
   </div>
 
   <!-- Timeline item 2 -->
   <div class="timeline-item">
     <div class="date-circle"></div>
-    <div class="event-text">Valentine's Day dinner and gift exchange with loved ones.</div>
+    <div class="event-text"><strong>1091</strong> Valentine's Day dinner and gift exchange with loved ones.</div>
   </div>
 
   <!-- Timeline item 3 -->
   <div class="timeline-item">
     <div class="date-circle"></div>
-    <div class="event-text">Spring begins, celebrated with a family picnic.</div>
+    <div class="event-text"><strong>1091</strong> Spring begins, celebrated with a family picnic.</div>
   </div>
 
   <!-- Timeline item 4 -->
   <div class="timeline-item">
     <div class="date-circle"></div>
-    <div class="event-text">Labor Day events and discussions on workers' rights.</div>
+    <div class="event-text"><strong>1091</strong> Labor Day events and discussions on workers' rights.</div>
   </div>
 
   <!-- Timeline item 5 -->
   <div class="timeline-item">
     <div class="date-circle"></div>
-    <div class="event-text">Halloween celebration with costume party and trick-or-treating.</div>
+    <div class="event-text"><strong>1091</strong> Halloween celebration with costume party and trick-or-treating.</div>
   </div>
 
   <!-- Timeline item 6 -->
   <div class="timeline-item">
     <div class="date-circle"></div>
-    <div class="event-text">Christmas celebration, gift exchange, and holiday dinner.</div>
+    <div class="event-text"><strong>1091</strong> Christmas celebration, gift exchange, and holiday dinner.</div>
   </div>
 </div>
 
