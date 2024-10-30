@@ -24,7 +24,7 @@ layout: single
   }
   .timeline-item {
     display: flex;
-    align-items: center; /* Center-aligns items vertically */
+    align-items: flex-start;
     justify-content: space-between;
     width: 100%;
     max-width: 800px;
@@ -45,10 +45,8 @@ layout: single
     font-size: 14px;
     color: #333;
     width: 45%;
-    line-height: 1.5;
     display: flex;
     flex-direction: column;
-    justify-content: center;
   }
   .event-left {
     text-align: right;
@@ -58,6 +56,14 @@ layout: single
     text-align: left;
     padding-left: 10px;
   }
+  .event-date {
+    margin-bottom: 5px; /* Adds space between date and the rest of the content */
+    font-weight: bold;
+    line-height: 20px; /* Aligns with the circle */
+  }
+  .event-description {
+    margin-top: 0;
+  }
 </style>
 
 <div class="timeline-container">
@@ -66,9 +72,11 @@ layout: single
   <!-- Timeline items -->
   <div class="timeline-item">
     <div class="event-text event-left">
-        <strong>October 11th, 2024</strong> 
-        <br>Participated with Dr. Romain Serizel in a workshop at Fête de la science titled “Aides auditives : la puce à l’oreille” for primary and middle school children on Friday, and for the general public on Saturday.
+      <div class="event-date">October 11th, 2024</div>
+      <div class="event-description">
+        Participated with Dr. Romain Serizel in a workshop at Fête de la science titled “Aides auditives : la puce à l’oreille” for primary and middle school children on Friday, and for the general public on Saturday.
         <br>Nancy, France🇫🇷
+      </div>
     </div>
     <div class="date-circle"></div>
     <div class="event-text event-right"></div>
@@ -78,17 +86,21 @@ layout: single
     <div class="event-text event-left"></div>
     <div class="date-circle"></div>
     <div class="event-text event-right">
-        <strong>September 9th, 2024</strong> 
-        <br>Attended the 3rd edition of the AI4Sustainability summer school and participated in the hackathon, presenting a sustainable startup idea leveraging AI.
+      <div class="event-date">September 9th, 2024</div>
+      <div class="event-description">
+        Attended the 3rd edition of the AI4Sustainability summer school and participated in the hackathon, presenting a sustainable startup idea leveraging AI.
         <br>Milan, Italy🇮🇹
+      </div>
     </div>
   </div>
 
   <div class="timeline-item">
     <div class="event-text event-left">
-        <strong>February 1st, 2024</strong> 
-        <br>Started giving lectures on Algorithm Quality and Virtualization using Docker at IUT Nancy Charlemagne—Université de Lorraine.
+      <div class="event-date">February 1st, 2024</div>
+      <div class="event-description">
+        Started giving lectures on Algorithm Quality and Virtualization using Docker at IUT Nancy Charlemagne—Université de Lorraine.
         <br>Nancy, France🇫🇷
+      </div>
     </div>
     <div class="date-circle"></div>
     <div class="event-text event-right"></div>
@@ -98,17 +110,21 @@ layout: single
     <div class="event-text event-left"></div>
     <div class="date-circle"></div>
     <div class="event-text event-right">
-        <strong>January 8th, 2024</strong> 
-        <br>Presented at the 15th edition of the SPIN workshop, a poster comparing speech enhancement models on both utterance and phoneme scales.
+      <div class="event-date">January 8th, 2024</div>
+      <div class="event-description">
+        Presented at the 15th edition of the SPIN workshop, a poster comparing speech enhancement models on both utterance and phoneme scales.
         <br>Potsdam, Germany🇩🇪
+      </div>
     </div>
   </div>
 
   <div class="timeline-item">
     <div class="event-text event-left">
-        <strong>November 29th, 2023</strong> 
-        <br>Attended the 10th edition of the RJCP workshop, where I presented a poster on our preliminary results evaluating speech enhancement algorithms at the phoneme scale.
+      <div class="event-date">November 29th, 2023</div>
+      <div class="event-description">
+        Attended the 10th edition of the RJCP workshop, where I presented a poster on our preliminary results evaluating speech enhancement algorithms at the phoneme scale.
         <br>Grenoble, France🇫🇷
+      </div>
     </div>
     <div class="date-circle"></div>
     <div class="event-text event-right"></div>
@@ -118,17 +134,21 @@ layout: single
     <div class="event-text event-left"></div>
     <div class="date-circle"></div>
     <div class="event-text event-right">
-        <strong>October 14th, 2023</strong> 
-        <br>Participated with Dr. Romain Serizel in a 2-day workshop at Fête de la science titled “Aides auditives : la puce à l’oreille” for primary and middle school children on Friday, and for the general public on Saturday.
+      <div class="event-date">October 14th, 2023</div>
+      <div class="event-description">
+        Participated with Dr. Romain Serizel in a 2-day workshop at Fête de la science titled “Aides auditives : la puce à l’oreille” for primary and middle school children on Friday, and for the general public on Saturday.
         <br>Nancy, France🇫🇷
+      </div>
     </div>
   </div>
 
   <div class="timeline-item">
     <div class="event-text event-left">
-        <strong>September 1st, 2023</strong> 
-        <br>Started giving lectures on Shell and LaTeX, as well as supervising Python practical sessions at IDMC–Université de Lorraine.
+      <div class="event-date">September 1st, 2023</div>
+      <div class="event-description">
+        Started giving lectures on Shell and LaTeX, as well as supervising Python practical sessions at IDMC–Université de Lorraine.
         <br>Nancy, France🇫🇷
+      </div>
     </div>
     <div class="date-circle"></div>
     <div class="event-text event-right"></div>
@@ -138,17 +158,21 @@ layout: single
     <div class="event-text event-left"></div>
     <div class="date-circle"></div>
     <div class="event-text event-right">
-        <strong>June 5th, 2023</strong> 
-        <br>Attended the 10-day course "HEARING: From Mechanism to Restoration Technologies" at the Institut de l’Audition, organized by Brice Bathellier and Boris Gourevitch from the Pasteur Institute.
+      <div class="event-date">June 5th, 2023</div>
+      <div class="event-description">
+        Attended the 10-day course "HEARING: From Mechanism to Restoration Technologies" at the Institut de l’Audition, organized by Brice Bathellier and Boris Gourevitch from the Pasteur Institute.
         <br>Paris, France🇫🇷
+      </div>
     </div>
   </div>
 
   <div class="timeline-item">
     <div class="event-text event-left">
-        <strong>February 10th, 2023</strong> 
-        <br>First in-person meeting with the REFINED project team at CERIAH (Pasteur Institute) to discuss the setup of patient tests.
+      <div class="event-date">February 10th, 2023</div>
+      <div class="event-description">
+        First in-person meeting with the REFINED project team at CERIAH (Pasteur Institute) to discuss the setup of patient tests.
         <br>Paris, France🇫🇷
+      </div>
     </div>
     <div class="date-circle"></div>
     <div class="event-text event-right"></div>
@@ -158,12 +182,15 @@ layout: single
     <div class="event-text event-left"></div>
     <div class="date-circle"></div>
     <div class="event-text event-right">
-        <strong>December 12th, 2022</strong> 
-        <br>Started a PhD at the Multispeech team (Loria-Inria) and Université de Lorraine.
+      <div class="event-date">December 12th, 2022</div>
+      <div class="event-description">
+        Started a PhD at the Multispeech team (Loria-Inria) and Université de Lorraine.
         <br>Nancy, France🇫🇷 
+      </div>
     </div>
   </div>
 </div>
+
 
 
 <!-- * **11 October 2024** Participated with Dr. Romain Serizel to a workshop, at [Fête de la science](https://fst.univ-lorraine.fr/fetedelascience), titled "Aides auditives : la puce à l’oreille" for primary and middle school children on Friday, and for the general public on Saturday [Nancy, France🇫🇷].
