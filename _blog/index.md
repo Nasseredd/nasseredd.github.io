@@ -4,6 +4,75 @@ permalink: /blog/
 author_profile: true
 ---
 
+<style>
+  .timeline-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  .timeline-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .date-circle {
+    background-color: #3498db; /* Circle color */
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 18px;
+  }
+  .event-text {
+    font-size: 16px;
+    color: #333;
+  }
+</style>
+
+<div class="timeline-container">
+  <!-- Timeline item 1 -->
+  <div class="timeline-item">
+    <div class="date-circle">01 Jan</div>
+    <div class="event-text">New Year's Day celebration with family and friends.</div>
+  </div>
+
+  <!-- Timeline item 2 -->
+  <div class="timeline-item">
+    <div class="date-circle">14 Feb</div>
+    <div class="event-text">Valentine's Day dinner and gift exchange with loved ones.</div>
+  </div>
+
+  <!-- Timeline item 3 -->
+  <div class="timeline-item">
+    <div class="date-circle">21 Mar</div>
+    <div class="event-text">Spring begins, celebrated with a family picnic.</div>
+  </div>
+
+  <!-- Timeline item 4 -->
+  <div class="timeline-item">
+    <div class="date-circle">01 May</div>
+    <div class="event-text">Labor Day events and discussions on workers' rights.</div>
+  </div>
+
+  <!-- Timeline item 5 -->
+  <div class="timeline-item">
+    <div class="date-circle">31 Oct</div>
+    <div class="event-text">Halloween celebration with costume party and trick-or-treating.</div>
+  </div>
+
+  <!-- Timeline item 6 -->
+  <div class="timeline-item">
+    <div class="date-circle">25 Dec</div>
+    <div class="event-text">Christmas celebration, gift exchange, and holiday dinner.</div>
+  </div>
+</div>
+
+
 ## Coming soon 🚧
 <!-- 
 Title 
