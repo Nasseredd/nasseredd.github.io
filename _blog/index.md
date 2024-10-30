@@ -23,7 +23,7 @@ author_profile: true
   }
   .timeline-item {
     display: flex;
-    align-items: center; /* Center-aligns items vertically */
+    align-items: flex-start; /* Aligns items to the top */
     justify-content: space-between;
     width: 100%;
     max-width: 800px;
@@ -44,7 +44,7 @@ author_profile: true
     font-size: 14px;
     color: #333;
     width: 45%;
-    line-height: 1.2; /* Fine-tunes line height */
+    margin-top: 4px; /* Aligns first line with the circle */
   }
   .event-left {
     text-align: right;
@@ -61,7 +61,11 @@ author_profile: true
 
   <!-- Timeline items -->
   <div class="timeline-item">
-    <div class="event-text event-left"><strong>11 October 2024</strong> [Nancy, France🇫🇷] Participated with Dr. Romain Serizel in a workshop at Fête de la science titled “Aides auditives : la puce à l’oreille” for primary and middle school children on Friday, and for the general public on Saturday.</div>
+    <div class="event-text event-left">
+        <strong>11 October 2024</strong> 
+        <br>[Nancy, France🇫🇷]
+        <br>Participated with Dr. Romain Serizel in a workshop at Fête de la science titled “Aides auditives : la puce à l’oreille” for primary and middle school children on Friday, and for the general public on Saturday.
+    </div>
     <div class="date-circle"></div>
     <div class="event-text event-right"></div>
   </div>
@@ -69,11 +73,19 @@ author_profile: true
   <div class="timeline-item">
     <div class="event-text event-left"></div>
     <div class="date-circle"></div>
-    <div class="event-text event-right"><strong>9 September 2024</strong> [Milan, Italy🇮🇹] Attended the 3rd edition of the AI4Sustainability summer school and participated in the hackathon, presenting a sustainable startup idea leveraging AI .</div>
+    <div class="event-text event-right">
+        <strong>9 September 2024</strong> 
+        <br>[Milan, Italy🇮🇹]
+        <br>Attended the 3rd edition of the AI4Sustainability summer school and participated in the hackathon, presenting a sustainable startup idea leveraging AI.
+    </div>
   </div>
 
   <div class="timeline-item">
-    <div class="event-text event-left"><strong>1 February 2024</strong> [Nancy, France🇫🇷] Started giving lectures on Algorithm Quality and Virtualization using Docker at IUT Nancy Charlemagne—Université de Lorraine.</div>
+    <div class="event-text event-left">
+        <strong>1 February 2024</strong> 
+        <br>[Nancy, France🇫🇷]
+        <br>Started giving lectures on Algorithm Quality and Virtualization using Docker at IUT Nancy Charlemagne—Université de Lorraine.
+    </div>
     <div class="date-circle"></div>
     <div class="event-text event-right"></div>
   </div>
@@ -81,11 +93,19 @@ author_profile: true
   <div class="timeline-item">
     <div class="event-text event-left"></div>
     <div class="date-circle"></div>
-    <div class="event-text event-right"><strong>8 January 2024</strong> [Potsdam, Germany🇩🇪] Presented at the 15th edition of the SPIN workshop, a poster comparing speech enhancement models on both utterance and phoneme scales.</div>
+    <div class="event-text event-right">
+        <strong>8 January 2024</strong> 
+        <br>[Potsdam, Germany🇩🇪]
+        <br>Presented at the 15th edition of the SPIN workshop, a poster comparing speech enhancement models on both utterance and phoneme scales.
+    </div>
   </div>
 
   <div class="timeline-item">
-    <div class="event-text event-left"><strong>29 November 2023</strong> [Grenoble, France🇫🇷] Attended the 10th edition of the RJCP workshop, where I presented a poster on our preliminary results evaluating speech enhancement algorithms at the phoneme scale.</div>
+    <div class="event-text event-left">
+        <strong>29 November 2023</strong> 
+        <br>[Grenoble, France🇫🇷]
+        <br>Attended the 10th edition of the RJCP workshop, where I presented a poster on our preliminary results evaluating speech enhancement algorithms at the phoneme scale.
+    </div>
     <div class="date-circle"></div>
     <div class="event-text event-right"></div>
   </div>
@@ -93,11 +113,19 @@ author_profile: true
   <div class="timeline-item">
     <div class="event-text event-left"></div>
     <div class="date-circle"></div>
-    <div class="event-text event-right"><strong>14 October 2023</strong> [Nancy, France🇫🇷] Participated with Dr. Romain Serizel in a 2-day workshop at Fête de la science titled “Aides auditives : la puce à l’oreille” for primary and middle school children on Friday, and for the general public on Saturday.</div>
+    <div class="event-text event-right">
+        <strong>14 October 2023</strong> 
+        <br>[Nancy, France🇫🇷]
+        <br>Participated with Dr. Romain Serizel in a 2-day workshop at Fête de la science titled “Aides auditives : la puce à l’oreille” for primary and middle school children on Friday, and for the general public on Saturday.
+    </div>
   </div>
 
   <div class="timeline-item">
-    <div class="event-text event-left"><strong>1 September 2023</strong> [Nancy, France🇫🇷] Started giving lectures on Shell and LaTeX, as well as supervising Python practical sessions at IDMC–Université de Lorraine .</div>
+    <div class="event-text event-left">
+        <strong>1 September 2023</strong> 
+        <br>[Nancy, France🇫🇷]
+        <br>Started giving lectures on Shell and LaTeX, as well as supervising Python practical sessions at IDMC–Université de Lorraine.
+    </div>
     <div class="date-circle"></div>
     <div class="event-text event-right"></div>
   </div>
@@ -105,8 +133,13 @@ author_profile: true
   <div class="timeline-item">
     <div class="event-text event-left"></div>
     <div class="date-circle"></div>
-    <div class="event-text event-right"><strong>5 June 2023</strong> [Paris, France🇫🇷] Attended the 10-day course "HEARING: From Mechanism to Restoration Technologies" at the Institut de l’Audition, organized by Brice Bathellier and Boris Gourevitch from the Pasteur Institute.</div>
+    <div class="event-text event-right">
+        <strong>5 June 2023</strong> 
+        <br>[Paris, France🇫🇷]
+        <br>Attended the 10-day course "HEARING: From Mechanism to Restoration Technologies" at the Institut de l’Audition, organized by Brice Bathellier and Boris Gourevitch from the Pasteur Institute.
+    </div>
   </div>
+</div>
 
   <div class="timeline-item">
     <div class="event-text event-left">
