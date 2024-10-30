@@ -140,7 +140,7 @@ layout: single
         <br>Paris, France🇫🇷
     </div>
   </div>
-</div>
+
 
   <div class="timeline-item">
     <div class="event-text event-left">
