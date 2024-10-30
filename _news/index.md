@@ -24,7 +24,7 @@ layout: single
   }
   .timeline-item {
     display: flex;
-    align-items: flex-start; /* Aligns items to the top */
+    align-items: center; /* Center-aligns items vertically */
     justify-content: space-between;
     width: 100%;
     max-width: 800px;
@@ -45,7 +45,10 @@ layout: single
     font-size: 14px;
     color: #333;
     width: 45%;
-    margin-top: 4px; /* Aligns first line with the circle */
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .event-left {
     text-align: right;
@@ -141,7 +144,6 @@ layout: single
     </div>
   </div>
 
-
   <div class="timeline-item">
     <div class="event-text event-left">
         <strong>February 10th, 2023</strong> 
@@ -162,6 +164,7 @@ layout: single
     </div>
   </div>
 </div>
+
 
 <!-- * **11 October 2024** Participated with Dr. Romain Serizel to a workshop, at [Fête de la science](https://fst.univ-lorraine.fr/fetedelascience), titled "Aides auditives : la puce à l’oreille" for primary and middle school children on Friday, and for the general public on Saturday [Nancy, France🇫🇷].
 * **9 September 2024** Attended the 3rd edition of the [AI4Sustainability](https://summerschool.eitdigital.eu/ai4sustainability) summer school and participated in the hackathon, presenting a sustainable startup idea leveraging AI [Milan, Italy🇮🇹].
