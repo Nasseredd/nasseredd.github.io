@@ -8,7 +8,18 @@ author_profile: true
   .timeline-container {
     display: flex;
     flex-direction: column;
+    position: relative;
     margin: 20px 0;
+    padding-left: 30px; /* Adds space for the line */
+  }
+  .timeline-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 2px; /* Line thickness */
+    height: 100%;
+    background-color: #2E4053; /* Line color */
   }
   .timeline-item {
     display: flex;
@@ -16,14 +27,16 @@ author_profile: true
     margin-bottom: 15px;
   }
   .date-circle {
-    background-color: #2E4053; /* Updated circle color */
+    background-color: #2E4053; /* Circle color */
     border-radius: 50%;
-    width: 20px; /* Reduced size */
+    width: 20px; /* Circle size */
     height: 20px;
     margin-right: 15px;
+    position: relative;
+    z-index: 1; /* Ensures circles appear above the line */
   }
   .event-text {
-    font-size: 14px; /* Reduced font size */
+    font-size: 14px; /* Text size */
     color: #333;
   }
 </style>
