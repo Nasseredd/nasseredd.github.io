@@ -57,6 +57,7 @@ layout: single
     padding-left: 10px;
   }
   .event-date {
+    color: #2E4053;
     margin-bottom: 5px; /* Adds space between date and the rest of the content */
     font-weight: bold;
     line-height: 20px; /* Aligns with the circle */
