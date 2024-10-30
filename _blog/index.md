@@ -8,40 +8,46 @@ author_profile: true
   .timeline-container {
     display: flex;
     flex-direction: column;
+    align-items: center; /* Centers items along the line */
     position: relative;
     margin: 20px 0;
-    padding-left: 30px; /* Adds space for the line */
   }
-  .timeline-container::before {
-    content: '';
+  .timeline-line {
     position: absolute;
-    top: 0;
-    left: 20px;
-    width: 2px; /* Line thickness */
-    height: 100%;
+    width: 2px; /* Thickness of the line */
     background-color: #2E4053; /* Line color */
+    top: 0;
+    bottom: 0;
+    left: 50%; /* Center line horizontally */
+    transform: translateX(-50%); /* Ensures the line is centered */
   }
   .timeline-item {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+    width: 100%;
+    justify-content: center; /* Centers the circles on the line */
   }
   .date-circle {
     background-color: #2E4053; /* Circle color */
     border-radius: 50%;
     width: 20px; /* Circle size */
     height: 20px;
-    margin-right: 15px;
     position: relative;
     z-index: 1; /* Ensures circles appear above the line */
   }
   .event-text {
     font-size: 14px; /* Text size */
     color: #333;
+    width: 70%; /* Adjusts text width for readability */
+    padding-left: 20px; /* Adds space between circle and text */
   }
 </style>
 
 <div class="timeline-container">
+  <!-- Vertical line running through circles -->
+  <div class="timeline-line"></div>
+
   <!-- Timeline item 1 -->
   <div class="timeline-item">
     <div class="date-circle"></div>
