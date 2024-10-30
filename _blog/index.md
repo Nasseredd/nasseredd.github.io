@@ -14,36 +14,36 @@ author_profile: true
   }
   .timeline-line {
     position: absolute;
-    width: 2px; /* Thickness of the line */
-    background-color: #2E4053; /* Line color */
+    width: 2px;
+    background-color: #2E4053;
     top: 0;
     bottom: 0;
-    left: 50%; /* Center line horizontally */
-    transform: translateX(-50%); /* Ensures the line is centered */
+    left: 50%;
+    transform: translateX(-50%);
   }
   .timeline-item {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
     position: relative;
     margin: 20px 0;
   }
   .date-circle {
-    background-color: #2E4053; /* Circle color */
+    background-color: #2E4053;
     border-radius: 50%;
-    width: 20px; /* Circle size */
+    width: 20px;
     height: 20px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 1; /* Ensures circles appear above the line */
+    z-index: 1;
   }
   .event-text {
-    font-size: 14px; /* Text size */
+    font-size: 14px;
     color: #333;
-    width: 45%; /* Adjusts text width */
+    width: 45%;
   }
   .event-left {
     text-align: right;
@@ -56,49 +56,67 @@ author_profile: true
 </style>
 
 <div class="timeline-container">
-  <!-- Vertical line running through circles -->
   <div class="timeline-line"></div>
 
-  <!-- Timeline item 1 -->
+  <!-- Timeline items -->
   <div class="timeline-item">
-    <div class="event-text event-left"><strong>1091</strong> New Year's Day celebration with family and friends.</div>
+    <div class="event-text event-left"><strong>11 October 2024</strong> Participated with Dr. Romain Serizel in a workshop at Fête de la science titled “Aides auditives : la puce à l’oreille” for primary and middle school children on Friday, and for the general public on Saturday [Nancy, France🇫🇷].</div>
     <div class="date-circle"></div>
     <div class="event-text event-right"></div>
   </div>
 
-  <!-- Timeline item 2 -->
   <div class="timeline-item">
     <div class="event-text event-left"></div>
     <div class="date-circle"></div>
-    <div class="event-text event-right"><strong>1091</strong> Valentine's Day dinner and gift exchange with loved ones.</div>
+    <div class="event-text event-right"><strong>9 September 2024</strong> Attended the 3rd edition of the AI4Sustainability summer school and participated in the hackathon, presenting a sustainable startup idea leveraging AI [Milan, Italy🇮🇹].</div>
   </div>
 
-  <!-- Timeline item 3 -->
   <div class="timeline-item">
-    <div class="event-text event-left"><strong>1091</strong> Spring begins, celebrated with a family picnic.</div>
+    <div class="event-text event-left"><strong>1 February 2024</strong> Started giving lectures on Algorithm Quality and Virtualization using Docker at IUT Nancy Charlemagne—Université de Lorraine [Nancy, France🇫🇷].</div>
     <div class="date-circle"></div>
     <div class="event-text event-right"></div>
   </div>
 
-  <!-- Timeline item 4 -->
   <div class="timeline-item">
     <div class="event-text event-left"></div>
     <div class="date-circle"></div>
-    <div class="event-text event-right"><strong>1091</strong> Labor Day events and discussions on workers' rights.</div>
+    <div class="event-text event-right"><strong>8 January 2024</strong> Presented at the 15th edition of the SPIN workshop, a poster comparing speech enhancement models on both utterance and phoneme scales [Potsdam, Germany🇩🇪].</div>
   </div>
 
-  <!-- Timeline item 5 -->
   <div class="timeline-item">
-    <div class="event-text event-left"><strong>1091</strong> Halloween celebration with costume party and trick-or-treating.</div>
+    <div class="event-text event-left"><strong>29 November 2023</strong> Attended the 10th edition of the RJCP workshop, where I presented a poster on our preliminary results evaluating speech enhancement algorithms at the phoneme scale [Grenoble, France🇫🇷].</div>
     <div class="date-circle"></div>
     <div class="event-text event-right"></div>
   </div>
 
-  <!-- Timeline item 6 -->
   <div class="timeline-item">
     <div class="event-text event-left"></div>
     <div class="date-circle"></div>
-    <div class="event-text event-right"><strong>1091</strong> Christmas celebration, gift exchange, and holiday dinner.</div>
+    <div class="event-text event-right"><strong>14 October 2023</strong> Participated with Dr. Romain Serizel in a 2-day workshop at Fête de la science titled “Aides auditives : la puce à l’oreille” for primary and middle school children on Friday, and for the general public on Saturday [Nancy, France🇫🇷].</div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="event-text event-left"><strong>1 September 2023</strong> Started giving lectures on Shell and LaTeX, as well as supervising Python practical sessions at IDMC–Université de Lorraine [Nancy, France🇫🇷].</div>
+    <div class="date-circle"></div>
+    <div class="event-text event-right"></div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="event-text event-left"></div>
+    <div class="date-circle"></div>
+    <div class="event-text event-right"><strong>5 June 2023</strong> Attended the 10-day course "HEARING: From Mechanism to Restoration Technologies" at the Institut de l’Audition, organized by Brice Bathellier and Boris Gourevitch from the Pasteur Institute [Paris, France🇫🇷].</div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="event-text event-left"><strong>10 February 2023</strong> First in-person meeting with the REFINED project team at CERIAH (Pasteur Institute) to discuss the setup of patient tests [Paris, France🇫🇷].</div>
+    <div class="date-circle"></div>
+    <div class="event-text event-right"></div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="event-text event-left"></div>
+    <div class="date-circle"></div>
+    <div class="event-text event-right"><strong>12 December 2022</strong> Started a PhD at the Multispeech team (Loria-Inria) and Université de Lorraine [Nancy, France🇫🇷].</div>
   </div>
 </div>
 
