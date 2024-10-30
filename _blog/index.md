@@ -139,7 +139,7 @@ author_profile: true
         <br>Paris, France🇫🇷
     </div>
   </div>
-</div>
+
 
   <div class="timeline-item">
     <div class="event-text event-left">
@@ -160,6 +160,7 @@ author_profile: true
         <br>Nancy, France🇫🇷 
     </div>
   </div>
+  
 </div>
 
 
