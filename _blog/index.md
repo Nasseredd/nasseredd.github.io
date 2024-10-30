@@ -63,8 +63,8 @@ author_profile: true
   <div class="timeline-item">
     <div class="event-text event-left">
         <strong>11 October 2024</strong> 
-        <br>[Nancy, France🇫🇷]
         <br>Participated with Dr. Romain Serizel in a workshop at Fête de la science titled “Aides auditives : la puce à l’oreille” for primary and middle school children on Friday, and for the general public on Saturday.
+        <br>Nancy, France🇫🇷
     </div>
     <div class="date-circle"></div>
     <div class="event-text event-right"></div>
@@ -75,16 +75,16 @@ author_profile: true
     <div class="date-circle"></div>
     <div class="event-text event-right">
         <strong>9 September 2024</strong> 
-        <br>[Milan, Italy🇮🇹]
         <br>Attended the 3rd edition of the AI4Sustainability summer school and participated in the hackathon, presenting a sustainable startup idea leveraging AI.
+        <br>Milan, Italy🇮🇹
     </div>
   </div>
 
   <div class="timeline-item">
     <div class="event-text event-left">
         <strong>1 February 2024</strong> 
-        <br>[Nancy, France🇫🇷]
         <br>Started giving lectures on Algorithm Quality and Virtualization using Docker at IUT Nancy Charlemagne—Université de Lorraine.
+        <br>Nancy, France🇫🇷
     </div>
     <div class="date-circle"></div>
     <div class="event-text event-right"></div>
@@ -95,16 +95,16 @@ author_profile: true
     <div class="date-circle"></div>
     <div class="event-text event-right">
         <strong>8 January 2024</strong> 
-        <br>[Potsdam, Germany🇩🇪]
         <br>Presented at the 15th edition of the SPIN workshop, a poster comparing speech enhancement models on both utterance and phoneme scales.
+        <br>Potsdam, Germany🇩🇪
     </div>
   </div>
 
   <div class="timeline-item">
     <div class="event-text event-left">
         <strong>29 November 2023</strong> 
-        <br>[Grenoble, France🇫🇷]
         <br>Attended the 10th edition of the RJCP workshop, where I presented a poster on our preliminary results evaluating speech enhancement algorithms at the phoneme scale.
+        <br>Grenoble, France🇫🇷
     </div>
     <div class="date-circle"></div>
     <div class="event-text event-right"></div>
@@ -115,16 +115,16 @@ author_profile: true
     <div class="date-circle"></div>
     <div class="event-text event-right">
         <strong>14 October 2023</strong> 
-        <br>[Nancy, France🇫🇷]
         <br>Participated with Dr. Romain Serizel in a 2-day workshop at Fête de la science titled “Aides auditives : la puce à l’oreille” for primary and middle school children on Friday, and for the general public on Saturday.
+        <br>Nancy, France🇫🇷
     </div>
   </div>
 
   <div class="timeline-item">
     <div class="event-text event-left">
         <strong>1 September 2023</strong> 
-        <br>[Nancy, France🇫🇷]
         <br>Started giving lectures on Shell and LaTeX, as well as supervising Python practical sessions at IDMC–Université de Lorraine.
+        <br>Nancy, France🇫🇷
     </div>
     <div class="date-circle"></div>
     <div class="event-text event-right"></div>
@@ -135,8 +135,8 @@ author_profile: true
     <div class="date-circle"></div>
     <div class="event-text event-right">
         <strong>5 June 2023</strong> 
-        <br>[Paris, France🇫🇷]
         <br>Attended the 10-day course "HEARING: From Mechanism to Restoration Technologies" at the Institut de l’Audition, organized by Brice Bathellier and Boris Gourevitch from the Pasteur Institute.
+        <br>Paris, France🇫🇷
     </div>
   </div>
 </div>
