@@ -4,7 +4,7 @@ permalink: /blog/
 author_profile: true
 ---
 
-<div class="content-section">
+<!-- <div class="content-section">
 
   <!-- Introductory Text -->
   <p>Welcome to the Latest News section! Here you’ll find updates on recent activities, research highlights, and significant accomplishments. We aim to keep you informed about our academic journey and ongoing projects.</p>
@@ -46,7 +46,7 @@ author_profile: true
   <!-- Closing Text -->
   <p>Thank you for following our journey! Stay tuned for more updates, and feel free to reach out if you’re interested in learning more about our work or potential collaborations.</p>
 
-</div>
+</div> -->
 
 
 ## Coming soon 🚧
