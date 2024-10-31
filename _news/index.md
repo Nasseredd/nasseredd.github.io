@@ -9,10 +9,9 @@ layout: single
   .timeline-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align items to the left */
+    align-items: center;
     position: relative;
     margin: 20px 0;
-    padding-left: 50px; /* Adjust to move content away from the line */
   }
   .timeline-line {
     position: absolute;
@@ -20,12 +19,13 @@ layout: single
     background-color: #2E4053;
     top: 0;
     bottom: 0;
-    left: 0; /* Move line to the left */
+    left: 50%;
+    transform: translateX(-50%);
   }
   .timeline-item {
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: space-between;
     width: 100%;
     max-width: 800px;
     position: relative;
@@ -37,13 +37,14 @@ layout: single
     width: 20px;
     height: 20px;
     position: absolute;
-    left: -10px; /* Adjust circle position to the left */
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 1;
   }
   .event-text {
     font-size: 14px;
     color: #333;
-    width: 90%; /* Increase width for text to occupy space */
+    width: 45%;
     display: flex;
     flex-direction: column;
   }
