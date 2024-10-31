@@ -4,6 +4,51 @@ permalink: /blog/
 author_profile: true
 ---
 
+<div class="content-section">
+
+  <!-- Introductory Text -->
+  <p>Welcome to the Latest News section! Here you’ll find updates on recent activities, research highlights, and significant accomplishments. We aim to keep you informed about our academic journey and ongoing projects.</p>
+
+  <!-- Image Left, Text Right -->
+  <div style="display: flex; align-items: center; margin: 20px 0;">
+    <div style="flex: 1;">
+      <img src="/images/2c51168a-e899-461c-8578-b9f26bad5544.jpg" alt="Research conference image" style="width: 100%; max-width: 300px;">
+      <p style="font-size: small; text-align: center;">Figure 1: Our team at the recent research conference.</p>
+    </div>
+    <div style="flex: 2; padding-left: 20px;">
+      <p>At the latest conference on artificial intelligence, our team presented groundbreaking work on speech enhancement techniques. The reception was highly encouraging, and discussions with fellow researchers opened new avenues for collaboration and study.</p>
+    </div>
+  </div>
+
+  <!-- Additional Text -->
+  <p>Following the conference, we continued our research in the lab, aiming to refine our models based on the feedback received. This step is crucial for ensuring that our methodologies are robust and adaptable in real-world applications.</p>
+
+  <!-- Image Right, Text Left -->
+  <div style="display: flex; align-items: center; margin: 20px 0;">
+    <div style="flex: 2; padding-right: 20px;">
+      <p>Recently, our team had the opportunity to conduct a series of experiments that demonstrated significant improvements in real-time processing efficiency. This milestone is a testament to the hard work and dedication of each team member, as well as the support from our academic community.</p>
+    </div>
+    <div style="flex: 1;">
+      <img src="/images/2c51168a-e899-461c-8578-b9f26bad5544.jpg" alt="Laboratory experiment" style="width: 100%; max-width: 300px;">
+      <p style="font-size: small; text-align: center;">Figure 2: Experimental setup in our lab.</p>
+    </div>
+  </div>
+
+  <!-- Additional Text -->
+  <p>As our research progresses, we remain committed to sharing our findings through publications and workshops. We believe that open communication is essential for advancing knowledge and fostering innovation.</p>
+
+  <!-- Centered Image -->
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="/images/2c51168a-e899-461c-8578-b9f26bad5544.jpg" alt="Team group photo" style="width: 100%; max-width: 600px;">
+    <p style="font-size: small;">Figure 3: Our research team celebrating a successful year.</p>
+  </div>
+
+  <!-- Closing Text -->
+  <p>Thank you for following our journey! Stay tuned for more updates, and feel free to reach out if you’re interested in learning more about our work or potential collaborations.</p>
+
+</div>
+
+
 ## Coming soon 🚧
 <!-- 
 Title 
