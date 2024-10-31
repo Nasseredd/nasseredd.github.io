@@ -9,9 +9,10 @@ layout: single
   .timeline-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start; /* Align items to the left */
     position: relative;
     margin: 20px 0;
+    padding-left: 50px; /* Adjust to move content away from the line */
   }
   .timeline-line {
     position: absolute;
@@ -19,13 +20,12 @@ layout: single
     background-color: #2E4053;
     top: 0;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0; /* Move line to the left */
   }
   .timeline-item {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 100%;
     max-width: 800px;
     position: relative;
@@ -37,14 +37,13 @@ layout: single
     width: 20px;
     height: 20px;
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    left: -10px; /* Adjust circle position to the left */
     z-index: 1;
   }
   .event-text {
     font-size: 14px;
     color: #333;
-    width: 45%;
+    width: 90%; /* Increase width for text to occupy space */
     display: flex;
     flex-direction: column;
   }
