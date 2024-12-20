@@ -8,7 +8,7 @@ author_profile: true
 
 ##### MSc NLP, IDMC - Université de Lorraine, 2024-2025.
 
-I am supervising Python practical sessions as part of the "Speech Robustness" course, following the lectures delivered by Dr. Romain Serizel. The course explores key topics such as speech production, speech representation, speech enhancement, and speech recognition. These practicals provide students with hands-on experience in implementing speech processing techniques using Python.
+I am supervising practical sessions as part of the "Speech Robustness" course, following the lectures delivered by Dr. Romain Serizel. The course explores key topics such as speech production, speech representation, speech enhancement, and speech recognition. These practicals provide students with hands-on experience in implementing speech processing techniques using Python.
 
 🧑‍💻 [Practical 1](/files/Practical-1.zip)
 
