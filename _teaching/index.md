@@ -11,7 +11,7 @@ author_profile: true
 I am supervising practical sessions as part of the "Speech Robustness" course, following the lectures delivered by Dr. Romain Serizel. The course explores key topics such as speech production, speech representation, speech enhancement, and speech recognition. These practicals provide students with hands-on experience in implementing speech processing techniques using Python.
 
 🧑‍💻 [Practical 1](/files/Practical-1.zip)
-🧑‍💻 [Practical 1](/files/speech_robustness/Practical-2.zip)
+🧑‍💻 [Practical 2](/files/speech_robustness/Practical-2.zip)
 
 
 ## Introduction to Python (EN/FR) ![emoji](/images/python-logo.jpeg){:height="40px" width="40px"}
