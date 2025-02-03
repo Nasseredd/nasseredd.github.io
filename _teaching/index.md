@@ -12,7 +12,7 @@ I am supervising practical sessions as part of the "Speech Robustness" course, f
 
 🧑‍💻 [Practical 1](/files/Practical-1.zip)
 🧑‍💻 [Practical 2](/files/speech_robustness/Practical-2.zip)
-🧑‍💻 [Practical 3](https://colab.research.google.com/drive/1ELmncdWL-3og9LyCcGGHZfN168HFrGZo?usp=sharing)
+🧑‍💻 [Practical 3]()
 
 
 ## Introduction to Python (EN/FR) ![emoji](/images/python-logo.jpeg){:height="40px" width="40px"}
