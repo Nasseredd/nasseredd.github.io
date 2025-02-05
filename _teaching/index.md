@@ -4,9 +4,18 @@ permalink: /teaching/
 author_profile: true
 ---
 
+## Speech Processing (EN/FR) 🔊
+
+##### MSc NLP (Li), IDMC - Université de Lorraine, 2024-2025.
+
+I am supervising practical sessions as part of the "Speech Processing" course, following the lectures delivered by Dr. Yves Laprie and Dr. Romain Serizel. This course delves into fundamental aspects of speech processing, including signal representation, enhancement techniques, and phoneme analysis. Through practical exercises, students gain hands-on experience applying these concepts in Python, developing essential skills for speech analysis and processing.
+
+🧑‍💻 [Practical 1](/files/speech_processing/Practical-1.zip)
+
+
 ## Speech Robustness (EN/FR) 🔊
 
-##### MSc NLP, IDMC - Université de Lorraine, 2024-2025.
+##### MSc NLP (ILPC), IDMC - Université de Lorraine, 2024-2025.
 
 I am supervising practical sessions as part of the "Speech Robustness" course, following the lectures delivered by Dr. Romain Serizel. The course explores key topics such as speech production, speech representation, speech enhancement, and speech recognition. These practicals provide students with hands-on experience in implementing speech processing techniques using Python.
 
