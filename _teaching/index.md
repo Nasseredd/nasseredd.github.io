@@ -12,7 +12,7 @@ I am supervising practical sessions as part of the "Speech Processing" course, f
 
 🧑‍💻 [Practical 1](/files/speech_processing/Practical-1.zip)
 🧑‍💻 [Practical 2](/files/speech_processing/Practical-2.zip)
-<!-- 🧑‍💻 [Practical 3](/files/speech_processing/Practical-3.zip) -->
+🧑‍💻 [Practical 3](/files/speech_processing/Practical-3.zip)
 
 
 ## Speech Robustness (EN/FR) 🔊
