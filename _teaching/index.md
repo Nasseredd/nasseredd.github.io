@@ -11,6 +11,8 @@ author_profile: true
 I am supervising practical sessions as part of the "Speech Processing" course, following the lectures delivered by Dr. Yves Laprie and Dr. Romain Serizel. This course delves into fundamental aspects of speech processing, including signal representation, enhancement techniques, and phoneme analysis. Through practical exercises, students gain hands-on experience applying these concepts in Python, developing essential skills for speech analysis and processing.
 
 🧑‍💻 [Practical 1](/files/speech_processing/Practical-1.zip)
+🧑‍💻 [Practical 2](/files/speech_processing/Practical-2.zip)
+<!-- 🧑‍💻 [Practical 3](/files/speech_processing/Practical-3.zip) -->
 
 
 ## Speech Robustness (EN/FR) 🔊
