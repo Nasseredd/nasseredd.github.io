@@ -4,11 +4,11 @@ permalink: /blog/speech-and-language-processing/creating-a-mixture
 author_profile: true
 ---
 
-# Introduction
+## Introduction
 
 Multichannel speech and noise mixtures are essential in various applications, such as speech enhancement, source separation, and robust automatic speech recognition (ASR). This article offers a thorough explanation and a step-by-step guide for creating a multichannel mixture of speech and noise, considering spatial characteristics, room acoustics, and microphone configurations. In this article, we would like to create a speech and noise mixture for a binaural speech enhancement for hearing aids. 
 
-# Data
+## Data
 
 In the following, we will work with a speech signal from the test-clean subset of Librispeech, a noise signal from Freesound, and two room impulse responses generated from recordings made in a room at CERIAH (Institut Pasteur), with which I collaborate as part of the REFINED research project.
 
@@ -25,7 +25,7 @@ noise_rir = no.load('rir_90.npz')
 ```
     
 
-# Single-Channel Mixture
+## Single-Channel Mixture
 
 In the context of speech enhancement, a mixture refers to a signal that combines multiple audio sources, such as a clean speech and a noise signal, often at a specific signal-to-noise ratio (SNR). A multichannel mixture can be represented as: 
 
@@ -42,9 +42,9 @@ where $x[t]$ is the simulated mixture, $s[t]$ is the clean speech signal, and $n
     ```
      -->
 
-# Single-Channel Mixture with respect to a desired SNR
+## Single-Channel Mixture with respect to a desired SNR
 
-### Signal-to-Noise Ratio
+###### Signal-to-Noise Ratio
 
 The signal-to-noise Ratio (SNR) is a measure that quantifies the relative strength of a desired signal (e.g. clean speech) compared to a background noise. A higher SNR indicates a clearer signal with less noise, while a lower SNR means the noise is more dominant than the signal.
 
@@ -62,7 +62,7 @@ Precisely,
 - if $\text{SNR}_{\text{dB}} > 0$, it means the speech energy is higher than the noise energy.
 - if $\text{SNR}_{\text{dB}} < 0$, it means the speech energy is lower than the noise energy.
 
-### Scaling noise to achieve the desired SNR
+###### Scaling noise to achieve the desired SNR
 
 To generate a mixture that satisfies a given $\text{SNR}_{\text{dB}}$, we scale either the speech signal or the noise signal accordingly. Indeed, our goal is to determine the appropriate gain factor $\alpha$ so that the speech and noise energies achieve the desired $\text{SNR}_{\text{dB}}$ level. 
 
@@ -96,7 +96,7 @@ $\alpha = \frac{P_s}{P_n} \cdot 10^{-\frac{\text{SNR}_{\text{dB}} }{20}}$
 
 $\alpha = \frac{\sum s^2}{\sum n^2} \cdot 10^{-\frac{\text{SNR}_{\text{dB}} }{20}}$
 
-### Accounting for RMSE-normalized signals
+###### Accounting for RMSE-normalized signals
 
 This formulation of $\alpha$ do not account for normalized signals using RMSE. If this normalization is applied, replacing $s$ and $n$ by their normalized verions:
 
@@ -129,11 +129,11 @@ $\alpha =
 
 ⚠️ Ensure that if you normalize your signals using $\text{RMSE}$, you apply the second equation. Otherwise, the term $\frac{\sum s^2}{\sum n^2}$ which should ideally be equal to 1, may deviate in practice, potentially affecting the accuracy of your scaling factor $\alpha$.
 
-### Handling Silent Portions in Speech for Accurate Gain Computation
+###### Handling Silent Portions in Speech for Accurate Gain Computation
 
 In practice, speech signals often contain silent portions with very low energy. These segments can reduce the overall energy of the speech signal, leading to an inaccurate computation of the gain factor. To address this issue, one approach is to selectively retain only samples with a magnitude above a certain threshold (e.g., 0.01). Alternatively, a Voice Activity Detector (VAD) can be used to extract speech segments while discarding silence, ensuring a more reliable gain computation.
 
-### Final Mixture Computation
+###### Final Mixture Computation
 
 Now that we have determined the gain factor $\alpha$, we compute the mixture as:
 
@@ -163,7 +163,7 @@ $$
     ```
      -->
 
-# Multichannel Mixture
+## Multichannel Mixture
 
 What if we want to simulate a mixture inside an enclosed room ?
 
