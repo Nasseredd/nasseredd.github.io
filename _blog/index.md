@@ -14,12 +14,25 @@ Whether you're here to <strong>learn, explore, or follow my research journey</st
 ## Sections
 
 <style>
+    .hover-shadow a {
+        display: inline-block;
+        transition: box-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
+    }
+
+    .hover-shadow a:hover {
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+    }
+
     .hover-shadow img {
         transition: box-shadow 0.3s ease-in-out;
     }
 
-    .hover-shadow img:hover {
-        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Very subtle shadow */
+    .hover-shadow a:hover img {
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .hover-shadow a:hover p {
+        color: #007bff; /* Change text color on hover (blue) */
     }
 </style>
 
@@ -29,7 +42,7 @@ Whether you're here to <strong>learn, explore, or follow my research journey</st
         <p><strong>Machine Learning</strong></p>
     </div>
     <div style="text-align: center; flex: 1;" class="hover-shadow">
-        <a href="{{ site.baseurl }}/blog/speech-and-language-processing" style="text-decoration: none; color: inherit;">
+        <a href="{{ site.baseurl }}/blog/speech-and-language-processing" style="text-decoration: none; color: inherit; display: block;">
             <img src="{{ site.baseurl }}/files/blog/speech-and-language-processing-.jpg" width="400px" height="300px">
             <p><strong>Speech and Language Processing</strong></p>
         </a>
