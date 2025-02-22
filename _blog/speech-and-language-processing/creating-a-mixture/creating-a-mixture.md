@@ -12,18 +12,17 @@ Multichannel speech and noise mixtures are essential in various applications, su
 
 In the following, we will work with a speech signal from the test-clean subset of Librispeech, a noise signal from Freesound, and two room impulse responses generated from recordings made in a room at CERIAH (Institut Pasteur), with which I collaborate as part of the REFINED research project.
 
-<summary>Code</summary>
-    <pre><code class="language-python">
-    import numpy as np
-    import soundfile as sf
+```Python3
+import numpy as np
+import soundfile as sf
 
-    speech, sr = sf.read('speech.wav')
-    noise, sr = sf.read('noise.wav')
+speech, sr = sf.read('speech.wav')
+noise, sr = sf.read('noise.wav')
 
-    speech_rir = np.load('rir_0.npz')
-    noise_rir = np.load('rir_90.npz')
-    </code></pre>
-    
+speech_rir = np.load('rir_0.npz')
+noise_rir = np.load('rir_90.npz')
+</code></pre>
+```    
 
 ## Single-Channel Mixture
 
@@ -44,7 +43,7 @@ where $$x[t]$$ is the simulated mixture, $$s[t]$$ is the clean speech signal, an
 
 ## Single-Channel Mixture with respect to a desired SNR
 
-###### Signal-to-Noise Ratio
+#### Signal-to-Noise Ratio
 
 The signal-to-noise Ratio (SNR) is a measure that quantifies the relative strength of a desired signal (e.g. clean speech) compared to a background noise. A higher SNR indicates a clearer signal with less noise, while a lower SNR means the noise is more dominant than the signal.
 
@@ -62,7 +61,7 @@ Precisely,
 - if $$\text{SNR}_{\text{dB}} > 0$$, it means the speech energy is higher than the noise energy.
 - if $$\text{SNR}_{\text{dB}} < 0$$, it means the speech energy is lower than the noise energy.
 
-###### Scaling noise to achieve the desired SNR
+#### Scaling noise to achieve the desired SNR
 
 To generate a mixture that satisfies a given $$\text{SNR}_{\text{dB}}$$, we scale either the speech signal or the noise signal accordingly. Indeed, our goal is to determine the appropriate gain factor $$\alpha$$ so that the speech and noise energies achieve the desired $$\text{SNR}_{\text{dB}}$$ level. 
 
@@ -96,7 +95,7 @@ $$\alpha = \frac{P_s}{P_n} \cdot 10^{-\frac{\text{SNR}_{\text{dB}} }{20}}$$
 
 $$\alpha = \frac{\sum s^2}{\sum n^2} \cdot 10^{-\frac{\text{SNR}_{\text{dB}} }{20}}$$
 
-###### Accounting for RMSE-normalized signals
+#### Accounting for RMSE-normalized signals
 
 This formulation of $$\alpha$$ do not account for normalized signals using RMSE. If this normalization is applied, replacing $$s$$ and $$n$$ by their normalized verions:
 
@@ -129,11 +128,11 @@ $$\alpha =
 
 ⚠️ Ensure that if you normalize your signals using $$\text{RMSE}$$, you apply the second equation. Otherwise, the term $$\frac{\sum s^2}{\sum n^2}$$ which should ideally be equal to 1, may deviate in practice, potentially affecting the accuracy of your scaling factor $$\alpha$$.
 
-###### Handling Silent Portions in Speech for Accurate Gain Computation
+#### Handling Silent Portions in Speech for Accurate Gain Computation
 
 In practice, speech signals often contain silent portions with very low energy. These segments can reduce the overall energy of the speech signal, leading to an inaccurate computation of the gain factor. To address this issue, one approach is to selectively retain only samples with a magnitude above a certain threshold (e.g., 0.01). Alternatively, a Voice Activity Detector (VAD) can be used to extract speech segments while discarding silence, ensuring a more reliable gain computation.
 
-###### Final Mixture Computation
+#### Final Mixture Computation
 
 Now that we have determined the gain factor $$\alpha$$, we compute the mixture as:
 
