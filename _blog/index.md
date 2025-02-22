@@ -14,8 +14,8 @@ author_profile: true
   </div>
 
   <div style="text-align: center; flex: 1;">
-    <img src="{{ site.baseurl }}/assets/images/image2.jpg" width="400px" height="300px">
-    <p><strong>Title 2</strong></p>
+    <img src="{{ site.baseurl }}/files/blog/speech-and-language-processing-.jpg" width="400px" height="300px">
+    <p><strong>Speech and Language Processing</strong></p>
   </div>
 
 </div>
@@ -23,13 +23,13 @@ author_profile: true
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
 
   <div style="text-align: center; flex: 1;">
-    <img src="{{ site.baseurl }}/assets/images/image3.jpg" width="400px" height="300px">
-    <p><strong>Title 3</strong></p>
+    <img src="{{ site.baseurl }}/files/blog/ai-and-data-privacy.png" width="400px" height="300px">
+    <p><strong>AI & Data Privacy</strong></p>
   </div>
 
   <div style="text-align: center; flex: 1;">
-    <img src="{{ site.baseurl }}/assets/images/image4.jpg" width="400px" height="300px">
-    <p><strong>Title 4</strong></p>
+    <img src="{{ site.baseurl }}/files/blog/ai-driven-ethical-investing.jpg" width="400px" height="300px">
+    <p><strong>AI-Driven Ethical Investing</strong></p>
   </div>
 
 </div>
