@@ -20,19 +20,21 @@ Whether you're here to <strong>learn, explore, or follow my research journey</st
     }
 
     .hover-shadow a:hover {
-        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15); /* Evenly spread shadow */
+        border-radius: 8px; /* Optional: smooth rounded edges */
     }
 
     .hover-shadow img {
         transition: box-shadow 0.3s ease-in-out;
+        border-radius: 8px;
     }
 
     .hover-shadow a:hover img {
-        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15); /* Evenly spread shadow */
     }
 
     .hover-shadow a:hover p {
-        color: #007bff; /* Change text color on hover (blue) */
+        color: #007bff; /* Text color change on hover */
     }
 </style>
 
@@ -42,8 +44,10 @@ Whether you're here to <strong>learn, explore, or follow my research journey</st
         <p><strong>Machine Learning</strong></p>
     </div>
     <div style="text-align: center; flex: 1;" class="hover-shadow">
-        <a href="{{ site.baseurl }}/blog/speech-and-language-processing" style="text-decoration: none; color: inherit; display: block;">
-            <img src="{{ site.baseurl }}/files/blog/speech-and-language-processing-.jpg" width="400px" height="300px">
+        <a href="{{ site.baseurl }}/blog/speech-and-language-processing" 
+        style="text-decoration: none; color: inherit; display: block; padding: 10px;">
+            <img src="{{ site.baseurl }}/files/blog/speech-and-language-processing-.jpg" 
+                width="400px" height="300px">
             <p><strong>Speech and Language Processing</strong></p>
         </a>
     </div>
