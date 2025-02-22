@@ -21,7 +21,7 @@ Whether you're here to <strong>learn, explore, or follow my research journey</st
     </div>
 
     <div style="text-align: center; flex: 1;">
-        <a href="{{ site.baseurl }}/blog/speech-and-language-processing/" style="text-decoration: none; color: inherit;">
+        <a href="{{ site.baseurl }}/_blog/speech-and-language-processing/" style="text-decoration: none; color: inherit;">
             <img src="{{ site.baseurl }}/files/blog/speech-and-language-processing-.jpg" width="400px" height="300px"
                     style="border: 2px solid #ddd; border-radius: 8px; padding: 5px;">
             <p><strong>Speech and Language Processing</strong></p>
