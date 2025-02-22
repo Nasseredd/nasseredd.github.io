@@ -4,6 +4,8 @@ permalink: /blog/
 author_profile: true
 ---
 
+This blog is where I share my notes, insights, and tutorials on AI, speech processing, and ethical investing. As part of my PhD research, I’m also documenting my work on auditing speech enhancement algorithms at both the signal and language level, exploring ways to design better loss functions for improving intelligibility, especially for people with hearing impairment. Whether you're here to learn, explore, or follow my research journey, I hope you find valuable insights!
+
 ## Sections
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
