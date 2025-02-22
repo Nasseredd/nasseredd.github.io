@@ -13,6 +13,12 @@ Whether you're here to <strong>learn, explore, or follow my research journey</st
 
 ## Sections
 
+<style>
+    .hover-shadow:hover {
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Shadow for the container */
+    }
+</style>
+
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
     <div style="text-align: center; flex: 1;" class="hover-shadow">
         <a href="#"">
