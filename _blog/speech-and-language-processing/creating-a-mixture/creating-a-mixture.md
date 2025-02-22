@@ -12,21 +12,17 @@ Multichannel speech and noise mixtures are essential in various applications, su
 
 In the following, we will work with a speech signal from the test-clean subset of Librispeech, a noise signal from Freesound, and two room impulse responses generated from recordings made in a room at CERIAH (Institut Pasteur), with which I collaborate as part of the REFINED research project.
 
-Code
-
-<div class="code-container">
-    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+<summary>Code</summary>
     <pre><code class="language-python">
-import numpy as np
-import soundfile as sf
+    import numpy as np
+    import soundfile as sf
 
-speech, sr = sf.read('speech.wav')
-noise, sr = sf.read('noise.wav')
+    speech, sr = sf.read('speech.wav')
+    noise, sr = sf.read('noise.wav')
 
-speech_rir = np.load('rir_0.npz')
-noise_rir = np.load('rir_90.npz')
+    speech_rir = np.load('rir_0.npz')
+    noise_rir = np.load('rir_90.npz')
     </code></pre>
-</div>
     
 
 ## Single-Channel Mixture
