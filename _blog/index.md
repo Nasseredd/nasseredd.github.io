@@ -13,29 +13,18 @@ Whether you're here to <strong>learn, explore, or follow my research journey</st
 
 ## Sections
 
-<style>
-    .hover-shadow:hover {
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Adjust the shadow size and color as needed */
-    }
-    .hover-shadow:hover img,
-    .hover-shadow:hover p {
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Apply the same shadow to the image and text */
-    }
-</style>
-
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
     <div style="text-align: center; flex: 1;" class="hover-shadow">
-        <a href="#" style="text-decoration: none; color: inherit; display: block; padding: 10px;">
-            <img src="{{ site.baseurl }}/files/blog/machine-learning.png" width="400px" height="300px" style="display: block; margin: 0 auto;">
+        <a href="#"">
+            <img src="{{ site.baseurl }}/files/blog/machine-learning.png" width="400px" height="300px"">
             <p style="margin-top: 10px;"><strong>Machine Learning</strong></p>
         </a>
     </div>
     <div style="text-align: center; flex: 1;" class="hover-shadow">
-        <a href="{{ site.baseurl }}/blog/speech-and-language-processing" 
-        style="text-decoration: none; color: inherit; display: block; padding: 10px;">
+        <a href="{{ site.baseurl }}/blog/speech-and-language-processing"">
             <img src="{{ site.baseurl }}/files/blog/speech-and-language-processing-.jpg" 
-                width="400px" height="300px" style="display: block; margin: 0 auto;">
-            <p style="margin-top: 10px;"><strong>Speech and Language Processing</strong></p>
+                width="400px" height="300px">
+            <p><strong>Speech and Language Processing</strong></p>
         </a>
     </div>
 </div>
