@@ -8,6 +8,9 @@ author_profile: true
 
 <div style="width: 100%; height: 50px; display: flex; align-items: center; justify-content: center; 
             background-color: #f5f5f5; border-radius: 8px; font-size: 18px; font-weight: bold; 
-            color: #333; text-decoration: none; margin-top: 15px;">
-    <a href="/blog/how-to-create-a-mixture" style="text-decoration: none; color: inherit;">How to Create a Multichannel Mixture of Speech and Noise?</a>
+            color: #333; margin-top: 15px;">
+    <a href="{{ site.baseurl }}/blog/speech-and-language-processing/creating-a-mixture" 
+       style="text-decoration: none; color: inherit; display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;">
+        How to Create a Multichannel Mixture of Speech and Noise?
+    </a>
 </div>
