@@ -1,6 +1,6 @@
 ---
 title: "Speech and Language Processing"
-permalink: /blog/
+permalink: /blog/speech-and-language-processing
 author_profile: true
 ---
 
