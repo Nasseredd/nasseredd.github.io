@@ -35,15 +35,35 @@ Whether you're here to <strong>learn, explore, or follow my research journey</st
 </div>
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+  <a href="" style="text-decoration: none; color: inherit;">
+    <div style="text-align: center; flex: 1;" class="hover-section">
+      <img src="{{ site.baseurl }}/files/blog/ai-and-data-privacy.png" width="400px" height="300px">
+      <p><strong>AI & Data Privacy</strong></p>
+    </div>
+  </a>
 
-  <div style="text-align: center; flex: 1;">
-    <img src="{{ site.baseurl }}/files/blog/ai-and-data-privacy.png" width="400px" height="300px">
-    <p><strong>AI & Data Privacy</strong></p>
-  </div>
-
-  <div style="text-align: center; flex: 1;">
-    <img src="{{ site.baseurl }}/files/blog/ai-driven-ethical-investing.jpg" width="400px" height="300px">
-    <p><strong>AI-Driven Ethical Investing</strong></p>
-  </div>
-
+  <a href="" style="text-decoration: none; color: inherit;">
+    <div style="text-align: center; flex: 1;" class="hover-section">
+      <img src="{{ site.baseurl }}/files/blog/ai-driven-ethical-investing.jpg" width="400px" height="300px">
+      <p><strong>AI-Driven Ethical Investing</strong></p>
+    </div>
+  </a>
 </div>
+
+<style>
+  .hover-section {
+    transition: box-shadow 0.3s ease;
+  }
+
+  .hover-section:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .hover-section img {
+    display: block; /* Ensures the image behaves well with the shadow */
+  }
+
+  .hover-section p {
+    margin: 10px 0 0 0; /* Adds spacing between image and text */
+  }
+</style>
