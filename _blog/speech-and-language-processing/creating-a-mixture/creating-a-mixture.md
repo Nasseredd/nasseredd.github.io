@@ -13,17 +13,16 @@ Multichannel speech and noise mixtures are essential in various applications, su
 In the following, we will work with a speech signal from the test-clean subset of Librispeech, a noise signal from Freesound, and two room impulse responses generated from recordings made in a room at CERIAH (Institut Pasteur), with which I collaborate as part of the REFINED research project.
 
 - Code
-    
-    ```python
-    import numpy as np
-    import soundfile as sf
-    
-    speech, sr = sf.read('speech.wav')
-    noise, sr = sf.read('noise.wav')
-    
-    speech_rir = np.load('rir_0.npz')
-    noise_rir = no.load('rir_90.npz') 
-    ```
+```python
+import numpy as np
+import soundfile as sf
+
+speech, sr = sf.read('speech.wav')
+noise, sr = sf.read('noise.wav')
+
+speech_rir = np.load('rir_0.npz')
+noise_rir = no.load('rir_90.npz') 
+```
     
 
 # Single-Channel Mixture
@@ -36,12 +35,12 @@ $$
 
 where $x[t]$ is the simulated mixture, $s[t]$ is the clean speech signal, and $n[t]$ is the noise signal. This mixture is considered anechoic since it is generated using assumed dry (anechoic) clean speech and noise signals. It is a single-channel mixture because the two signals were summed into a one-dimensional signal, even though they were originally recorded with two different microphones.
 
-- Code
+<!-- - Code
     
     ```python
     x = speech + noise
     ```
-    
+     -->
 
 # Single-Channel Mixture with respect to a desired SNR
 
@@ -142,7 +141,7 @@ $$
 x[t] = s[t] \;+\; \alpha\, n[t]
 $$
 
-- Code
+<!-- - Code
     
     Case 1: without RMSE normalization
     
@@ -162,7 +161,7 @@ $$
     alpha = 10 ** (- desired_snr / 20)
     x = speech + (alpha * noise)
     ```
-    
+     -->
 
 # Multichannel Mixture
 
@@ -213,7 +212,7 @@ For instance, we could choose $h_s^{0°}$for the speech signal and $h_s^{90°}$f
 
 Clearly, if you play this mixture, you will only hear it in stereo (2 channels). However, if you wear your headphones or earphones correctly, you should perceive the noise as coming from the right, i.e. with a higher intensity in the right ear than in the left.
 
-- Code
+<!-- - Code
     
     We assume the noise has been scaled! 
     
@@ -246,4 +245,4 @@ Clearly, if you play this mixture, you will only hear it in stereo (2 channels).
     ```
 
 
-
+ -->
