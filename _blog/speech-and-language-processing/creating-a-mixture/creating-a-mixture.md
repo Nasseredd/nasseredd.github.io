@@ -23,7 +23,7 @@ noise, sr = sf.read('noise.wav')
 
 speech_rir = np.load('rir_0.npz')
 noise_rir = no.load('rir_90.npz') 
-```
+
     
 
 ## Single-Channel Mixture
