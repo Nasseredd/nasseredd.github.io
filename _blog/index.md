@@ -4,17 +4,17 @@ permalink: /blog/
 author_profile: true
 ---
 
-## Blog Sections
+## Sections
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
 
   <div style="text-align: center; flex: 1;">
-    <img src="{{ site.baseurl }}/assets/images/image1.jpg" width="200px">
+    <img src="{{ site.baseurl }}/assets/images/image1.jpg" width="400px">
     <p><strong>Title 1</strong></p>
   </div>
 
   <div style="text-align: center; flex: 1;">
-    <img src="{{ site.baseurl }}/assets/images/image2.jpg" width="200px">
+    <img src="{{ site.baseurl }}/assets/images/image2.jpg" width="400px">
     <p><strong>Title 2</strong></p>
   </div>
 
@@ -23,12 +23,12 @@ author_profile: true
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
 
   <div style="text-align: center; flex: 1;">
-    <img src="{{ site.baseurl }}/assets/images/image3.jpg" width="200px">
+    <img src="{{ site.baseurl }}/assets/images/image3.jpg" width="400px">
     <p><strong>Title 3</strong></p>
   </div>
 
   <div style="text-align: center; flex: 1;">
-    <img src="{{ site.baseurl }}/assets/images/image4.jpg" width="200px">
+    <img src="{{ site.baseurl }}/assets/images/image4.jpg" width="400px">
     <p><strong>Title 4</strong></p>
   </div>
 
