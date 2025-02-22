@@ -35,15 +35,15 @@ Whether you're here to <strong>learn, explore, or follow my research journey</st
 </div>
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
-  <a href="" style="text-decoration: none; color: inherit;">
-    <div style="text-align: center; flex: 1;" class="hover-section">
+  <a href="" style="text-decoration: none; color: inherit; flex: 1;">
+    <div style="text-align: center;" class="hover-section">
       <img src="{{ site.baseurl }}/files/blog/ai-and-data-privacy.png" width="400px" height="300px">
       <p><strong>AI & Data Privacy</strong></p>
     </div>
   </a>
 
-  <a href="" style="text-decoration: none; color: inherit;">
-    <div style="text-align: center; flex: 1;" class="hover-section">
+  <a href="" style="text-decoration: none; color: inherit; flex: 1;">
+    <div style="text-align: center;" class="hover-section">
       <img src="{{ site.baseurl }}/files/blog/ai-driven-ethical-investing.jpg" width="400px" height="300px">
       <p><strong>AI-Driven Ethical Investing</strong></p>
     </div>
@@ -55,15 +55,15 @@ Whether you're here to <strong>learn, explore, or follow my research journey</st
     transition: box-shadow 0.3s ease;
   }
 
-  .hover-section:hover {
+  a:hover .hover-section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 
   .hover-section img {
-    display: block; /* Ensures the image behaves well with the shadow */
+    display: block; /* Ensures the image aligns properly */
   }
 
   .hover-section p {
-    margin: 10px 0 0 0; /* Adds spacing between image and text */
+    margin: 10px 0 0 0; /* Spacing between image and text */
   }
 </style>
