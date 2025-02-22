@@ -55,19 +55,19 @@ $$
 \text{SNR}_{\text{dB}} = 10\,\text{log}_{10} \bigg( \frac{P_s}{P_n} \bigg)
 $$
 
-where $P_s$ is the power of the signal and $P_n$ is the power of the noise.
+where $$P_s$$ is the power of the signal and $$P_n$$ is the power of the noise.
 
 Precisely, 
 
-- if $\text{SNR}_{\text{dB}} = 0$, it means the speech and noise energies are on the same level.
-- if $\text{SNR}_{\text{dB}} > 0$, it means the speech energy is higher than the noise energy.
-- if $\text{SNR}_{\text{dB}} < 0$, it means the speech energy is lower than the noise energy.
+- if $$\text{SNR}_{\text{dB}} = 0$$, it means the speech and noise energies are on the same level.
+- if $$\text{SNR}_{\text{dB}} > 0$$, it means the speech energy is higher than the noise energy.
+- if $$\text{SNR}_{\text{dB}} < 0$$, it means the speech energy is lower than the noise energy.
 
 ###### Scaling noise to achieve the desired SNR
 
-To generate a mixture that satisfies a given $\text{SNR}_{\text{dB}}$, we scale either the speech signal or the noise signal accordingly. Indeed, our goal is to determine the appropriate gain factor $\alpha$ so that the speech and noise energies achieve the desired $\text{SNR}_{\text{dB}}$ level. 
+To generate a mixture that satisfies a given $$\text{SNR}_{\text{dB}}$$, we scale either the speech signal or the noise signal accordingly. Indeed, our goal is to determine the appropriate gain factor $$\alpha$$ so that the speech and noise energies achieve the desired $$\text{SNR}_{\text{dB}}$$ level. 
 
-To this end, let’s break down the $\text{SNR}_{\text{dB}}$ formula to determine the target scaling factor. Since we choose to scale the noise signal, we define: 
+To this end, let’s break down the $$\text{SNR}_{\text{dB}}$$ formula to determine the target scaling factor. Since we choose to scale the noise signal, we define: 
 
 $$
 n’[t] = \alpha \cdot n[t]
@@ -79,27 +79,27 @@ $$
 \text{SNR}_{\text{dB}} = 10\,\text{log}_{10} \bigg( \frac{P_s}{P_{n’}} \bigg)
 $$
 
-where $n’[t]$ represents the appropriately scaled noise signal needed to achieve the desired SNR level. 
+where $$n’[t]$$ represents the appropriately scaled noise signal needed to achieve the desired SNR level. 
 
 Expanding the power terms: 
 
-$\text{SNR}_{\text{dB}} = 10\,\text{log}_{10} \bigg( \frac{P_s}{P_{n'}} \bigg) = 10\,\text{log}_{10} \bigg( \frac{    1/N \, \sum  s[t]^2     }{      1/N \, \sum  \alpha n[t]^2      } \bigg) = 10\,\text{log}_{10} \bigg( \frac{    \sum  s[t]^2     }{   \alpha^2 \sum  n[t]^2      } \bigg) = 10\,\text{log}_{10} \bigg( \frac{    P_s     }{   \alpha^2 P_n      } \bigg)$. 
+$$\text{SNR}_{\text{dB}} = 10\,\text{log}_{10} \bigg( \frac{P_s}{P_{n'}} \bigg) = 10\,\text{log}_{10} \bigg( \frac{    1/N \, \sum  s[t]^2     }{      1/N \, \sum  \alpha n[t]^2      } \bigg) = 10\,\text{log}_{10} \bigg( \frac{    \sum  s[t]^2     }{   \alpha^2 \sum  n[t]^2      } \bigg) = 10\,\text{log}_{10} \bigg( \frac{    P_s     }{   \alpha^2 P_n      } \bigg)$$. 
 
-Solving for $\alpha$:
+Solving for $$\alpha$$:
 
-$\frac{\text{SNR}_{\text{dB}} }{10}= \text{log}_{10} \bigg( \frac{    P_s     }{   \alpha^2 P_n      } \bigg)$
+$$\frac{\text{SNR}_{\text{dB}} }{10}= \text{log}_{10} \bigg( \frac{    P_s     }{   \alpha^2 P_n      } \bigg)$$
 
-$10^{\frac{\text{SNR}_{\text{dB}} }{10}}= \frac{    P_s     }{   \alpha^2 P_n      }$
+$$10^{\frac{\text{SNR}_{\text{dB}} }{10}}= \frac{    P_s     }{   \alpha^2 P_n      }$$
 
-$\alpha^2 = \frac{P_s}{P_n} \cdot 10^{-\frac{\text{SNR}_{\text{dB}} }{10}}$
+$$\alpha^2 = \frac{P_s}{P_n} \cdot 10^{-\frac{\text{SNR}_{\text{dB}} }{10}}$$
 
-$\alpha = \frac{P_s}{P_n} \cdot 10^{-\frac{\text{SNR}_{\text{dB}} }{20}}$
+$$\alpha = \frac{P_s}{P_n} \cdot 10^{-\frac{\text{SNR}_{\text{dB}} }{20}}$$
 
-$\alpha = \frac{\sum s^2}{\sum n^2} \cdot 10^{-\frac{\text{SNR}_{\text{dB}} }{20}}$
+$$\alpha = \frac{\sum s^2}{\sum n^2} \cdot 10^{-\frac{\text{SNR}_{\text{dB}} }{20}}$$
 
 ###### Accounting for RMSE-normalized signals
 
-This formulation of $\alpha$ do not account for normalized signals using RMSE. If this normalization is applied, replacing $s$ and $n$ by their normalized verions:
+This formulation of $$\alpha$$ do not account for normalized signals using RMSE. If this normalization is applied, replacing $$s$$ and $$n$$ by their normalized verions:
 
 $$
 s_{\text{norm}}\frac{s}{\sqrt{\sum s^2}} \;\;,\;\; n_{\text{norm}} = \frac{n}{\sqrt{\sum n^2}}
@@ -107,7 +107,7 @@ $$
 
 the equation simplifies to:
 
-$\alpha = 
+$$\alpha = 
 
 \frac{
 \sum \big(\frac{s}{\sqrt{\sum s^2}}\big)^2}
@@ -126,9 +126,9 @@ $\alpha =
 \frac{\text{SNR}_{\text{dB}} }{20}}
 
 = 10^{-
-\frac{\text{SNR}_{\text{dB}} }{20}}$
+\frac{\text{SNR}_{\text{dB}} }{20}}$$
 
-⚠️ Ensure that if you normalize your signals using $\text{RMSE}$, you apply the second equation. Otherwise, the term $\frac{\sum s^2}{\sum n^2}$ which should ideally be equal to 1, may deviate in practice, potentially affecting the accuracy of your scaling factor $\alpha$.
+⚠️ Ensure that if you normalize your signals using $$\text{RMSE}$$, you apply the second equation. Otherwise, the term $$\frac{\sum s^2}{\sum n^2}$$ which should ideally be equal to 1, may deviate in practice, potentially affecting the accuracy of your scaling factor $$\alpha$$.
 
 ###### Handling Silent Portions in Speech for Accurate Gain Computation
 
@@ -136,7 +136,7 @@ In practice, speech signals often contain silent portions with very low energy. 
 
 ###### Final Mixture Computation
 
-Now that we have determined the gain factor $\alpha$, we compute the mixture as:
+Now that we have determined the gain factor $$\alpha$$, we compute the mixture as:
 
 $$
 x[t] = s[t] \;+\; \alpha\, n[t]
@@ -174,7 +174,7 @@ A **Room Impulse Response (RIR)** is the acoustic transfer function that chara
 
 We computed room impulse responses (RIRs) from a recorded signal in an enclosed room at five different positions: 90° and 45° to the right, 0°, and 90° and 45° to the left. The signals were played using five loudspeakers, while a KEMAR mannequin was used to position a PHL hearing aid simulator equipped with two microphones on the right ear and two on the left ear. Each of the five loudspeakers generated four distinct RIRs, representing the signal propagation to the four microphones.
 
-To simulate the $i$-th channel of the multichannel mixture, representing the signal propagation on the $i$-th microphone, we compute it as:
+To simulate the $$i$$-th channel of the multichannel mixture, representing the signal propagation on the $$i$$-th microphone, we compute it as:
 
 $$
 x_i[t] = h_{s,i} \;*\; s[t] + h_{n,i} \;*\; n[t]
@@ -182,9 +182,9 @@ $$
 
 where,
 
-- $h_{s,i}$ is the room impulse response for the speech signal $s$ recorded with the $i$-th microphone.
-- $h_{n,i}$ is the room impulse response for the noise signal $n$ recorded with the $i$-th microphone.
-- $*$ is the convolution operator.
+- $$h_{s,i}$$ is the room impulse response for the speech signal $$s$$ recorded with the $$i$$-th microphone.
+- $$h_{n,i}$$ is the room impulse response for the noise signal $$n$$ recorded with the $$i$$-th microphone.
+- $$*$$ is the convolution operator.
 
 NB: Here, we assume the noise have been scaled, as explained previously, before computing the convolutions. 
 
@@ -209,7 +209,7 @@ $$
 
 This formulation captures the multichannel mixture, where each recorded signal results from the convolution of speech and noise with their respective RIRs at each microphone position.
 
-For instance, we could choose $h_s^{0°}$for the speech signal and $h_s^{90°}$for the noise signal to simulate speech coming from the front while the noise originates from 90° to the right.
+For instance, we could choose $$h_s^{0°}$$for the speech signal and $$h_s^{90°}$$for the noise signal to simulate speech coming from the front while the noise originates from 90° to the right.
 
 Clearly, if you play this mixture, you will only hear it in stereo (2 channels). However, if you wear your headphones or earphones correctly, you should perceive the noise as coming from the right, i.e. with a higher intensity in the right ear than in the left.
 
