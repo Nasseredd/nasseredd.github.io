@@ -14,7 +14,6 @@ In the following, we will work with a speech signal from the test-clean subset o
 
 Code
 
-```liquid
 {% highlight python %}
 import numpy as np
 import soundfile as sf
