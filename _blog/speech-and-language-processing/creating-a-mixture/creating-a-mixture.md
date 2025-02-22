@@ -14,7 +14,9 @@ In the following, we will work with a speech signal from the test-clean subset o
 
 Code
 
-{% highlight python %}
+<div class="code-container">
+    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+    <pre><code class="language-python">
 import numpy as np
 import soundfile as sf
 
@@ -22,8 +24,9 @@ speech, sr = sf.read('speech.wav')
 noise, sr = sf.read('noise.wav')
 
 speech_rir = np.load('rir_0.npz')
-noise_rir = np.load('rir_90.npz') 
-{% endhighlight %}
+noise_rir = np.load('rir_90.npz')
+    </code></pre>
+</div>
     
 
 ## Single-Channel Mixture
