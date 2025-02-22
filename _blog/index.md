@@ -12,18 +12,17 @@ Whether you're here to <strong>learn, explore, or follow my research journey</st
 </p>
 
 ## Sections
-
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
   <a href="" style="text-decoration: none; color: inherit; flex: 1;">
     <div style="text-align: center;" class="hover-section">
-      <img src="{{ site.baseurl }}/files/blog/machine-learning.png" width="400px" height="300px" margin="0px 0px 20px 0px">
+      <img src="{{ site.baseurl }}/files/blog/machine-learning.png" width="400px" height="300px" style="margin: 0px 0px 20px 0px; display: block;">
       <p><strong>Machine Learning</strong></p>
     </div>
   </a>
 
   <a href="{{ site.baseurl }}/blog/speech-and-language-processing" style="text-decoration: none; color: inherit; flex: 1;">
     <div style="text-align: center;" class="hover-section">
-      <img src="{{ site.baseurl }}/files/blog/speech-and-language-processing-.jpg" width="400px" height="300px" margin="0px 0px 20px 0px">
+      <img src="{{ site.baseurl }}/files/blog/speech-and-language-processing-.jpg" width="400px" height="300px" style="margin: 0px 0px 20px 0px; display: block;">
       <p><strong>Speech and Language Processing</strong></p>
     </div>
   </a>
@@ -32,14 +31,14 @@ Whether you're here to <strong>learn, explore, or follow my research journey</st
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
   <a href="" style="text-decoration: none; color: inherit; flex: 1;">
     <div style="text-align: center;" class="hover-section">
-      <img src="{{ site.baseurl }}/files/blog/ai-and-data-privacy.png" width="400px" height="300px" margin="0px 0px 20px 0px">
+      <img src="{{ site.baseurl }}/files/blog/ai-and-data-privacy.png" width="400px" height="300px" style="margin: 0px 0px 20px 0px; display: block;">
       <p><strong>AI & Data Privacy</strong></p>
     </div>
   </a>
 
   <a href="" style="text-decoration: none; color: inherit; flex: 1;">
     <div style="text-align: center;" class="hover-section">
-      <img src="{{ site.baseurl }}/files/blog/ai-driven-ethical-investing.jpg" width="400px" height="300px" margin="0px 0px 20px 0px">
+      <img src="{{ site.baseurl }}/files/blog/ai-driven-ethical-investing.jpg" width="400px" height="300px" style="margin: 0px 0px 20px 0px; display: block;">
       <p><strong>AI-Driven Ethical Investing</strong></p>
     </div>
   </a>
