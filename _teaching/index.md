@@ -23,7 +23,8 @@ I am supervising practical sessions as part of the "Speech Robustness" course, f
 
 🧑‍💻 [Practical 1](/files/Practical-1.zip)
 🧑‍💻 [Practical 2](/files/speech_robustness/Practical-2.zip)
-🧑‍💻 [Practical 3]()
+<!-- 🧑‍💻 [Practical 3](/files/speech_robustness/Practical-3.zip) -->
+🧑‍💻 [Practical 3](/files/speech_processing/Practical-3.zip)
 
 
 ## Introduction to Python (EN/FR) ![emoji](/images/python-logo.jpeg){:height="40px" width="40px"}
