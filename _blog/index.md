@@ -44,6 +44,17 @@ Whether you're here to <strong>learn, explore, or follow my research journey</st
   </a>
 </div>
 
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+  <a href="" style="text-decoration: none; color: inherit; flex: 1;">
+    <div style="text-align: center;" class="hover-section">
+      <img src="{{ site.baseurl }}/files/blog/hpc-grid5k.jpg" width="400px" height="300px" >
+      <p style="margin: 0px 0px 20px 0px; display: block;"><strong>High-Performance Computing (Grid5000)</strong></p>
+    </div>
+  </a>
+
+
+</div>
+
 <style>
   .hover-section {
     transition: box-shadow 0.3s ease;
