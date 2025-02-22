@@ -33,7 +33,7 @@ $$
 x[t] = s[t] + n[t]
 $$
 
-where $x[t]$ is the simulated mixture, $s[t]$ is the clean speech signal, and $n[t]$ is the noise signal. This mixture is considered anechoic since it is generated using assumed dry (anechoic) clean speech and noise signals. It is a single-channel mixture because the two signals were summed into a one-dimensional signal, even though they were originally recorded with two different microphones.
+where $$x[t]$$ is the simulated mixture, $$s[t]$$ is the clean speech signal, and $$n[t]$$ is the noise signal. This mixture is considered anechoic since it is generated using assumed dry (anechoic) clean speech and noise signals. It is a single-channel mixture because the two signals were summed into a one-dimensional signal, even though they were originally recorded with two different microphones.
 
 <!-- - Code
     
