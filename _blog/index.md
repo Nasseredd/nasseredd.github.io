@@ -44,7 +44,7 @@ Whether you're here to <strong>learn, explore, or follow my research journey</st
   </a>
 </div>
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+<!-- <div style="display: flex; flex-wrap: wrap; gap: 20px;">
   <a href="" style="text-decoration: none; color: inherit; flex: 1;">
     <div style="text-align: center;" class="hover-section">
       <img src="{{ site.baseurl }}/files/blog/hpc-grid5k.jpg" width="400px" height="300px" >
@@ -53,7 +53,7 @@ Whether you're here to <strong>learn, explore, or follow my research journey</st
   </a>
 
 
-</div>
+</div> -->
 
 <style>
   .hover-section {
