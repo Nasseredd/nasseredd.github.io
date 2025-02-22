@@ -16,30 +16,26 @@ Whether you're here to <strong>learn, explore, or follow my research journey</st
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
 
   <div style="text-align: center; flex: 1;">
-    <img src="{{ site.baseurl }}/files/blog/machine-learning.png" width="400px" height="300px" 
-         style="border: 2px solid #ddd; border-radius: 8px; padding: 5px;">
+    <img src="{{ site.baseurl }}/files/blog/machine-learning.png" width="400px" height="300px">
     <p><strong>Machine Learning</strong></p>
   </div>
 
   <div style="text-align: center; flex: 1;">
-    <img src="{{ site.baseurl }}/files/blog/speech-and-language-processing-.jpg" width="400px" height="300px" 
-         style="border: 2px solid #ddd; border-radius: 8px; padding: 5px;">
+    <img src="{{ site.baseurl }}/files/blog/speech-and-language-processing-.jpg" width="400px" height="300px">
     <p><strong>Speech and Language Processing</strong></p>
   </div>
 
 </div>
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px;">
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
 
   <div style="text-align: center; flex: 1;">
-    <img src="{{ site.baseurl }}/files/blog/ai-and-data-privacy.png" width="400px" height="300px" 
-         style="border: 2px solid #ddd; border-radius: 8px; padding: 5px;">
+    <img src="{{ site.baseurl }}/files/blog/ai-and-data-privacy.png" width="400px" height="300px">
     <p><strong>AI & Data Privacy</strong></p>
   </div>
 
   <div style="text-align: center; flex: 1;">
-    <img src="{{ site.baseurl }}/files/blog/ai-driven-ethical-investing.jpg" width="400px" height="300px" 
-         style="border: 2px solid #ddd; border-radius: 8px; padding: 5px;">
+    <img src="{{ site.baseurl }}/files/blog/ai-driven-ethical-investing.jpg" width="400px" height="300px">
     <p><strong>AI-Driven Ethical Investing</strong></p>
   </div>
 
