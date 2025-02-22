@@ -9,8 +9,8 @@ author_profile: true
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
 
   <div style="text-align: center; flex: 1;">
-    <img src="{{ site.baseurl }}/assets/images/image1.jpg" width="400px" height="300px">
-    <p><strong>Title 1</strong></p>
+    <img src="{{ site.baseurl }}/files/blog/machine-learning.png" width="400px" height="300px">
+    <p><strong>Machine Learning</strong></p>
   </div>
 
   <div style="text-align: center; flex: 1;">
