@@ -21,15 +21,14 @@ Whether you're here to <strong>learn, explore, or follow my research journey</st
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
     <div style="text-align: center; flex: 1;" class="hover-shadow">
-        <a href="#"">
-            <img src="{{ site.baseurl }}/files/blog/machine-learning.png" width="400px" height="300px"">
+        <a href="#">
+            <img src="{{ site.baseurl }}/files/blog/machine-learning.png" width="400px" height="300px">
             <p style="margin-top: 10px;"><strong>Machine Learning</strong></p>
         </a>
     </div>
     <div style="text-align: center; flex: 1;" class="hover-shadow">
-        <a href="{{ site.baseurl }}/blog/speech-and-language-processing"">
-            <img src="{{ site.baseurl }}/files/blog/speech-and-language-processing-.jpg" 
-                width="400px" height="300px">
+        <a href="{{ site.baseurl }}/blog/speech-and-language-processing">
+            <img src="{{ site.baseurl }}/files/blog/speech-and-language-processing-.jpg" width="400px" height="300px">
             <p><strong>Speech and Language Processing</strong></p>
         </a>
     </div>
