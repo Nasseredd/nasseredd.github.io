@@ -25,8 +25,10 @@ Whether you're here to <strong>learn, explore, or follow my research journey</st
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
     <div style="text-align: center; flex: 1;" class="hover-shadow">
-        <img src="{{ site.baseurl }}/files/blog/machine-learning.png" width="400px" height="300px">
-        <p><strong>Machine Learning</strong></p>
+        <a href="#" style="text-decoration: none; color: inherit; display: block; padding: 10px;">
+            <img src="{{ site.baseurl }}/files/blog/machine-learning.png" width="400px" height="300px" style="display: block; margin: 0 auto;">
+            <p style="margin-top: 10px;"><strong>Machine Learning</strong></p>
+        </a>
     </div>
     <div style="text-align: center; flex: 1;" class="hover-shadow">
         <a href="{{ site.baseurl }}/blog/speech-and-language-processing" 
