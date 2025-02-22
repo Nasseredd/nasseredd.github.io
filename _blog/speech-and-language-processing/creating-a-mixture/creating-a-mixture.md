@@ -14,7 +14,8 @@ In the following, we will work with a speech signal from the test-clean subset o
 
 Code
 
-```python
+```liquid
+{% highlight python %}
 import numpy as np
 import soundfile as sf
 
@@ -22,8 +23,8 @@ speech, sr = sf.read('speech.wav')
 noise, sr = sf.read('noise.wav')
 
 speech_rir = np.load('rir_0.npz')
-noise_rir = no.load('rir_90.npz') 
-```
+noise_rir = np.load('rir_90.npz') 
+{% endhighlight %}
     
 
 ## Single-Channel Mixture
