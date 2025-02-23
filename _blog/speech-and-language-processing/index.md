@@ -12,7 +12,7 @@ author_profile: true
     <img src="{{ site.baseurl }}/files/blog/speech-and-language-processing-.jpg" alt="Article Icon" style="width: 24px; height: 24px; margin-right: 10px; border-radius: 50%; background-color: #fff; padding: 4px;">
     <div style="display: flex; flex-direction: column; align-items: flex-start;">
       <span style="font-size: 18px; font-weight: bold; color: #333;">How to Create a Multichannel Mixture of Speech and Noise?</span>
-      <div style="font-size: 14px; color: #888; margin-top: 5px;">Reading time: 10 min</div>
+      <div style="font-size: 14px; color: #888; margin-top: 2px;">Reading time: 10 min</div>
     </div>
   </a>
 </div>
@@ -23,7 +23,7 @@ author_profile: true
     <img src="{{ site.baseurl }}/files/blog/speech-and-language-processing-.jpg" alt="Article Icon" style="width: 24px; height: 24px; margin-right: 10px; border-radius: 50%; background-color: #fff; padding: 4px;">
     <div style="display: flex; flex-direction: column; align-items: flex-start;">
       <span style="font-size: 18px; font-weight: bold; color: #333;">Measuring Interference, Artifacts, and Distortion</span>
-      <div style="font-size: 14px; color: #888; margin-top: 5px;">Reading time: 10 min</div>
+      <div style="font-size: 14px; color: #888; margin-top: 2px;">Reading time: 10 min</div>
     </div>
   </a>
 </div>
