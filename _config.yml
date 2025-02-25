@@ -217,7 +217,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   blog:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
     output: false
