@@ -21,17 +21,17 @@ noise, sr = sf.read('noise.wav')
 
 speech_rir = np.load('rir_0.npz')
 noise_rir = np.load('rir_90.npz')
-``````  
+```
 
 ## Single-Channel Mixture
 
 In the context of speech enhancement, a mixture refers to a signal that combines multiple audio sources, such as a clean speech and a noise signal, often at a specific signal-to-noise ratio (SNR). A multichannel mixture can be represented as: 
 
-$$
+<!-- $$
 x[t] = s[t] + n[t]
 $$
 
-where $$x[t]$$ is the simulated mixture, $$s[t]$$ is the clean speech signal, and $$n[t]$$ is the noise signal. This mixture is considered anechoic since it is generated using assumed dry (anechoic) clean speech and noise signals. It is a single-channel mixture because the two signals were summed into a one-dimensional signal, even though they were originally recorded with two different microphones.
+where $$x[t]$$ is the simulated mixture, $$s[t]$$ is the clean speech signal, and $$n[t]$$ is the noise signal. This mixture is considered anechoic since it is generated using assumed dry (anechoic) clean speech and noise signals. It is a single-channel mixture because the two signals were summed into a one-dimensional signal, even though they were originally recorded with two different microphones. -->
 
 ```python
 x = speech + noise
