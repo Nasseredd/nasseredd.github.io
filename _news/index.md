@@ -64,6 +64,7 @@ layout: single
   }
   .event-description {
     margin-top: 0;
+    text-align: justify;
   }
 </style>
 
