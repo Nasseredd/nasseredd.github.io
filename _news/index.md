@@ -72,6 +72,19 @@ layout: single
 
   <!-- Timeline items -->
   <div class="timeline-item">
+    <div class="event-text event-left"></div>
+    <div class="date-circle"></div>
+    <div class="event-text event-right">
+      <div class="event-date">February 28th, 2025</div>
+      <div class="event-description">
+        Participated in the <a href="https://www.ac-paris.fr/un-scientifique-une-classe-chiche-122323" target="_blank">Chiche Program</a> 
+        (<em>Un scientifique, une classe : chiche!</em>) alongside three colleagues, presenting research in the field of computer science, with a particular focus on AI—its applications, impact on daily life, and societal implications—at <a href="https://lyc-lurcat.monbureaunumerique.fr" target="_blank">Jean Lurçat High School</a>.
+        <br>Bruyères, France🇫🇷
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline-item">
     <div class="event-text event-left">
       <div class="event-date">October 11th, 2024</div>
       <div class="event-description">
