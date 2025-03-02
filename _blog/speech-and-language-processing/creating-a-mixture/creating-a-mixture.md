@@ -21,7 +21,7 @@ noise, sr = sf.read('noise.wav')
 
 speech_rir = np.load('rir_0.npz')
 noise_rir = np.load('rir_90.npz')
-```    
+``````  
 
 ## Single-Channel Mixture
 
@@ -33,12 +33,10 @@ $$
 
 where $$x[t]$$ is the simulated mixture, $$s[t]$$ is the clean speech signal, and $$n[t]$$ is the noise signal. This mixture is considered anechoic since it is generated using assumed dry (anechoic) clean speech and noise signals. It is a single-channel mixture because the two signals were summed into a one-dimensional signal, even though they were originally recorded with two different microphones.
 
-<!-- - Code
-    
-    ```python
-    x = speech + noise
-    ```
-     -->
+```python
+x = speech + noise
+```
+
 
 ## Single-Channel Mixture with respect to a desired SNR
 
@@ -139,27 +137,24 @@ $$
 x[t] = s[t] \;+\; \alpha\, n[t]
 $$
 
-<!-- - Code
+Case 1: without RMSE normalization
     
-    Case 1: without RMSE normalization
+```python
+desired_snr = 0 
+alpha = (np.sum(np.abs(speech)**2) / np.sum(np.abs(noise)**2)) * 10 ** (- desired_snr / 20)
+x = speech + (alpha * noise)
+```
     
-    ```python
-    desired_snr = 0 
-    alpha = (np.sum(np.abs(speech)**2) / np.sum(np.abs(noise)**2)) * 10 ** (- desired_snr / 20)
-    x = speech + (alpha * noise)
-    ```
-    
-    Case 2: with RMSE normalization
-    
-    ```python
-    speech /= np.sum(np.abs(speech)**2)
-    noise /= np.sum(np.abs(noise)**2)
-    
-    desired_snr = 0
-    alpha = 10 ** (- desired_snr / 20)
-    x = speech + (alpha * noise)
-    ```
-     -->
+Case 2: with RMSE normalization
+
+```python
+speech /= np.sum(np.abs(speech)**2)
+noise /= np.sum(np.abs(noise)**2)
+
+desired_snr = 0
+alpha = 10 ** (- desired_snr / 20)
+x = speech + (alpha * noise)
+```
 
 ## Multichannel Mixture
 
