@@ -209,6 +209,9 @@ kramdown:
   syntax_highlighter_opts:
     block:
       line_numbers: true
+    css_class: 'highlight' # Use existing pygments syntax highlighting css
+        
+        
 
 
 # These settings control the types of collections used by the template

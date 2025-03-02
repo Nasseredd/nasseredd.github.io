@@ -1,17 +1,15 @@
-.highlight {
+/* .highlight {
     background: #2d2d2d !important;
     border-radius: 4px;
     padding: 1rem;
     margin: 1rem 0;
   }
-  
-  /* Ensure text visibility */
   .highlight * {
     color: inherit !important;
   }
   
-  /* Fix line number alignment */
   .lineno {
     padding-right: 1rem !important;
     border-right: 1px solid #666;
   }
+*/
