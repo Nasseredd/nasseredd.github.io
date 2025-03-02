@@ -12,7 +12,7 @@ Multichannel speech and noise mixtures are essential in various applications, su
 
 In the following, we will work with a speech signal from the test-clean subset of Librispeech, a noise signal from Freesound, and two room impulse responses generated from recordings made in a room at CERIAH (Institut Pasteur), with which I collaborate as part of the REFINED research project.
 
-```
+```py
 import numpy as np
 import soundfile as sf
 
