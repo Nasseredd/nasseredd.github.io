@@ -13,16 +13,15 @@ Multichannel speech and noise mixtures are essential in various applications, su
 In the following, we will work with a speech signal from the test-clean subset of Librispeech, a noise signal from Freesound, and two room impulse responses generated from recordings made in a room at CERIAH (Institut Pasteur), with which I collaborate as part of the REFINED research project.
 
 ```python
-    import numpy as np
-    import soundfile as sf
+import numpy as np
+import soundfile as sf
 
-    speech, sr = sf.read('speech.wav')
-    noise, sr = sf.read('noise.wav')
+speech, sr = sf.read('speech.wav')
+noise, sr = sf.read('noise.wav')
 
-    speech_rir = np.load('rir_0.npz')
-    noise_rir = np.load('rir_90.npz')
-```
-
+speech_rir = np.load('rir_0.npz')
+noise_rir = np.load('rir_90.npz')
+``` 
 <!-- ## Single-Channel Mixture
 
 In the context of speech enhancement, a mixture refers to a signal that combines multiple audio sources, such as a clean speech and a noise signal, often at a specific signal-to-noise ratio (SNR). A multichannel mixture can be represented as: 
