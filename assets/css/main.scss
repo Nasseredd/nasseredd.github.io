@@ -40,3 +40,11 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 @import "mycustom";
+
+div.highlighter-rouge, figure.highlight {
+    border: none;
+  }
+  div.highlighter-rouge:before,
+  figure.highlight:before {
+    content: none;
+  }
