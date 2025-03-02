@@ -197,22 +197,24 @@ incremental: false
 
 
 # Markdown Processing
+# kramdown:
+#   input: GFM
+#   hard_wrap: false
+#   auto_ids: true
+#   footnote_nr: 1
+#   entity_output: as_char
+#   toc_levels: 1..6
+#   smart_quotes: lsquo,rsquo,ldquo,rdquo
+#   enable_coderay: false
+#   syntax_highlighter_opts:
+#     block:
+#       line_numbers: true
+        
 kramdown:
   input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
   syntax_highlighter_opts:
-    block:
-      line_numbers: true
-    css_class: 'highlight' # Use existing pygments syntax highlighting css
-        
-        
-
+    default_lang: html
+    css_class   : 'syntax'
 
 # These settings control the types of collections used by the template
 collections:
