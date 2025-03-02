@@ -12,18 +12,17 @@ Multichannel speech and noise mixtures are essential in various applications, su
 
 In the following, we will work with a speech signal from the test-clean subset of Librispeech, a noise signal from Freesound, and two room impulse responses generated from recordings made in a room at CERIAH (Institut Pasteur), with which I collaborate as part of the REFINED research project.
 
-<div style="background-color: #282c34; padding: 15px; border-radius: 5px;">
-<pre style="color: #abb2bf; font-family: 'Courier New', Courier, monospace;">
-<span style="color: #c678dd;">import</span> numpy <span style="color: #c678dd;">as</span> np
-<span style="color: #c678dd;">import</span> soundfile <span style="color: #c678dd;">as</span> sf
+```
+import numpy as np
+import soundfile as sf
 
-speech, sr = sf.<span style="color: #61afef;">read</span>(<span style="color: #98c379;">'speech.wav'</span>)
-noise, sr = sf.<span style="color: #61afef;">read</span>(<span style="color: #98c379;">'noise.wav'</span>)
+speech, sr = sf.read('speech.wav')
+noise, sr = sf.read('noise.wav')
 
-speech_rir = np.<span style="color: #61afef;">load</span>(<span style="color: #98c379;">'rir_0.npz'</span>)
-noise_rir = np.<span style="color: #61afef;">load</span>(<span style="color: #98c379;">'rir_90.npz'</span>)
-</pre>
-</div>
+speech_rir = np.load('rir_0.npz')
+noise_rir = no.load('rir_90.npz') 
+```
+
 <!-- ## Single-Channel Mixture
 
 In the context of speech enhancement, a mixture refers to a signal that combines multiple audio sources, such as a clean speech and a noise signal, often at a specific signal-to-noise ratio (SNR). A multichannel mixture can be represented as: 
