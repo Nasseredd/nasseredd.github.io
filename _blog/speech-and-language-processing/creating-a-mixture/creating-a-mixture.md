@@ -23,16 +23,15 @@ speech_rir = np.load('rir_0.npz')
 noise_rir = np.load('rir_90.npz')
 ```
 
-```markdown
 ## Single-Channel Mixture
 
 In the context of speech enhancement, a mixture refers to a signal that combines multiple audio sources, such as a clean speech and a noise signal, often at a specific signal-to-noise ratio (SNR). A multichannel mixture can be represented as: 
 
-<!-- $$
+$$
 x[t] = s[t] + n[t]
 $$
 
-where $$x[t]$$ is the simulated mixture, $$s[t]$$ is the clean speech signal, and $$n[t]$$ is the noise signal. This mixture is considered anechoic since it is generated using assumed dry (anechoic) clean speech and noise signals. It is a single-channel mixture because the two signals were summed into a one-dimensional signal, even though they were originally recorded with two different microphones. -->
+where $$x[t]$$ is the simulated mixture, $$s[t]$$ is the clean speech signal, and $$n[t]$$ is the noise signal. This mixture is considered anechoic since it is generated using assumed dry (anechoic) clean speech and noise signals. It is a single-channel mixture because the two signals were summed into a one-dimensional signal, even though they were originally recorded with two different microphones.
 
 ```python
 x = speech + noise
@@ -45,7 +44,7 @@ x = speech + noise
 
 The signal-to-noise Ratio (SNR) is a measure that quantifies the relative strength of a desired signal (e.g. clean speech) compared to a background noise. A higher SNR indicates a clearer signal with less noise, while a lower SNR means the noise is more dominant than the signal.
 
-SNR is typically expressed in decibel (dB) and is defined as: 
+<!-- SNR is typically expressed in decibel (dB) and is defined as: 
 
 $$
 \text{SNR}_{\text{dB}} = 10\,\text{log}_{10} \bigg( \frac{P_s}{P_n} \bigg)
@@ -239,4 +238,4 @@ Clearly, if you play this mixture, you will only hear it in stereo (2 channels).
     ```
 
 
- -->
+ --> -->

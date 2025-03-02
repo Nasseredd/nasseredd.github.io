@@ -1,0 +1,17 @@
+.highlight {
+    border: none; /* Remove unwanted borders */
+    padding: 10px; /* Adjust padding to reduce extra space */
+    margin: 0; /* Remove extra margins */
+    background: #2d2d2d; /* Match your dark background color for code blocks */
+    border-radius: 4px; /* Optional: Smooth corners if desired */
+  }
+  
+  .highlight pre {
+    margin: 0; /* Ensure no extra margins in pre tag */
+    padding: 0; /* Adjust padding as needed */
+  }
+  
+  .highlight code {
+    background: none; /* Ensure code inherits background from highlight */
+    color: inherit; /* Use default text color for readability */
+  }
