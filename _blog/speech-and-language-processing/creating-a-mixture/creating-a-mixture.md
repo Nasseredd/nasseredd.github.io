@@ -23,7 +23,7 @@ In the following, we will work with a speech signal from the test-clean subset o
     noise_rir = np.load('rir_90.npz')
 ```
 
-## Single-Channel Mixture
+<!-- ## Single-Channel Mixture
 
 In the context of speech enhancement, a mixture refers to a signal that combines multiple audio sources, such as a clean speech and a noise signal, often at a specific signal-to-noise ratio (SNR). A multichannel mixture can be represented as: 
 
@@ -44,7 +44,7 @@ x = speech + noise
 
 The signal-to-noise Ratio (SNR) is a measure that quantifies the relative strength of a desired signal (e.g. clean speech) compared to a background noise. A higher SNR indicates a clearer signal with less noise, while a lower SNR means the noise is more dominant than the signal.
 
-<!-- SNR is typically expressed in decibel (dB) and is defined as: 
+ SNR is typically expressed in decibel (dB) and is defined as: 
 
 $$
 \text{SNR}_{\text{dB}} = 10\,\text{log}_{10} \bigg( \frac{P_s}{P_n} \bigg)
