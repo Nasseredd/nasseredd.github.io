@@ -214,7 +214,7 @@ kramdown:
   input: GFM
   syntax_highlighter_opts:
     default_lang: html
-    css_class   : 'highlight'
+    css_class   : 'syntax'
 
 # These settings control the types of collections used by the template
 collections:
