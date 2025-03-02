@@ -23,6 +23,7 @@ speech_rir = np.load('rir_0.npz')
 noise_rir = np.load('rir_90.npz')
 ```
 
+```markdown
 ## Single-Channel Mixture
 
 In the context of speech enhancement, a mixture refers to a signal that combines multiple audio sources, such as a clean speech and a noise signal, often at a specific signal-to-noise ratio (SNR). A multichannel mixture can be represented as: 
