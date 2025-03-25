@@ -76,6 +76,42 @@ layout: single
     <div class="event-text event-left"></div>
     <div class="date-circle"></div>
     <div class="event-text event-right">
+      <div class="event-date">March 21th, 2025</div>
+      <div class="event-description">
+        Participated in a project meeting at CERIAH with the REFINED team, where we reviewed progress on clinical trials and patient recruitment, discussed a new frequency-weighted loss function to improve phoneme intelligibility, and explored optimizing speech enhancement models for low-footprint devices.
+        <br>Paris, France 🇫🇷
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="event-text event-left"></div>
+    <div class="date-circle"></div>
+    <div class="event-text event-right">
+      <div class="event-date">March 20th, 2025</div>
+      <div class="event-description">
+        With fellow PhD candidates from the University of Lorraine, I visited ArcelorMittal’s production sites in Séremange and Ste Agathe, as well as their Digital Lab, where we discovered Industry 4.0 innovations such as AI for quality control, a 4.0 cockpit for line management, and VR-based training.
+        <br>Uckange, France🇫🇷
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="event-text event-left">
+      <div class="event-date">March 13th, 2025</div>
+      <div class="event-description">
+        Attended the two-days <a href="https://hello-tomorrow.org/global-summit/" target="_blank">Hello Tomorrow Global Summit 2025</a> event with the Inria Startup Studio Talents delegation, where we connected with other talents, startups, and investors, and explored deeptech advancements across fields like quantum computing, health, biotech, and agriculture through inspiring talks and conferences.
+        <br>Paris, France 🇫🇷
+      </div>
+    </div>
+    <div class="date-circle"></div>
+    <div class="event-text event-right"></div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="event-text event-left"></div>
+    <div class="date-circle"></div>
+    <div class="event-text event-right">
       <div class="event-date">February 28th, 2025</div>
       <div class="event-description">
         Participated in the <a href="https://www.ac-paris.fr/un-scientifique-une-classe-chiche-122323" target="_blank">Chiche Program</a> 
