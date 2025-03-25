@@ -10,9 +10,9 @@ author_profile: true
 
 I am supervising practical sessions as part of the "Speech Processing" course, following the lectures delivered by Dr. Yves Laprie and Dr. Romain Serizel. This course delves into fundamental aspects of speech processing, including signal representation, enhancement techniques, and phoneme analysis. Through practical exercises, students gain hands-on experience applying these concepts in Python, developing essential skills for speech analysis and processing.
 
-🧑‍💻 [Practical 1](/files/speech_processing/Practical-1.zip)
+<!-- 🧑‍💻 [Practical 1](/files/speech_processing/Practical-1.zip)
 🧑‍💻 [Practical 2](/files/speech_processing/Practical-2.zip)
-🧑‍💻 [Practical 3](/files/speech_processing/Practical-3.zip)
+🧑‍💻 [Practical 3](/files/speech_processing/Practical-3.zip) -->
 
 
 ## Speech Robustness (EN/FR) 🔊
@@ -21,10 +21,9 @@ I am supervising practical sessions as part of the "Speech Processing" course, f
 
 I am supervising practical sessions as part of the "Speech Robustness" course, following the lectures delivered by Dr. Romain Serizel. The course explores key topics such as speech production, speech representation, speech enhancement, and speech recognition. These practicals provide students with hands-on experience in implementing speech processing techniques using Python.
 
-🧑‍💻 [Practical 1](/files/Practical-1.zip)
+<!-- 🧑‍💻 [Practical 1](/files/Practical-1.zip)
 🧑‍💻 [Practical 2](/files/speech_robustness/Practical-2.zip)
-<!-- 🧑‍💻 [Practical 3](/files/speech_robustness/Practical-3.zip) -->
-🧑‍💻 [Practical 3](/files/speech_processing/Practical-3.zip)
+🧑‍💻 [Practical 3](/files/speech_processing/Practical-3.zip) -->
 
 
 ## Introduction to Python (EN/FR) ![emoji](/images/python-logo.jpeg){:height="40px" width="40px"}
@@ -34,7 +33,6 @@ I am supervising practical sessions as part of the "Speech Robustness" course, f
 <p style="text-align: justify;">
 I am supervising Python practicals that follow Pr. <a href="https://members.loria.fr/KFort/idmc-nancy-from-2024/" target="_blank">Karën Fort's lectures</a>, covering essential Python fundamentals such as strings, control flow, loops, lists, tuples, sets, and file handling. The practicals involve working with real-world examples like the “80jours50l” and “MyBiblio” files. Additionally, topics such as dictionaries, functions, modules, and key libraries like NumPy and Pandas are explored, concluding with a session on objects. Each topic is accompanied by interactive notebooks, and guidance is provided throughout all the exercises.
 </p>
-
 
 <!-- 🚀 [Recap/Reinforcement in python](python/) 💪 -->
 
@@ -68,13 +66,13 @@ I am teaching a thorough introduction to LaTeX, a powerful typesetting system us
 This course offers a practical introduction to shell scripting and file manipulation in Unix-like operating systems. I teach students essential commands for navigating file systems, handling text files, and performing basic scripting tasks. In practical sessions, students will work on exercises to create and manipulate files and directories, building useful shell scripts that can serve as a foundation for their future projects.
 </p>
 
-📖 [Lecture 1](/files/Introduction-to-Shell-Lecture-1-2425.pdf)
+<!-- 📖 [Lecture 1](/files/Introduction-to-Shell-Lecture-1-2425.pdf)
 🧑‍💻 [Practical 1](/files/Practical-1.zip)
 ✅ [Solutions](/files/Practical-1-Solutions.zip)
 
 📖 [Lecture 2](/files/Introduction-to-Shell-Lecture-2-2425.pdf)
 🧑‍💻 [Practical 2](/files/Practical-2.zip)
-✅ [Solutions](/files/Practical-2-Solutions.zip)
+✅ [Solutions](/files/Practical-2-Solutions.zip) -->
 
 ## Algorithm Quality and Complexity (FR)![emoji](/images/automaton.png){:height="30px" width="30px"}
 ##### Bachelor in Computer Science, IUT Nancy Charlemagne - Université de Lorraine, 2023-2024.
