@@ -73,15 +73,15 @@ layout: single
 
   <!-- Timeline items -->
   <div class="timeline-item">
-    <div class="event-text event-left"></div>
-    <div class="date-circle"></div>
-    <div class="event-text event-right">
+    <div class="event-text event-left">
       <div class="event-date">March 21th, 2025</div>
       <div class="event-description">
         Participated in a project meeting at CERIAH with the REFINED team, where we reviewed progress on clinical trials and patient recruitment, discussed a new frequency-weighted loss function to improve phoneme intelligibility, and explored optimizing speech enhancement models for low-footprint devices.
         <br>Paris, France 🇫🇷
       </div>
     </div>
+    <div class="date-circle"></div>
+    <div class="event-text event-right"></div>
   </div>
 
   <div class="timeline-item">
