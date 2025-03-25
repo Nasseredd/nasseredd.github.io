@@ -219,8 +219,8 @@ layout: single
       <div class="event-description">
         Attended the 10-day course "<a href="https://www.institut-audition.fr/pasteur-course" target="_blank">HEARING: From Mechanism to Restoration Technologies</a>" at the 
         <a href="https://www.pasteur.fr/fr" target="_blank">Institut de l’Audition</a>, organized by 
-        <a href="https://research.pasteur.fr/fr/member/brice-bathellier/" target="_blank">Brice Bathellier</a> and 
-        <a href="https://research.pasteur.fr/fr/member/boris-gourevitch/" target="_blank">Boris Gourevitch</a> from the 
+        <a href="https://research.pasteur.fr/fr/member/brice-bathellier/" target="_blank">Dr. Brice Bathellier</a> and 
+        <a href="https://research.pasteur.fr/fr/member/boris-gourevitch/" target="_blank">Dr. Boris Gourevitch</a> from the 
         <a href="https://www.pasteur.fr/fr" target="_blank">Pasteur Institute</a>.
         <br>Paris, France🇫🇷
       </div>
