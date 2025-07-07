@@ -1,43 +1,40 @@
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
 .highlight .c, .highlight .ch, .highlight .cd, .highlight .cpf {
-  color: #f8f8f2;
+  color: #b51700;
   font-style: italic;
 }
 .highlight .cm {
-  color: #f8f8f2;
+  color: #b51700;
   font-style: italic;
 }
 .highlight .c1 {
-  color: #f8f8f2;
+  color: #b51700;
   font-style: italic;
 }
 .highlight .cp {
-  color: #f8f8f2;
+  color: #b51700;
   font-weight: bold;
 }
 .highlight .cs {
-  color: #f8f8f2;
+  color: #b51700;
   font-weight: bold;
   font-style: italic;
 }
 .highlight .err {
-  color: #960050;
-  background-color: #1e0010;
+  color: #b51700;
+  background-color: #b51700;
 }
 .highlight .gi {
   color: #ffffff;
-  background-color: #324932;
+  background-color: #b51700;
 }
 .highlight .gd {
   color: #ffffff;
-  background-color: #493131;
+  background-color: #b51700;
 }
 .highlight .ge {
-  font-style: italic;
-}
-.highlight .ges {
-  font-weight: bold;
+  color: #b51700;
   font-style: italic;
 }
 .highlight .gr {
@@ -47,19 +44,19 @@
   color: #aa0000;
 }
 .highlight .gh {
-  color: #999999;
+  color: #b51700;
 }
 .highlight .go {
-  color: #888888;
+  color: #b51700;
 }
 .highlight .gp {
-  color: #f8f8f2;
+  color: #b51700;
 }
 .highlight .gs {
   font-weight: bold;
 }
 .highlight .gu {
-  color: #f8f8f2;
+  color: #b51700;
 }
 .highlight .k, .highlight .kv {
   color: #66d9ef;
@@ -98,25 +95,25 @@
   font-weight: bold;
 }
 .highlight .mf {
-  color: #ae81ff;
+  color: #b51700;
 }
 .highlight .mh {
-  color: #ae81ff;
+  color: #b51700;
 }
 .highlight .il {
-  color: #ae81ff;
+  color: #b51700;
 }
 .highlight .mi {
-  color: #ae81ff;
+  color: #b51700;
 }
 .highlight .mo {
-  color: #ae81ff;
+  color: #b51700;
 }
 .highlight .m, .highlight .mb, .highlight .mx {
-  color: #ae81ff;
+  color: #b51700;
 }
 .highlight .se {
-  color: #ae81ff;
+  color: #b51700;
 }
 .highlight .sa {
   color: #66d9ef;
@@ -187,19 +184,19 @@
   color: #f8f8f2;
 }
 .highlight .nn {
-  color: #f8f8f2;
+  color: #f8f8f2; /* Namespaces (e.g., module names) in white */
 }
 .highlight .vc {
-  color: #f8f8f2;
+  color: #f8f8f2; /* Class variables in white */
 }
 .highlight .vg {
-  color: #f8f8f2;
+  color: #f8f8f2; /* Global variables in white */
 }
 .highlight .vi {
-  color: #f8f8f2;
+  color: #f8f8f2; /* Instance variables in white */
 }
 .highlight .nv, .highlight .vm {
-  color: #f8f8f2;
+  color: #f8f8f2; /* Names/variables and module variables in white */
 }
 .highlight .w {
   color: #f8f8f2;
@@ -214,4 +211,10 @@
 .highlight {
   color: #f8f8f2;
   background-color: #49483e;
+}
+.highlight .n { /* General names (might include variables) */
+  color: #f8f8f2;
+  border: None;
+  margin: 0;
+  padding: 0;
 }

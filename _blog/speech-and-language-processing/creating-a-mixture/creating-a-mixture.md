@@ -12,7 +12,7 @@ Multichannel speech and noise mixtures are essential in various applications, su
 
 In the following, we will work with a speech signal from the test-clean subset of Librispeech, a noise signal from Freesound, and two room impulse responses generated from recordings made in a room at CERIAH (Institut Pasteur), with which I collaborate as part of the REFINED research project.
 
-```py
+```python
 import numpy as np
 import soundfile as sf
 
@@ -20,10 +20,10 @@ speech, sr = sf.read('speech.wav')
 noise, sr = sf.read('noise.wav')
 
 speech_rir = np.load('rir_0.npz')
-noise_rir = no.load('rir_90.npz') 
+noise_rir = np.load('rir_90.npz') 
 ```
 
-<!-- ## Single-Channel Mixture
+## Single-Channel Mixture
 
 In the context of speech enhancement, a mixture refers to a signal that combines multiple audio sources, such as a clean speech and a noise signal, often at a specific signal-to-noise ratio (SNR). A multichannel mixture can be represented as: 
 
@@ -58,7 +58,7 @@ Precisely,
 - if $$\text{SNR}_{\text{dB}} > 0$$, it means the speech energy is higher than the noise energy.
 - if $$\text{SNR}_{\text{dB}} < 0$$, it means the speech energy is lower than the noise energy.
 
-#### Scaling noise to achieve the desired SNR
+### Scaling noise to achieve the desired SNR
 
 To generate a mixture that satisfies a given $$\text{SNR}_{\text{dB}}$$, we scale either the speech signal or the noise signal accordingly. Indeed, our goal is to determine the appropriate gain factor $$\alpha$$ so that the speech and noise energies achieve the desired $$\text{SNR}_{\text{dB}}$$ level. 
 
@@ -92,7 +92,7 @@ $$\alpha = \frac{P_s}{P_n} \cdot 10^{-\frac{\text{SNR}_{\text{dB}} }{20}}$$
 
 $$\alpha = \frac{\sum s^2}{\sum n^2} \cdot 10^{-\frac{\text{SNR}_{\text{dB}} }{20}}$$
 
-#### Accounting for RMSE-normalized signals
+### Accounting for RMSE-normalized signals
 
 This formulation of $$\alpha$$ do not account for normalized signals using RMSE. If this normalization is applied, replacing $$s$$ and $$n$$ by their normalized verions:
 
@@ -125,11 +125,11 @@ $$\alpha =
 
 ⚠️ Ensure that if you normalize your signals using $$\text{RMSE}$$, you apply the second equation. Otherwise, the term $$\frac{\sum s^2}{\sum n^2}$$ which should ideally be equal to 1, may deviate in practice, potentially affecting the accuracy of your scaling factor $$\alpha$$.
 
-#### Handling Silent Portions in Speech for Accurate Gain Computation
+### Handling Silent Portions in Speech for Accurate Gain Computation
 
 In practice, speech signals often contain silent portions with very low energy. These segments can reduce the overall energy of the speech signal, leading to an inaccurate computation of the gain factor. To address this issue, one approach is to selectively retain only samples with a magnitude above a certain threshold (e.g., 0.01). Alternatively, a Voice Activity Detector (VAD) can be used to extract speech segments while discarding silence, ensuring a more reliable gain computation.
 
-#### Final Mixture Computation
+### Final Mixture Computation
 
 Now that we have determined the gain factor $$\alpha$$, we compute the mixture as:
 
@@ -204,38 +204,33 @@ This formulation captures the multichannel mixture, where each recorded signal r
 For instance, we could choose $$h_s^{0°}$$for the speech signal and $$h_s^{90°}$$for the noise signal to simulate speech coming from the front while the noise originates from 90° to the right.
 
 Clearly, if you play this mixture, you will only hear it in stereo (2 channels). However, if you wear your headphones or earphones correctly, you should perceive the noise as coming from the right, i.e. with a higher intensity in the right ear than in the left.
+    
+**Reverberated speech**
 
-<!-- - Code
-    
-    We assume the noise has been scaled! 
-    
-    Reverberated speech
-    
-    ```python
-    speech_fl = np.convolve(speech_rir['front_left'], speech, mode='full')
-    speech_rl = np.convolve(speech_rir['rear_left'], speech, mode='full')
-    speech_fr = np.convolve(speech_rir['front_right'], speech, mode='full')
-    speech_rr = np.convolve(speech_rir['rear_right'], speech, mode='full')
-    
-    speech_cnv = np.vstack([speech_fl, speech_rl, speech_fr, speech_rr])
-    ```
-    
-    Reverberated noise
-    
-    ```python
-    noise_fl = np.convolve(noise_rir['front_left'], speech, mode='full')
-    noise_rl = np.convolve(noise_rir['rear_left'], speech, mode='full')
-    noise_fr = np.convolve(noise_rir['front_right'], speech, mode='full')
-    noise_rr = np.convolve(noise_rir['rear_right'], speech, mode='full')
-    
-    noise_cnv = np.vstack([noise_fl, noise_rl, noise_fr, noise_rr])
-    ```
-    
-    Multichannel mixture
-    
-    ```python
-    x = speech_cnv + noise_cnv
-    ```
+```python
+speech_fl = np.convolve(speech_rir['front_left'], speech, mode='full')
+speech_rl = np.convolve(speech_rir['rear_left'], speech, mode='full')
+speech_fr = np.convolve(speech_rir['front_right'], speech, mode='full')
+speech_rr = np.convolve(speech_rir['rear_right'], speech, mode='full')
 
+speech_cnv = np.vstack([speech_fl, speech_rl, speech_fr, speech_rr])
+```
 
- --> -->
+**Reverberated noise**
+
+We assume the noise has been scaled! 
+
+```python
+noise_fl = np.convolve(noise_rir['front_left'], speech, mode='full')
+noise_rl = np.convolve(noise_rir['rear_left'], speech, mode='full')
+noise_fr = np.convolve(noise_rir['front_right'], speech, mode='full')
+noise_rr = np.convolve(noise_rir['rear_right'], speech, mode='full')
+
+noise_cnv = np.vstack([noise_fl, noise_rl, noise_fr, noise_rr])
+```
+    
+**Multichannel mixture**
+
+```python
+x = speech_cnv + noise_cnv
+```
