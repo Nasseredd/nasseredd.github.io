@@ -1,6 +1,6 @@
 ---
 title: "A Practical Guide to HPC on Grid5000"
-permalink: /blog/hpc-and-cloud/a-practical-guide-to-hpc-on-grid5000/a-practical-guide-to-hpc-on-grid5000.md
+permalink: /blog/hpc-and-cloud/a-practical-guide-to-hpc-on-grid5000/
 author_profile: true
 ---
 
