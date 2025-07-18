@@ -29,7 +29,7 @@ Whether you're here to <strong>learn, explore, or follow my research journey</st
 </div>
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
-  <a href="" style="text-decoration: none; color: inherit; flex: 1;">
+  <a href="{{ site.baseurl }}/blog/hpc-and-cloud" style="text-decoration: none; color: inherit; flex: 1;">
     <div style="text-align: center;" class="hover-section">
       <img src="{{ site.baseurl }}/files/blog/ai-and-data-privacy.png" width="400px" height="300px" >
       <p style="margin: 0px 0px 20px 0px; display: block;"><strong>HPC & Cloud</strong></p>
