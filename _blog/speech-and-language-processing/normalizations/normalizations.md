@@ -1,6 +1,6 @@
 ---
 title: "Normalizing Signals"
-permalink: /blog/speech-and-language-processing
+permalink: /blog/speech-and-language-processing/normalizations
 author_profile: true
 ---
 
