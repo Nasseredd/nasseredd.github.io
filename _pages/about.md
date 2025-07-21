@@ -16,4 +16,7 @@ I am a PhD fellow at the <a href="https://team.inria.fr/multispeech/" target="_b
 
 Research Interests
 ---
-My broader interests include AI model evaluation, Green and Sustainable AI, aiming to make AI more efficient and environmentally conscious.
+My broader interests include: 
+* Speech enhancement and intelligibility improvement for hearing loss. 
+* Low resource languages: data curation, automatic speech recognition, text-to-speech and NLP tools. 
+* Benchmarking LLMs.
