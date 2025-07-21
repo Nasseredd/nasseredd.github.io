@@ -7,7 +7,7 @@ author_profile: true
 ## High-Performance Computing (HPC) Infrastructure
 
 <div style="width: 100%; background-color: #fafafa; border-radius: 8px; padding: 10px; margin-top: 15px; display: flex; flex-direction: column; align-items: flex-start;">
-  <a href="{{ site.baseurl }}/blog/hpc-and-cloud/a-practical-guide-to-hpc-on-grid5000/" 
+  <a href="{{ site.baseurl }}/blog/hpc-and-cloud/a-practical-guide-to-hpc-on-grid5000" 
      style="text-decoration: none; color: inherit; display: flex; flex-direction: column; width: 100%;">
     <div style="display: flex; align-items: center;">
       <img src="{{ site.baseurl }}/files/blog/speech-and-language-processing-.jpg" alt="Article Icon" style="width: 24px; height: 24px; margin-right: 10px; border-radius: 50%; background-color: #fff; padding: 4px;">
