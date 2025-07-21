@@ -1,16 +1,14 @@
 ---
-title: "Frequent Issues on Grid5000"
-permalink: /blog/hpc-and-cloud/frequent-issues
+title: "How I Fixed My Grid'5000 Connection Problem in VS Code on Windows"
+permalink: /blog/hpc-and-cloud/vscode-g5k-windows
 author_profile: true
 ---
 
-## I could'nt connect to Grid'5000 via VS Code from a Windows machine
-
 If you're on a Windows machine and struggling to connect to Grid'5000 using VS Code + SSH, you're on the right place.
 
-I assume you've already set up your SSH configuration file at ```C:\Users\<YourUsername>\.ssh\config``` with content similar to the following: 
+I assume you've already set up your SSH configuration file at ```C:\Users\nmonir\.ssh\config``` with content similar to the following: 
 
-```
+```shell
 Host g5k
 User nmonir
 HostName access.grid5000.fr
@@ -40,7 +38,7 @@ This uses Unix-style command substitution (```$(...)```) which PowerShell and Wi
 
 To make things work on Windows, you should explicitly define the remote site you're trying to reach. Replace the wildcard rule with a hardcoded one for the site you need. For example, if you're trying to reach the Nancy site:
 
-```
+```shell
 Host nancy.g5k
 User nmonir
 HostName nancy
