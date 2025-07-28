@@ -1,15 +1,8 @@
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
-.highlight .c, .highlight .ch, .highlight .cd, .highlight .cpf {
-  color: #b51700;
-  font-style: italic;
-}
-.highlight .cm {
-  color: #b51700;
-  font-style: italic;
-}
-.highlight .c1 {
-  color: #b51700;
+.highlight .c, .highlight .ch, .highlight .cd, .highlight .cpf,
+.highlight .cm, .highlight .c1 {
+  color: #00aa00; /* or use 'green' or another preferred shade */
   font-style: italic;
 }
 .highlight .cp {
@@ -58,33 +51,24 @@
 .highlight .gu {
   color: #b51700;
 }
-.highlight .k, .highlight .kv {
-  color: #66d9ef;
-  font-weight: bold;
+.highlight .k,
+.highlight .kp,
+.highlight .kn,
+.highlight .kr,
+.highlight .kt,
+.highlight .kd,
+.highlight .kv {
+  color: #66d9ef;   /* soft blue */
+  /* font-weight: bold; */
 }
-.highlight .kc {
-  color: #66d9ef;
-  font-weight: bold;
-}
-.highlight .kd {
-  color: #66d9ef;
-  font-weight: bold;
-}
-.highlight .kp {
-  color: #66d9ef;
-  font-weight: bold;
-}
-.highlight .kr {
-  color: #66d9ef;
-  font-weight: bold;
-}
-.highlight .kt {
-  color: #66d9ef;
-  font-weight: bold;
-}
-.highlight .kn {
-  color: #f92672;
-  font-weight: bold;
+.highlight .kp,
+.highlight .kn,
+.highlight .kr,
+.highlight .kt,
+.highlight .kd,
+.highlight .kv {
+  color: #66d9ef;   /* soft blue */
+  /* font-weight: bold; */
 }
 .highlight .ow {
   color: #f92672;
@@ -178,7 +162,7 @@
   color: #f8f8f2;
 }
 .highlight .nb {
-  color: #f8f8f2;
+  color: #f4bf75;  /* or try #e69c47 or #e6b422 for variations */
 }
 .highlight .ni {
   color: #f8f8f2;
