@@ -51,16 +51,8 @@
 .highlight .gu {
   color: #b51700;
 }
+
 .highlight .k,
-.highlight .kp,
-.highlight .kn,
-.highlight .kr,
-.highlight .kt,
-.highlight .kd,
-.highlight .kv {
-  color: #66d9ef;   /* soft blue */
-  /* font-weight: bold; */
-}
 .highlight .kp,
 .highlight .kn,
 .highlight .kr,
@@ -88,7 +80,7 @@
   color: #b51700;
 }
 .highlight .mi {
-  color: #b51700;
+  color: white; /* output */
 }
 .highlight .mo {
   color: #b51700;
