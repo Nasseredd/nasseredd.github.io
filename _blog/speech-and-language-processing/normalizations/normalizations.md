@@ -45,9 +45,7 @@ author_profile: true
   <p style="margin: 2px 0 0 0;">
     <span>Keywords: </span>
     <span>#SpeechProcessing,</span>
-    <span>#Mixture,</span>
-    <span>#Noise,</span>
-    <span>#Signal-to-Noise Ratio.</span>
+    <span>#SignalNormalization,</span>
   </p>
 </div>
 
