@@ -40,13 +40,15 @@ author_profile: true
 <!-- Header -->
 <div style="font-family: system-ui, sans-serif; font-size: 14px; color: #203657; margin-bottom: 1rem; line-height: 1.5;">
   <p style="margin: 0;">
-    <span>Reading Time: ~7 min</span> • 
+    <span>Reading Time: ~15 min</span> • 
     <span>Last Modified: July 29, 2025</span>
   </p>
   <p style="margin: 2px 0 0 0;">
     <span>Keywords: </span>
     <span>#SpeechProcessing,</span>
-    <span>#SignalNormalization.</span>
+    <span>#Mixture,</span>
+    <span>#Noise,</span>
+    <span>#Signal-to-Noise Ratio.</span>
   </p>
 </div>
 
