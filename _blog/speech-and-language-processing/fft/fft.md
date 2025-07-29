@@ -79,7 +79,7 @@ where
 </style>
 
 <div class="highlighted-example">
-<p>Let’s walk through an example. Suppose a simple real-valued signal \( x[n] = [1, 0, 1] \). We’ll compute the FFT — that is, the values of \(X[k]\) for each frequency index \( k \):</p>
+<p>Let’s walk through an example. Suppose a simple real-valued signal \( x[n] = [1, 0, 1] \). We’ll compute the FFT — that is, the values of \(X[f]\) for each frequency index \( f \):</p>
 
 <ul>
   <li>
