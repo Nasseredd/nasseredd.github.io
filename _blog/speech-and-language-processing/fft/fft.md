@@ -299,6 +299,8 @@ plt.show()
   <img src="/files/blog/pf_spectrum.png" alt="spectrum" style="max-width: 100%; height: auto; margin-top: 1rem;" />
 </div>
 
+## Conclusion
+
 And that’s the magic of the FFT! We’ve journeyed from a real-valued signal to its frequency domain, using the FFT to uncover hidden frequency components. By computing the spectrum $$ \lvert X[f] \rvert$$, we get a clear, visual snapshot of a signal’s amplitude across frequencies. With Python tools like NumPy and PyTorch, and by focusing on positive frequencies, we’ve made sense of complex outputs in a practical way. This process is key in signal processing, helping us analyze everything from audio to vibrations with ease and precision. Keep exploring, and happy signal crunching!
 
 
