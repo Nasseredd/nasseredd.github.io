@@ -6,6 +6,15 @@ author_profile: true
 
 ## Fundamentals of Speech Processing
 
+<!-- 
+- Sound
+- 
+- Fast Fourier Transform (FFT)
+- Short Time Fourier Transform (STFT)
+- Scale : Mel scale, Critical bands, 1/3 octave
+- 
+ -->
+
 <div style="width: 100%; background-color: #fafafa; border-radius: 8px; padding: 10px; margin-top: 15px; display: flex; flex-direction: column; align-items: flex-start;">
   <a href="{{ site.baseurl }}/blog/speech-and-language-processing/audio-libraries" 
      style="text-decoration: none; color: inherit; display: flex; flex-direction: column; width: 100%;">
@@ -28,47 +37,14 @@ author_profile: true
   </a>
 </div>
 
-<!-- <div style="width: 100%; background-color: #fafafa; border-radius: 8px; padding: 10px; margin-top: 15px; display: flex; flex-direction: column; align-items: flex-start;">
-  <a href="" 
-     style="text-decoration: none; color: inherit; display: flex; flex-direction: column; width: 100%;">
-    <div style="display: flex; align-items: center;">
-      <img src="{{ site.baseurl }}/files/blog/speech-and-language-processing-.jpg" alt="Article Icon" style="width: 24px; height: 24px; margin-right: 10px; border-radius: 50%; background-color: #fff; padding: 4px;">
-      <span style="font-size: 18px; font-weight: bold; color: #333;">Understanding Signal Normalizations</span>
-    </div>
-    <div style="font-size: 14px; color: #888; margin-top: 5px; margin-left: 34px;">Reading time: 10 min</div>
-  </a>
-</div>
-
 <div style="width: 100%; background-color: #fafafa; border-radius: 8px; padding: 10px; margin-top: 15px; display: flex; flex-direction: column; align-items: flex-start;">
-  <a href="" 
+  <a href="{{ site.baseurl }}/blog/speech-and-language-processing/fft" 
      style="text-decoration: none; color: inherit; display: flex; flex-direction: column; width: 100%;">
     <div style="display: flex; align-items: center;">
       <img src="{{ site.baseurl }}/files/blog/speech-and-language-processing-.jpg" alt="Article Icon" style="width: 24px; height: 24px; margin-right: 10px; border-radius: 50%; background-color: #fff; padding: 4px;">
-      <span style="font-size: 18px; font-weight: bold; color: #333;">How the FFT Transforms Audio Signals?</span>
+      <span style="font-size: 18px; font-weight: bold; color: #333;">From a Real-Valued Signal to the FFT and Its Spectrum</span>
     </div>
-    <div style="font-size: 14px; color: #888; margin-top: 5px; margin-left: 34px;">Reading time: 10 min</div>
-  </a>
-</div>
-
-<div style="width: 100%; background-color: #fafafa; border-radius: 8px; padding: 10px; margin-top: 15px; display: flex; flex-direction: column; align-items: flex-start;">
-  <a href="" 
-     style="text-decoration: none; color: inherit; display: flex; flex-direction: column; width: 100%;">
-    <div style="display: flex; align-items: center;">
-      <img src="{{ site.baseurl }}/files/blog/speech-and-language-processing-.jpg" alt="Article Icon" style="width: 24px; height: 24px; margin-right: 10px; border-radius: 50%; background-color: #fff; padding: 4px;">
-      <span style="font-size: 18px; font-weight: bold; color: #333;">STFT Essentials: Analyzing Signals in Time and Frequency</span>
-    </div>
-    <div style="font-size: 14px; color: #888; margin-top: 5px; margin-left: 34px;">Reading time: 10 min</div>
-  </a>
-</div>
-
-<div style="width: 100%; background-color: #fafafa; border-radius: 8px; padding: 10px; margin-top: 15px; display: flex; flex-direction: column; align-items: flex-start;">
-  <a href="" 
-     style="text-decoration: none; color: inherit; display: flex; flex-direction: column; width: 100%;">
-    <div style="display: flex; align-items: center;">
-      <img src="{{ site.baseurl }}/files/blog/speech-and-language-processing-.jpg" alt="Article Icon" style="width: 24px; height: 24px; margin-right: 10px; border-radius: 50%; background-color: #fff; padding: 4px;">
-      <span style="font-size: 18px; font-weight: bold; color: #333;">How Windowing Transforms Signal Analysis?</span>
-    </div>
-    <div style="font-size: 14px; color: #888; margin-top: 5px; margin-left: 34px;">Reading time: 10 min</div>
+    <div style="font-size: 14px; color: #888; margin-top: 5px; margin-left: 34px;">Reading time: 15 min</div>
   </a>
 </div>
 
@@ -84,15 +60,3 @@ author_profile: true
     <div style="font-size: 14px; color: #888; margin-top: 5px; margin-left: 34px;">Reading time: 10 min</div>
   </a>
 </div>
-
-<div style="width: 100%; background-color: #fafafa; border-radius: 8px; padding: 10px; margin-top: 15px; display: flex; flex-direction: column; align-items: flex-start;">
-  <a href="" 
-     style="text-decoration: none; color: inherit; display: flex; flex-direction: column; width: 100%;">
-    <div style="display: flex; align-items: center;">
-      <img src="{{ site.baseurl }}/files/blog/speech-and-language-processing-.jpg" alt="Article Icon" style="width: 24px; height: 24px; margin-right: 10px; border-radius: 50%; background-color: #fff; padding: 4px;">
-      <span style="font-size: 18px; font-weight: bold; color: #333;">Measuring Interference, Artifacts, and Distortions</span>
-    </div>
-    <div style="font-size: 14px; color: #888; margin-top: 5px; margin-left: 34px;">Reading time: 10 min</div>
-  </a>
-</div>
- -->

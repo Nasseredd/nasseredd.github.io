@@ -1,6 +1,6 @@
 ---
 title: "From a Real-Valued Signal to the FFT and Its Spectrum"
-permalink: /blog/speech-and-language-processing/fft
+permalink: /blog/speech-and-language-processing/manipulating-fft-and-stft
 author_profile: true
 ---
 
