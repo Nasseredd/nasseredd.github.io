@@ -55,9 +55,7 @@ author_profile: true
   </p>
 </div>
 
-
-
-
+<!-- Article -->
 ## Introduction
 
 Ever wondered how we turn a real-world signal, like audio, into its frequency components? In this post, we’ll dive into the Fast Fourier Transform (FFT), a powerful tool that converts a real-valued signal $$ x[n] $$ into its complex-valued frequency domain $$ X[f] $$. We’ll explore the math behind it, compute the FFT using Python libraries like NumPy and PyTorch, and visualize the spectrum to reveal the signal’s frequency content.
