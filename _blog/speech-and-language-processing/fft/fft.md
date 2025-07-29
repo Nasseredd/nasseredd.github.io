@@ -4,6 +4,7 @@ permalink: /blog/speech-and-language-processing/fft
 author_profile: true
 ---
 
+<!-- Breadcrumb -->
 <nav aria-label="breadcrumb" style="font-family: system-ui, sans-serif; font-size: 14px; margin-bottom: 1rem;">
   <style>
     .breadcrumb a {
@@ -35,6 +36,27 @@ author_profile: true
     </li>
   </ol>
 </nav>
+
+<!-- Header -->
+
+
+<div style="font-family: system-ui, sans-serif; font-size: 14px; color: #203657; margin-bottom: 1rem; line-height: 1.5;">
+  <p style="margin: 0;">
+    <span>Reading Time: ~15 min</span> • 
+    <span>Last Modified: July 29, 2025</span>
+  </p>
+  <p style="margin: 2px 0 0 0;">
+    <span>Keywords: </span>
+    <span>#SignalProcessing,</span>
+    <span>#SpeechProcessing,</span>
+    <span>#FFT,</span>
+    <span>#Spectrum,</span>
+    <span>#Python.</span>
+  </p>
+</div>
+
+
+
 
 ## Introduction
 
