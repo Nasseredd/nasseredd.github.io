@@ -1,8 +1,60 @@
 ---
 title: "Comparing Librosa, Soundfile and Torchaudio"
-permalink: /blog/speech-and-language-processing/audio-libraries
+permalink: /blog/speech-and-language-processing/comparing-audio-libraries
 author_profile: true
 ---
+<!-- Breadcrumb -->
+<nav aria-label="breadcrumb" style="font-family: system-ui, sans-serif; font-size: 14px; margin-bottom: 1rem;">
+  <style>
+    .breadcrumb a {
+      color: #666;
+      text-decoration: none;
+      transition: color 0.2s ease-in-out;
+    }
+    .breadcrumb a:hover {
+      color: #333;
+      text-decoration: underline;
+    }
+    .breadcrumb-separator {
+      margin: 0 0.3rem;
+      color: #999;
+    }
+  </style>
+
+  <ol class="breadcrumb" style="display: flex; list-style: none; padding: 0; margin: 0; gap: 0.25rem;">
+    <li style="display: flex; align-items: center;">
+      <a href="/">Home</a>
+      <span class="breadcrumb-separator">/</span>
+    </li>
+    <li style="display: flex; align-items: center;">
+      <a href="/blog/">Blog</a>
+      <span class="breadcrumb-separator">/</span>
+    </li>
+    <li style="display: flex; align-items: center;">
+      <a href="/blog/speech-and-language-processing/">Speech and Language Processing</a>
+    </li>
+  </ol>
+</nav>
+
+<!-- Header -->
+
+
+<div style="font-family: system-ui, sans-serif; font-size: 14px; color: #203657; margin-bottom: 1rem; line-height: 1.5;">
+  <p style="margin: 0;">
+    <span>Reading Time: ~5 min</span> • 
+    <span>Last Modified: July 29, 2025</span>
+  </p>
+  <p style="margin: 2px 0 0 0;">
+    <span>Keywords: </span>
+    <span>#SpeechProcessing,</span>
+    <span>#Python.</span>
+    <span>#Librosa,</span>
+    <span>#Soundfile,</span>
+    <span>#PyTorch,</span>
+  </p>
+</div>
+
+<!-- Article -->
 
 ## Introduction
 
