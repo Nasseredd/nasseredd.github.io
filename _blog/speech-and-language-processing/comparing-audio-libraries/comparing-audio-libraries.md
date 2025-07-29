@@ -47,10 +47,10 @@ author_profile: true
   <p style="margin: 2px 0 0 0;">
     <span>Keywords: </span>
     <span>#SpeechProcessing,</span>
-    <span>#Python.</span>
+    <span>#Python,</span>
     <span>#Librosa,</span>
     <span>#Soundfile,</span>
-    <span>#PyTorch,</span>
+    <span>#PyTorch.</span>
   </p>
 </div>
 
