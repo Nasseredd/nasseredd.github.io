@@ -4,6 +4,20 @@ permalink: /blog/speech-and-language-processing/fft
 author_profile: true
 ---
 
+<!-- Next Modifications: 
+
+* Add python code and plot to the section "A Practical Consideration for Visualization" 
+
+* Computing the frequencies: always compute the actual frequencies of each FFT bin before interpreting or plotting the spectrum. `freqs = np.fft.rfftfreq(n, d=1/fs)`. This gives you a 1D array of the exact frequency values in Hz that each FFT bin corresponds to. Then, you can safely plot: plt.plot(freqs, 20 * np.log10(np.abs(spectrum))). And if you want to limit to 8 kHz (or any frequency range), you can filter using freqs, like this: mask = freqs <= 8000
+plt.plot(freqs[mask], 20 * np.log10(np.abs(spectrum[mask]))). why this matters? The FFT does not give values in Hz directly — it gives frequency bins, which only gain meaning when mapped using np.fft.rfftfreq(...). The frequency of each bin is:f k = nk ⋅fs. If fs = 16 kHz and n = 16000, you get one bin every 1 Hz. If fs = 16 kHz and n = 1024, each bin spans ~15.625 Hz. 
+
+* Difference between np.fft.fft() and np.fft.rfft()? 
+
+* y-axis en dB, en log, etc. 
+
+* Cut at 8KHz: The DFT and FFT weren’t designed for just speech — they're general tools for any signal, including: High-frequency radar, EEG/EMG data, Audio/music, Seismic or RF signals. They return all frequency bins, and it's up to the application to decide which ones are meaningful. In other words, you still compute the full DFT of length N, and then select only the range you care about -->
+
+
 <!-- Breadcrumb -->
 <nav aria-label="breadcrumb" style="font-family: system-ui, sans-serif; font-size: 14px; margin-bottom: 1rem;">
   <style>
@@ -318,6 +332,17 @@ plt.show()
 <div style="text-align: center;">
   <img src="/files/blog/pf_spectrum.png" alt="spectrum" style="max-width: 100%; height: auto; margin-top: 1rem;" />
 </div>
+
+## A Practical Consideration for Visualization
+
+Computing the FFT on a signal using the whole number of samples can be interesting and informative for some types of processing (e.g., pitch estimation or signal classification), but not ideal for visualization, as it produces a very high-resolution spectrum — one frequency bin per sample — and it averages out all temporal variations.
+
+In such a full-FFT case, the number of frequency bins is equal to the number of samples (for real input: `N/2 + 1`). To visualize or reduce dimensionality, one might consider decimating the spectrum (e.g., keeping one frequency every k bins) or zooming into a limited frequency range, but these approaches can be lossy or arbitrary.
+
+Importantly, if you compute the FFT on only the first `n_fft` samples of the full signal, you are discarding the rest of the signal, which is usually not appropriate, especially for non-stationary signals like speech.
+A better practice is to segment the signal into overlapping windows of length `n_fft`, compute the FFT on each (optionally windowed), and then average the magnitude or power spectra. This approach gives a more representative global spectrum and preserves temporal structure during analysis.
+
+In fact, this is exactly what the short-time Fourier transform (STFT) does: it computes the FFT over short-time segments of the signal. If you don’t care about temporal variation and only want a global spectral profile, you can then average the STFT across time (i.e., average over frames), giving a smoothed and representative spectrum of the whole signal.
 
 ## Conclusion
 
