@@ -11,9 +11,9 @@ author_profile: true
 * Computing the frequencies: always compute the actual frequencies of each FFT bin before interpreting or plotting the spectrum. `freqs = np.fft.rfftfreq(n, d=1/fs)`. This gives you a 1D array of the exact frequency values in Hz that each FFT bin corresponds to. Then, you can safely plot: plt.plot(freqs, 20 * np.log10(np.abs(spectrum))). And if you want to limit to 8 kHz (or any frequency range), you can filter using freqs, like this: mask = freqs <= 8000
 plt.plot(freqs[mask], 20 * np.log10(np.abs(spectrum[mask]))). why this matters? The FFT does not give values in Hz directly — it gives frequency bins, which only gain meaning when mapped using np.fft.rfftfreq(...). The frequency of each bin is:f k = nk ⋅fs. If fs = 16 kHz and n = 16000, you get one bin every 1 Hz. If fs = 16 kHz and n = 1024, each bin spans ~15.625 Hz. 
 
-* Difference between np.fft.fft() and np.fft.rfft()? 
+* Difference between np.fft.fft() and np.fft.rfft()?
 
-* y-axis en dB, en log, etc. 
+* y-axis en dB, en log, etc.
 
 * Cut at 8KHz: The DFT and FFT weren’t designed for just speech — they're general tools for any signal, including: High-frequency radar, EEG/EMG data, Audio/music, Seismic or RF signals. They return all frequency bins, and it's up to the application to decide which ones are meaningful. In other words, you still compute the full DFT of length N, and then select only the range you care about -->
 
