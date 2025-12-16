@@ -66,7 +66,7 @@ author_profile: true
       <img src="{{ site.baseurl }}/files/blog/speech-and-language-processing-.jpg" alt="Article Icon" style="width: 24px; height: 24px; margin-right: 10px; border-radius: 50%; background-color: #fff; padding: 4px;">
       <span style="font-size: 18px; font-weight: bold; color: #333;">Equivalent Rectangular Bandwidth (ERB)</span>
     </div>
-    <div style="font-size: 14px; color: #888; margin-top: 5px; margin-left: 34px;">Reading time: 15 min</div>
+    <div style="font-size: 14px; color: #888; margin-top: 5px; margin-left: 34px;">Reading time: 20 min</div>
   </a>
 </div>
 
