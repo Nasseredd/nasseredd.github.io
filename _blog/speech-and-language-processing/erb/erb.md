@@ -109,24 +109,24 @@ author_profile: true
 
 <p>In this regard, the ERB scale aims to place the center frequencies in a way that is perceptually aligned with the frequency resolution of the human auditory system. In order to know where to place these center frequencies (on the linear axis), we move to the ERB axis. Placing the center frequencies linearly on the ERB axis is equivalent to placing the center frequencies perceptually (non-linear) on the linear axis.</p>
 
-<p>To this end, let \(f_b\)denote the center frequency of the \(b\)-th filter in the filterbank (expressed on the linear frequency axis), and \(e_b\)denote its corresponding ERB-rate coordinate (expressed on the ERB axis). The mapping between these two representations is defined by </p>
+<p>To this end, let \(f_b\) denote the center frequency of the \(b\)-th filter in the filterbank (expressed on the linear frequency axis), and \(e_b\) denote its corresponding ERB-rate coordinate (expressed on the ERB axis). The mapping between these two representations is defined by </p>
 
 
 $$
 e_b = \text{ERB}_{\text{rate}}(f_b) = 21.4 \;\cdot\;\text{log}_{10}(4.37 \;\cdot\; f_b/1000 +1)
 $$
 
-<p>Conversely, each ERB-rate coordinate \(e_b\)can be mapped back to its corresponding linear frequency \(f_b\)via the inverse ERB-rate transformation:</p>
+<p>Conversely, each ERB-rate coordinate \(e_b\) can be mapped back to its corresponding linear frequency \(f_b\) via the inverse ERB-rate transformation:</p>
 
 $$
 f_b = \frac{1000}{4.37} \;\Big( 10^{e_b/21.4} - 1\;\Big)
 $$
 
-<p>At this point, we understand that the procedure consists of first selecting ERB-rate coordinates \(e_b\)that are linearly distributed on the ERB axis, and then mapping them back to the center frequencies \(f_b\)that are distributed percentually (non-linearly) on the linear axis using the inverse ERB-rate transformation. </p>
+<p>At this point, we understand that the procedure consists of first selecting ERB-rate coordinates \(e_b\) that are linearly distributed on the ERB axis, and then mapping them back to the center frequencies \(f_b\) that are distributed percentually (non-linearly) on the linear axis using the inverse ERB-rate transformation. </p>
 
-<p>In order to determine the \(e_b\)coordinates, we simply divide the ERB axis in \(B\)desired segments linearly. The resulting coordinates are given by  \(e_b = e_{\text{min}} + b\cdot \Delta\), where the step size \(\Delta\)is defined as \(\Delta = \frac{e_{\text{max}} - e_{\text{min}}}{B-1}\), with \(b = 0, 1, \ldots, B-1.\).</p>
+<p>In order to determine the \(e_b\)coordinates, we simply divide the ERB axis in \(B\)desired segments linearly. The resulting coordinates are given by  \(e_b = e_{\text{min}} + b\cdot \Delta\), where the step size \(\Delta\) is defined as \(\Delta = \frac{e_{\text{max}} - e_{\text{min}}}{B-1}\), with \(b = 0, 1, \ldots, B-1.\).</p>
 
-<p>However, this naive separation will lead to problems at edges as the first and the last ERB-rate coordinates (denoted \(e_{min}\)and \(e_{max}\)respectively) will be equal to 0 and </p>
+<p>However, this naive separation will lead to problems at edges as the first and the last ERB-rate coordinates (denoted \(e_{min}\) and \(e_{max}\) respectively) will be equal to 0 and </p>
 
 <p>One might be tempted to divide the ERB axis uniformly starting from \(e_{\min}=0\), which corresponds to a center frequency at \(f_{min}=0\ \text{Hz}\). However, this will lead to boundary issues. Although the inverse ERB-rate mapping produces non-negative center frequencies, each filter has a finite bandwidth. As a result, a filter whose center frequency \(f_{min}=0\) will extend below \(0\ \text{Hz}\) once its bandwidth is taken into account. More specifically, since the filter bandwidth is split equally around the center frequency, half of it lies below and half above the center. When the center frequency is at \(f_{\min}=0\), the lower half of the bandwidth extends into negative frequencies, which is undesirable. A similar issue arises at the upper end of the spectrum, where filters placed too close (or equal) to the maximum frequency will extend beyond the intended frequency range \([0, f_s/2]\).</p>
 
