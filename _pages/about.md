@@ -17,6 +17,6 @@ I am a PhD fellow at the <a href="https://team.inria.fr/multispeech/" target="_b
 Research Interests
 ---
 My broader interests include: 
-* Speech enhancement and intelligibility improvement for hearing loss. 
-* Low resource languages: data curation, automatic speech recognition, text-to-speech and NLP tools. 
-* Benchmarking LLMs.
+* Speech intelligibility and speech perception loss functions
+* DNN-based speech enhancement algorithms
+* Low resource languages and their speech/text language processing applications
