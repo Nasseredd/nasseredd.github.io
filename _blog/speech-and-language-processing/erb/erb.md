@@ -58,8 +58,6 @@ author_profile: true
 <!-- Article -->
 ## Introduction
 
----
-
 The equivalent rectangular bandwidth (ERB) is a psychoacoustic frequency scale that models the frequency resolution of the human auditory system. It is widely used in speech processing, audio coding, and hearing research to design frequency representations that better match human perception.
 
 In many audio and speech applications, signals are first analyzed using a short-time Fourier transform (STFT), which provides a linear-frequency representation. However, human auditory perception does not resolve frequencies linearly: it has higher resolution at low frequencies and lower resolution at high frequencies. ERB filterbanks address this mismatch by grouping linear-frequency bins into perceptually motivated frequency bands.
@@ -72,17 +70,27 @@ In the following, we assume that the time-domain signal has already been transfo
 
 ## Center frequencies
 
----
-
 In this section, we first explain the motivation behind each step involved in defining the center frequencies, without yet focusing on the computational procedure. Once the underlying ideas are clear, we then present the exact algorithmic steps required to compute the center frequencies.
 
 By definition, the center frequency of a filter is the frequency at which its frequency response reaches its maximum value. It characterizes the location of the filter along the frequency axis, that is, the frequency region that the filter primarily captures. In an ERB filterbank, center frequencies are expressed on the linear (physical) frequency axis, but their distribution along this axis follows a non-linear, perceptually motivated spacing.
 
 To clarify this distinction, let us illustrate it with a simple example. This first figure represents a linear-frequency axis, which is the coordinate system itself. Each tick corresponds to a physical frequency expressed in Hertz (Hz), and the distance between consecutive ticks is constant. This axis is therefore linear by construction.
 
+<div style="text-align: center;">
+  <img src="/files/blog/linear-axis.png" alt="Linear-Axis" style="max-width: 100%; height: auto; margin-top: 1rem;" />
+</div>
+
 If we now want to select 6 center frequencies on this same linear-frequency axis and distribute them linearly, we choose them with a constant spacing along the axis. An example of such a linear distribution is shown in the second figure. 
 
+<div style="text-align: center;">
+  <img src="/files/blog/linear-distribution.png" alt="Linear-Distribution" style="max-width: 100%; height: auto; margin-top: 1rem;" />
+</div>
+
 In contrast, if we want to select 5 center frequencies on the same linear-frequency axis but distribute them non-linearly, we no longer enforce a constant spacing between consecutive centers. An example of such a non-linear distribution is shown in the third figure. Importantly, the axis remains linear; only the distribution of the center frequencies on this axis becomes non-linear.
+
+<div style="text-align: center;">
+  <img src="/files/blog/non-linear-distribution.png" alt="Non-Linear-Distribution" style="max-width: 100%; height: auto; margin-top: 1rem;" />
+</div>
 
 In this regard, the ERB scale aims to place the center frequencies in a way that is perceptually aligned with the frequency resolution of the human auditory system. In order to know where to place these center frequencies (on the linear axis), we move to the ERB axis. Placing the center frequencies linearly on the ERB axis is equivalent to placing the center frequencies perceptually (non-linear) on the linear axis. 
 
@@ -118,8 +126,6 @@ In summary, the procedure consists of the following steps:
 
 ## Band widths
 
----
-
 For each ERB center frequency $$f_b$$ in the physical axis (linear), the perceptual bandwidth $$\text{BW}_b$$ is defined as follows:
 
 $$
@@ -129,8 +135,6 @@ $$
 This gives the effective bandwidth (in Hz) of one auditory filter centered at frequency $$f_b$$. It represents the width of an ideal rectangular filter that passes the same power as the true human auditory filter.
 
 ## Filterbank
-
----
 
 Once the center frequencies $$\{f_b\}_{b=0}^{B-1}$$ and their corresponding bandwidths $$\{\text{BW}_b\}_{b=0}^{B-1}$$ are defined, each ERB filter must be assigned a frequency response shape. The role of this shape is to specify how each linear-frequency bin contributes to a given ERB band.
 
@@ -153,8 +157,6 @@ Optional : To preserve signal energy after projection, it is common to normalize
 This matrix $$H$$ completely defines the linear-to-ERB frequency mapping and can be precomputed once for a given configuration $$(f_s, N, B, f_{\min}, f_{\max})$$.
 
 ## Project the linear-frequency STFT onto the ERB band
-
----
 
 The projection of the linear-frequency STFT onto the ERB bands is performed by applying the ERB filterbank matrix $$H$$ to the magnitude spectrum of $$X$$.
 
