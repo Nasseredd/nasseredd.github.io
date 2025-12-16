@@ -32,7 +32,7 @@ author_profile: true
       <span class="breadcrumb-separator">/</span>
     </li>
     <li style="display: flex; align-items: center;">
-      <a href="/blog/speech-and-language-processing/">Speech and Language Processing</a>
+      <a href="/blog/speech-and-language-processing">Speech and Language Processing</a>
     </li>
   </ol>
 </nav>
