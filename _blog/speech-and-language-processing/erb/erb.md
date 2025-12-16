@@ -109,11 +109,11 @@ author_profile: true
 
 <p>In this regard, the ERB scale aims to place the center frequencies in a way that is perceptually aligned with the frequency resolution of the human auditory system. In order to know where to place these center frequencies (on the linear axis), we move to the ERB axis. Placing the center frequencies linearly on the ERB axis is equivalent to placing the center frequencies perceptually (non-linear) on the linear axis.</p>
 
-<p>To this end, let \(f_b\)denote the center frequency of the \(b\)-th filter in the filterbank (expressed on the linear frequency axis), and \(e_b\)denote its corresponding ERB-rate coordinate (expressed on the ERB axis). The mapping between these two representations is defined by \(e_b = \text{ERB}_{\text{rate}}(f_b)\), where the ERB-rate scale is given by </p>
+<p>To this end, let \(f_b\)denote the center frequency of the \(b\)-th filter in the filterbank (expressed on the linear frequency axis), and \(e_b\)denote its corresponding ERB-rate coordinate (expressed on the ERB axis). The mapping between these two representations is defined by </p>
 
 
 $$
-e_b = \text{ERB}_{\text{rate}}(f) = 21.4 \;\cdot\;\text{log}_{10}(4.37 \;\cdot\; f/1000 +1)
+e_b = \text{ERB}_{\text{rate}}(f_b) = 21.4 \;\cdot\;\text{log}_{10}(4.37 \;\cdot\; f_b/1000 +1)
 $$
 
 <p>Conversely, each ERB-rate coordinate \(e_b\)can be mapped back to its corresponding linear frequency \(f_b\)via the inverse ERB-rate transformation:</p>
