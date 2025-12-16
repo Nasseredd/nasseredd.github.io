@@ -124,21 +124,21 @@ $$
 
 <p>At this point, we understand that the procedure consists of first selecting ERB-rate coordinates \(e_b\) that are linearly distributed on the ERB axis, and then mapping them back to the center frequencies \(f_b\) that are distributed percentually (non-linearly) on the linear axis using the inverse ERB-rate transformation. </p>
 
-<p>In order to determine the \(e_b\)coordinates, we simply divide the ERB axis in \(B\)desired segments linearly. The resulting coordinates are given by  \(e_b = e_{\text{min}} + b\cdot \Delta\), where the step size \(\Delta\) is defined as \(\Delta = \frac{e_{\text{max}} - e_{\text{min}}}{B-1}\), with \(b = 0, 1, \ldots, B-1.\).</p>
+<p>In order to determine the \(e_b\)coordinates, we simply divide the ERB axis in \(B\) desired segments linearly. The resulting coordinates are given by  \(e_b = e_{\text{min}} + b\cdot \Delta\), where the step size \(\Delta\) is defined as \(\Delta = \frac{e_{\text{max}} - e_{\text{min}}}{B-1}\), with \(b = 0, 1, \ldots, B-1.\).</p>
 
 <p>One might be tempted to divide the ERB axis uniformly starting from \(e_{\min}=0\), which corresponds to a center frequency at \(f_{min}=0\ \text{Hz}\). However, this will lead to boundary issues. Although the inverse ERB-rate mapping produces non-negative center frequencies, each filter has a finite bandwidth. As a result, a filter whose center frequency \(f_{min}=0\) will extend below \(0\ \text{Hz}\) once its bandwidth is taken into account. More specifically, since the filter bandwidth is split equally around the center frequency, half of it lies below and half above the center. When the center frequency is at \(f_{\min}=0\), the lower half of the bandwidth extends into negative frequencies, which is undesirable. A similar issue arises at the upper end of the spectrum, where filters placed too close (or equal) to the maximum frequency will extend beyond the intended frequency range \([0, f_s/2]\).</p>
 
-<p>To avoid these edge effects, we first define a valid frequency range \([f_{\min},\,f_{\max}]\), such that \(f_{\text{min}} - \frac{\text{BW}(f_{\text{min}})}{2} \geq 0\)and \(f_{\text{max}} + \frac{\text{BW}(f_{\text{max}})}{2} \leq f_s/2\), with \(\text{BW}(f)\)is the bandwidth of the linear frequency bin \(f\). We then compute the corresponding ERB-rate bounds \(e_{\min}=\mathrm{ERB}_{\mathrm{rate}}(f_{\min})\)and \(e_{\max}=\mathrm{ERB}_{\mathrm{rate}}(f_{\max})\), and finally divide the ERB axis uniformly between \(e_{\min}\)and \(e_{\max}\). This ensures that all resulting center frequencies remain well defined within the target frequency range.</p>
+<p>To avoid these edge effects, we first define a valid frequency range \([f_{\min},\,f_{\max}]\), such that \(f_{\text{min}} - \frac{\text{BW}(f_{\text{min}})}{2} \geq 0\)and \(f_{\text{max}} + \frac{\text{BW}(f_{\text{max}})}{2} \leq f_s/2\), with \(\text{BW}(f)\) is the bandwidth of the linear frequency bin \(f\). We then compute the corresponding ERB-rate bounds \(e_{\min}=\mathrm{ERB}_{\mathrm{rate}}(f_{\min})\)and \(e_{\max}=\mathrm{ERB}_{\mathrm{rate}}(f_{\max})\), and finally divide the ERB axis uniformly between \(e_{\min}\)and \(e_{\max}\). This ensures that all resulting center frequencies remain well defined within the target frequency range.</p>
 
 </div>
 
 In summary, the procedure consists of the following steps:
 
 1. Choose the number of desired ERB bands $$B$$.
-2. Choose the $$f_{\text{min}}$$ and $$f_{\text{max}}$$ such that $$f_{\text{min}} - \frac{\text{BW}(f_{\text{min}})}{2} \geq 0$$ and $$f_{\text{max}} + \frac{\text{BW}(f_{\text{max}})}{2} \leq f_s/2$$. 
+2. Choose $$f_{\text{min}}$$ and $$f_{\text{max}}$$ such that $$f_{\text{min}} - \frac{\text{BW}(f_{\text{min}})}{2} \geq 0$$ and $$f_{\text{max}} + \frac{\text{BW}(f_{\text{max}})}{2} \leq f_s/2$$. 
 3. Compute the ERB coordinates $$e_{\min} = \text{ERB}_{\text{rate}}(f_{\text{min}})$$ and $$e_{\max} = \text{ERB}_{\text{rate}}(f_{\text{max}})$$.
-4. Uniformaly segment the ERB axis to get ERB coordinates $$\{e_b\}^{B-1}_{b=0}$$ such that  $$e_b = e_{\text{min}} + b\cdot \Delta$$ such that $$\Delta = \frac{e_{\text{max}} - e_{\text{min}}}{B-1}$$. 
-5. For all $$b$$, compute the center frequency $$f_b$$ using the inverse ERB-rate as $$f_b = \frac{1000}{4.37} (10^{e_b/21.4} - 1)$$. 
+4. Uniformaly segment the ERB axis to get ERB coordinates $$\{e_b\}^{B-1}_{b=0}$$, where  $$e_b = e_{\text{min}} + b\cdot \Delta$$. 
+5. $$\forall b$$, compute the center frequency $$f_b$$ using the inverse ERB-rate. 
 
 ## Band widths
 <div style="text-align: justify; line-height: 1.6;">
