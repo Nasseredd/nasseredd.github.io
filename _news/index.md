@@ -1,5 +1,5 @@
 ---
-title: "🗓️ Latest News"
+title: "Latest News"
 permalink: /news/
 author_profile: true
 layout: single
@@ -68,10 +68,68 @@ layout: single
   }
 </style>
 
+<div style="text-align: justify; line-height: 1.6;">
+This page highlights key milestones from my academic and research journey, including conference participation, presentations, teaching activities, outreach events, and collaborations. It provides a chronological overview of my work and engagements in speech processing, artificial intelligence, and related fields.
+</div>
+
+---
+
 <div class="timeline-container">
   <div class="timeline-line"></div>
 
   <!-- Timeline items -->
+
+  <div class="timeline-item">
+    <div class="event-text event-left">
+      <div class="event-date">November 5th, 2025</div>
+      <div class="event-description">
+        Attended <a href="https://rjcp2025.sciencesconf.org">les Rencontres des Jeunes Chercheurs en Parole (RJCP)</a> 2025, where I presented, to the French research community, a poster entitled “Fonctions de perte pondérées en fréquence pour un rehaussement de la parole à l’échelle du phonème,” based on our paper published at MMSP 2025 co-authored with Dr. Romain Serizel and Dr. Paul Magron.
+        <br>Paris, France 🇫🇷
+      </div>
+    </div>
+    <div class="date-circle"></div>
+    <div class="event-text event-right"></div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="event-text event-left"></div>
+    <div class="date-circle"></div>
+    <div class="event-text event-right">
+      <div class="event-date">September 21th, 2025</div>
+      <div class="event-description">
+        Participated in the <a href="https://attend.ieee.org/mmsp-2025/" target="_blank">IEEE 27th International Workshop on Multimedia Signal Processing (MMSP)</a> 2025, delivering an oral presentation of our work entitled <a href="https://arxiv.org/pdf/2506.18691">“Frequency-Weighted Training Losses for Phoneme-Level DNN-based Speech Enhancement”</a>, co-authored with Dr. Romain Serizel and Dr. Paul Magron.
+        <br>Beijing, China 🇨🇳
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="event-text event-left">
+      <div class="event-date">September 8th, 2025</div>
+      <div class="event-description">
+        Attended EUSIPCO 2025, where I presented a <a href="https://cmsworkshops.com/EUSIPCO2025/view_paper.php?PaperNum=1831">poster</a> based on our paper entitled <a href="https://arxiv.org/pdf/2506.18691">“Evaluating Multichannel Speech Enhancement Algorithms at the Phoneme Scale Across Genders”</a>, co-authored with Dr. Romain Serizel and Dr. Paul Magron.
+        <br>Palermo, Italy 🇮🇹
+      </div>
+    </div>
+    <div class="date-circle"></div>
+    <div class="event-text event-right"></div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="event-text event-left"></div>
+    <div class="date-circle"></div>
+    <div class="event-text event-right">
+      <div class="event-date">June 20th, 2025</div>
+      <div class="event-description">
+        Completed my first-ever peer review for the 
+      <a href="https://attend.ieee.org/mmsp-2025/" target="_blank">
+        IEEE 27th International Workshop on Multimedia Signal Processing (MMSP)
+      </a>.
+        <br>Nancy, France 🇫🇷
+      </div>
+    </div>
+  </div>
+
   <div class="timeline-item">
     <div class="event-text event-left">
       <div class="event-date">March 21th, 2025</div>
@@ -91,7 +149,7 @@ layout: single
       <div class="event-date">March 20th, 2025</div>
       <div class="event-description">
         With fellow PhD candidates from the University of Lorraine, I visited ArcelorMittal’s production sites in Séremange and Ste Agathe, as well as their Digital Lab, where we discovered Industry 4.0 innovations such as AI for quality control, a 4.0 cockpit for line management, and VR-based training.
-        <br>Uckange, France🇫🇷
+        <br>Uckange, France 🇫🇷
       </div>
     </div>
   </div>
