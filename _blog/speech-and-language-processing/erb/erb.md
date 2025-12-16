@@ -58,15 +58,29 @@ author_profile: true
 <!-- Article -->
 ## Introduction
 
-The equivalent rectangular bandwidth (ERB) is a psychoacoustic frequency scale that models the frequency resolution of the human auditory system. It is widely used in speech processing, audio coding, and hearing research to design frequency representations that better match human perception.
+<div style="text-align: justify; line-height: 1.6;">
 
-In many audio and speech applications, signals are first analyzed using a short-time Fourier transform (STFT), which provides a linear-frequency representation. However, human auditory perception does not resolve frequencies linearly: it has higher resolution at low frequencies and lower resolution at high frequencies. ERB filterbanks address this mismatch by grouping linear-frequency bins into perceptually motivated frequency bands.
+    <p>
+    The equivalent rectangular bandwidth (ERB) is a psychoacoustic frequency scale that models the frequency resolution of the human auditory system. It is widely used in speech processing, audio coding, and hearing research to design frequency representations that better match human perception.
+    </p>
 
-To convert a linear-frequency STFT into an ERB-band representation, we define a filterbank matrix that projects linear FFT bins onto ERB bands. Each ERB band is associated with one filter, which is fully characterized by three elements: its center frequency, its bandwidth, and its frequency response shape.
+    <p>
+    In many audio and speech applications, signals are first analyzed using a short-time Fourier transform (STFT), which provides a linear-frequency representation. However, human auditory perception does not resolve frequencies linearly: it has higher resolution at low frequencies and lower resolution at high frequencies. ERB filterbanks address this mismatch by grouping linear-frequency bins into perceptually motivated frequency bands.
+    </p>
 
-Two related but distinct concepts are involved in ERB filterbank design. The ERB-rate defines a nonlinear perceptual frequency axis and is used to determine how filters are spaced perceptually. In contrast, the ERB bandwidth specifies the physical width (in Hz) of each filter at a given center frequency. Together, they define both the placement and the extent of the filters on the linear frequency axis.
+    <p>
+    To convert a linear-frequency STFT into an ERB-band representation, we define a filterbank matrix that projects linear FFT bins onto ERB bands. Each ERB band is associated with one filter, which is fully characterized by three elements: its center frequency, its bandwidth, and its frequency response shape.
+    </p>
 
-In the following, we assume that the time-domain signal has already been transformed into the linear-frequency STFT domain. Let $$X(f_k, t)$$ denote the STFT, where $$f_k = \frac{k}{N} f_s$$ is the $$k$$-th FFT frequency bin, $$N$$ is the FFT size, $$t$$ is the time-frame index, and $$f_s$$ is the sampling frequency. We now explain how to construct an ERB filterbank and apply it to this representation.
+    <p>
+    Two related but distinct concepts are involved in ERB filterbank design. The ERB-rate defines a nonlinear perceptual frequency axis and is used to determine how filters are spaced perceptually. In contrast, the ERB bandwidth specifies the physical width (in Hz) of each filter at a given center frequency. Together, they define both the placement and the extent of the filters on the linear frequency axis.
+    </p>
+
+    <p>
+    In the following, we assume that the time-domain signal has already been transformed into the linear-frequency STFT domain. Let \(X(f_k, t)\) denote the STFT, where \(f_k = \frac{k}{N} f_s\) is the \(k$$-th FFT frequency bin, \(N\) is the FFT size, \(t\) is the time-frame index, and \(f_s\) is the sampling frequency. We now explain how to construct an ERB filterbank and apply it to this representation.
+    </p>
+
+</div>
 
 ## Center frequencies
 
