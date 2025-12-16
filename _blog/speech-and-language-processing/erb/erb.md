@@ -160,10 +160,10 @@ This matrix $$H$$ completely defines the linear-to-ERB frequency mapping and can
 
 The projection of the linear-frequency STFT onto the ERB bands is performed by applying the ERB filterbank matrix $$H$$ to the magnitude spectrum of $$X$$.
 
-Let $$|X(f_k,t)|$$ denote the STFT magnitude. The ERB-band representation $$X_{\text{ERB}}(b,t)$$ is defined as:
+Let $$\lvert X(f_k,t) \lvert$$ denote the STFT magnitude. The ERB-band representation $$X_{\text{ERB}}(b,t)$$ is defined as:
 
 $$
-X_{\text{ERB}}(b,t) = \sum^{K-1}_{k=0} H_{b,k} |X(f_k,t)|
+X_{\text{ERB}}(b,t) = \sum^{K-1}_{k=0} H_{b,k} \lvert X(f_k,t) \lvert
 $$
 
 This yields an ERB-band energy representation that is perceptually aligned with the frequency resolution of the human auditory system.
