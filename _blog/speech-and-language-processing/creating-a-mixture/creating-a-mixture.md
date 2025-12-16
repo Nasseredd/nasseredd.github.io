@@ -55,11 +55,15 @@ author_profile: true
 <!-- Article -->
 ## Introduction
 
-Multichannel speech and noise mixtures are essential in various applications, such as speech enhancement, source separation, and robust automatic speech recognition (ASR). This article offers a thorough explanation and a step-by-step guide for creating a multichannel mixture of speech and noise, considering spatial characteristics, room acoustics, and microphone configurations. In this article, we would like to create a speech and noise mixture for a binaural speech enhancement for hearing aids. 
+<div style="text-align: justify; line-height: 1.6;">
+  <p>Multichannel speech and noise mixtures are essential in various applications, such as speech enhancement, source separation, and robust automatic speech recognition (ASR). This article offers a thorough explanation and a step-by-step guide for creating a multichannel mixture of speech and noise, considering spatial characteristics, room acoustics, and microphone configurations. In this article, we would like to create a speech and noise mixture for a binaural speech enhancement for hearing aids.</p>
+</div>
 
 ## Data
 
-In the following, we will work with a speech signal from the test-clean subset of Librispeech, a noise signal from Freesound, and two room impulse responses generated from recordings made in a room at CERIAH (Institut Pasteur), with which I collaborate as part of the REFINED research project.
+<div style="text-align: justify; line-height: 1.6;">
+  <p>In the following, we will work with a speech signal from the test-clean subset of Librispeech, a noise signal from Freesound, and two room impulse responses generated from recordings made in a room at CERIAH (Institut Pasteur), with which I collaborate as part of the REFINED research project.</p>
+</div>
 
 ```python
 import numpy as np
@@ -74,13 +78,17 @@ noise_rir = np.load('rir_90.npz')
 
 ## Single-Channel Mixture
 
-In the context of speech enhancement, a mixture refers to a signal that combines multiple audio sources, such as a clean speech and a noise signal, often at a specific signal-to-noise ratio (SNR). A multichannel mixture can be represented as: 
+<div style="text-align: justify; line-height: 1.6;">
+  <p>In the context of speech enhancement, a mixture refers to a signal that combines multiple audio sources, such as a clean speech and a noise signal, often at a specific signal-to-noise ratio (SNR). A multichannel mixture can be represented as:</p>
+</div>
 
 $$
 x[t] = s[t] + n[t]
 $$
 
-where $$x[t]$$ is the simulated mixture, $$s[t]$$ is the clean speech signal, and $$n[t]$$ is the noise signal. This mixture is considered anechoic since it is generated using assumed dry (anechoic) clean speech and noise signals. It is a single-channel mixture because the two signals were summed into a one-dimensional signal, even though they were originally recorded with two different microphones.
+<div style="text-align: justify; line-height: 1.6;">
+  <p>where \(x[t]\) is the simulated mixture, \(s[t]\) is the clean speech signal, and \(n[t]\) is the noise signal. This mixture is considered anechoic since it is generated using assumed dry (anechoic) clean speech and noise signals. It is a single-channel mixture because the two signals were summed into a one-dimensional signal, even though they were originally recorded with two different microphones.</p>
+</div>
 
 ```python
 x = speech + noise
@@ -91,9 +99,11 @@ x = speech + noise
 
 #### Signal-to-Noise Ratio
 
-The signal-to-noise Ratio (SNR) is a measure that quantifies the relative strength of a desired signal (e.g. clean speech) compared to a background noise. A higher SNR indicates a clearer signal with less noise, while a lower SNR means the noise is more dominant than the signal.
+<div style="text-align: justify; line-height: 1.6;">
+  <p>The signal-to-noise Ratio (SNR) is a measure that quantifies the relative strength of a desired signal (e.g. clean speech) compared to a background noise. A higher SNR indicates a clearer signal with less noise, while a lower SNR means the noise is more dominant than the signal.</p>
 
- SNR is typically expressed in decibel (dB) and is defined as: 
+  <p>SNR is typically expressed in decibel (dB) and is defined as:</p>
+</div>
 
 $$
 \text{SNR}_{\text{dB}} = 10\,\text{log}_{10} \bigg( \frac{P_s}{P_n} \bigg)
@@ -109,9 +119,11 @@ Precisely,
 
 ### Scaling noise to achieve the desired SNR
 
-To generate a mixture that satisfies a given $$\text{SNR}_{\text{dB}}$$, we scale either the speech signal or the noise signal accordingly. Indeed, our goal is to determine the appropriate gain factor $$\alpha$$ so that the speech and noise energies achieve the desired $$\text{SNR}_{\text{dB}}$$ level. 
+<div style="text-align: justify; line-height: 1.6;">
+  <p>To generate a mixture that satisfies a given \(\text{SNR}_{\text{dB}}\), we scale either the speech signal or the noise signal accordingly. Indeed, our goal is to determine the appropriate gain factor \(\alpha\) so that the speech and noise energies achieve the desired \(\text{SNR}_{\text{dB}}\) level.</p>
 
-To this end, let’s break down the $$\text{SNR}_{\text{dB}}$$ formula to determine the target scaling factor. Since we choose to scale the noise signal, we define: 
+  <p>To this end, let’s break down the \(\text{SNR}_{\text{dB}}\) formula to determine the target scaling factor. Since we choose to scale the noise signal, we define:</p>
+</div>
 
 $$
 n’[t] = \alpha \cdot n[t]
@@ -123,7 +135,9 @@ $$
 \text{SNR}_{\text{dB}} = 10\,\text{log}_{10} \bigg( \frac{P_s}{P_{n’}} \bigg)
 $$
 
-where $$n’[t]$$ represents the appropriately scaled noise signal needed to achieve the desired SNR level. 
+<div style="text-align: justify; line-height: 1.6;">
+  <p>where \(n’[t]\) represents the appropriately scaled noise signal needed to achieve the desired SNR level.</p>
+</div>
 
 Expanding the power terms: 
 
@@ -143,7 +157,9 @@ $$\alpha = \frac{\sum s^2}{\sum n^2} \cdot 10^{-\frac{\text{SNR}_{\text{dB}} }{2
 
 ### Accounting for RMSE-normalized signals
 
-This formulation of $$\alpha$$ do not account for normalized signals using RMSE. If this normalization is applied, replacing $$s$$ and $$n$$ by their normalized verions:
+<div style="text-align: justify; line-height: 1.6;">
+  <p>This formulation of \(\alpha\) do not account for normalized signals using RMSE. If this normalization is applied, replacing \(s\) and \(n\) by their normalized verions:</p>
+</div>
 
 $$
 s_{\text{norm}}\frac{s}{\sqrt{\sum s^2}} \;\;,\;\; n_{\text{norm}} = \frac{n}{\sqrt{\sum n^2}}
@@ -172,11 +188,15 @@ $$\alpha =
 = 10^{-
 \frac{\text{SNR}_{\text{dB}} }{20}}$$
 
-⚠️ Ensure that if you normalize your signals using $$\text{RMSE}$$, you apply the second equation. Otherwise, the term $$\frac{\sum s^2}{\sum n^2}$$ which should ideally be equal to 1, may deviate in practice, potentially affecting the accuracy of your scaling factor $$\alpha$$.
+<div style="text-align: justify; line-height: 1.6;">
+  <p>⚠️ Ensure that if you normalize your signals using \(\text{RMSE}\), you apply the second equation. Otherwise, the term \(\frac{\sum s^2}{\sum n^2}\) which should ideally be equal to 1, may deviate in practice, potentially affecting the accuracy of your scaling factor \(\alpha\).</p>
+</div>
 
 ### Handling Silent Portions in Speech for Accurate Gain Computation
 
-In practice, speech signals often contain silent portions with very low energy. These segments can reduce the overall energy of the speech signal, leading to an inaccurate computation of the gain factor. To address this issue, one approach is to selectively retain only samples with a magnitude above a certain threshold (e.g., 0.01). Alternatively, a Voice Activity Detector (VAD) can be used to extract speech segments while discarding silence, ensuring a more reliable gain computation.
+<div style="text-align: justify; line-height: 1.6;">
+  <p>In practice, speech signals often contain silent portions with very low energy. These segments can reduce the overall energy of the speech signal, leading to an inaccurate computation of the gain factor. To address this issue, one approach is to selectively retain only samples with a magnitude above a certain threshold (e.g., 0.01). Alternatively, a Voice Activity Detector (VAD) can be used to extract speech segments while discarding silence, ensuring a more reliable gain computation.</p>
+</div>
 
 ### Final Mixture Computation
 
@@ -209,13 +229,15 @@ x = speech + (alpha * noise)
 
 What if we want to simulate a mixture inside an enclosed room ?
 
-In our case, a multichannel mixture refers to the combination of speech and noise signals recorded or simulated across multiple microphones. Each microphone captures a distinct version of the signals due to spatial propagation effects. Unlike single-channel mixtures, multichannel mixtures preserve spatial characteristics such as directionality, phase differences, and inter-channel time delays.
+<div style="text-align: justify; line-height: 1.6;">
+  <p>In our case, a multichannel mixture refers to the combination of speech and noise signals recorded or simulated across multiple microphones. Each microphone captures a distinct version of the signals due to spatial propagation effects. Unlike single-channel mixtures, multichannel mixtures preserve spatial characteristics such as directionality, phase differences, and inter-channel time delays.</p>
 
-A **Room Impulse Response (RIR)** is the acoustic transfer function that characterizes how a sound propagates from a source to a receiver within an enclosed space, capturing reflections, reverberation, and other spatial effects. **Convolving** a signal with an RIR simulates the signal as if it were played in that room because convolution applies the room’s acoustic properties—such as delays, attenuation, and reverberation—to the original sound, making it sound as if it naturally propagated through the environment.
+  <p>A **Room Impulse Response (RIR)** is the acoustic transfer function that characterizes how a sound propagates from a source to a receiver within an enclosed space, capturing reflections, reverberation, and other spatial effects. **Convolving** a signal with an RIR simulates the signal as if it were played in that room because convolution applies the room’s acoustic properties—such as delays, attenuation, and reverberation—to the original sound, making it sound as if it naturally propagated through the environment.</p>
 
-We computed room impulse responses (RIRs) from a recorded signal in an enclosed room at five different positions: 90° and 45° to the right, 0°, and 90° and 45° to the left. The signals were played using five loudspeakers, while a KEMAR mannequin was used to position a PHL hearing aid simulator equipped with two microphones on the right ear and two on the left ear. Each of the five loudspeakers generated four distinct RIRs, representing the signal propagation to the four microphones.
+  <p>We computed room impulse responses (RIRs) from a recorded signal in an enclosed room at five different positions: 90° and 45° to the right, 0°, and 90° and 45° to the left. The signals were played using five loudspeakers, while a KEMAR mannequin was used to position a PHL hearing aid simulator equipped with two microphones on the right ear and two on the left ear. Each of the five loudspeakers generated four distinct RIRs, representing the signal propagation to the four microphones.</p>
 
-To simulate the $$i$$-th channel of the multichannel mixture, representing the signal propagation on the $$i$$-th microphone, we compute it as:
+  <p>To simulate the \(i\)-th channel of the multichannel mixture, representing the signal propagation on the \(i\)-th microphone, we compute it as:</p>
+</div>
 
 $$
 x_i[t] = h_{s,i} \;*\; s[t] + h_{n,i} \;*\; n[t]
@@ -223,13 +245,15 @@ $$
 
 where,
 
-- $$h_{s,i}$$ is the room impulse response for the speech signal $$s$$ recorded with the $$i$$-th microphone.
-- $$h_{n,i}$$ is the room impulse response for the noise signal $$n$$ recorded with the $$i$$-th microphone.
+- $$h_{s,i}$$ is the RIR for the speech signal $$s$$ recorded with the $$i$$-th microphone.
+- $$h_{n,i}$$ is the RIR for the noise signal $$n$$ recorded with the $$i$$-th microphone.
 - $$*$$ is the convolution operator.
 
-NB: Here, we assume the noise have been scaled, as explained previously, before computing the convolutions. 
+<div style="text-align: justify; line-height: 1.6;">
+  <p>NB: Here, we assume the noise have been scaled, as explained previously, before computing the convolutions.</p>
 
-Thus, the complete multichannel mixture can be represented as:
+  <p>Thus, the complete multichannel mixture can be represented as:</p>
+</div>
 
 $$
 \begin{bmatrix} 
@@ -248,12 +272,14 @@ h_{s,4} \;*\; s[t] + h_{n,4} \;*\; n[t]
 \end{bmatrix}
 $$
 
-This formulation captures the multichannel mixture, where each recorded signal results from the convolution of speech and noise with their respective RIRs at each microphone position.
+<div style="text-align: justify; line-height: 1.6;">
+  <p>This formulation captures the multichannel mixture, where each recorded signal results from the convolution of speech and noise with their respective RIRs at each microphone position.</p>
 
-For instance, we could choose $$h_s^{0°}$$for the speech signal and $$h_s^{90°}$$for the noise signal to simulate speech coming from the front while the noise originates from 90° to the right.
+  <p>For instance, we could choose \(h_s^{0°}\) for the speech signal and \(h_s^{90°}\) for the noise signal to simulate speech coming from the front while the noise originates from 90° to the right.</p>
 
-Clearly, if you play this mixture, you will only hear it in stereo (2 channels). However, if you wear your headphones or earphones correctly, you should perceive the noise as coming from the right, i.e. with a higher intensity in the right ear than in the left.
-    
+  <p>Clearly, if you play this mixture, you will only hear it in stereo (2 channels). However, if you wear your headphones or earphones correctly, you should perceive the noise as coming from the right, i.e. with a higher intensity in the right ear than in the left.</p>
+</div>
+
 **Reverberated speech**
 
 ```python
